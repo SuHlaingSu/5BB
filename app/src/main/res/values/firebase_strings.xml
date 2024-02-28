@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebaseApplicationId" translatable="false">1:543342526013:android:b3d326f1d44b0edbd7f454</string>
+    <string name="firebaseApiKey" translatable="false">AIzaSyAWh_KWC0doTAGRXrV8xy-VDFF6VA5DPC0</string>
+    <string name="firebaseDatabaseUrl" translatable="false">https://gtg-5bb-app.firebaseio.com</string>
+</resources>

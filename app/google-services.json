@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "543342526013",
+    "firebase_url": "https://gtg-5bb-app.firebaseio.com",
+    "project_id": "gtg-5bb-app",
+    "storage_bucket": "gtg-5bb-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543342526013:android:f397ea051ae108dbd7f454",
+        "android_client_info": {
+          "package_name": "com.fivebb.selfcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543342526013-ujj7vh01l2q7fvqncv0ujjdjbbiut7o8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe_LhTyNrr-N1NMgy3eXG61CiU52804-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543342526013-ujj7vh01l2q7fvqncv0ujjdjbbiut7o8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "543342526013-f8e8clehnic23opnm4a0ksq2a3kpppi8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fivebb.selfcare"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

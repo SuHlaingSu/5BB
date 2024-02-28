@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">shared</string>
+
+    <string name="msg_default_empty">No Data To Display</string>
+    <string name="content_description_empty_image">Image for empty data set</string>
+    <string name="content_description_empty_label">Label for empty data set</string>
+    <string name="content_description_empty_action">Action for empty data set</string>
+
+    <string name="channel_name">5bb channel name</string>
+    <string name="channel_description">5bb channel description</string>
+
+    <string name="warning_to_grant_permissions">Needs all permissions to be granted.</string>
+    <string name="lbl_app_title">5BB</string>
+    <string name="loading">Loading…</string>
+    <string name="lbl_ok">Ok</string>
+    <string name="lbl_cancel">Cancel</string>
+
+    <string name="msg_no_internet_connection">Can\'t connect to network!</string>
+
+    <string name="kachin_state">Kachin State</string>
+    <string name="kayah_state">Kayah State</string>
+    <string name="kayin_state">Kayin State</string>
+    <string name="chin_state">Chin State</string>
+    <string name="sagaing_region">Sagaing Region</string>
+    <string name="tanintharyi_region">Tanintharyi Region</string>
+    <string name="bago_region">Bago Region</string>
+    <string name="magway_region">Magway Region</string>
+    <string name="mandalay_region">Mandalay Region</string>
+    <string name="mon_state">Mon State</string>
+    <string name="rakhine_state">Rakhine State</string>
+    <string name="yangon_region">Yangon Region</string>
+    <string name="shan_state">Shan State</string>
+    <string name="ayeyarwady_region">Ayeyarwady Region</string>
+
+    <string name="lbl_select_city">Select City</string>
+    <string name="yangon_city">Yangon</string>
+    <string name="mandalay_city">Mandalay</string>
+    <string name="mawlamyaing_city">Mawlamyaing</string>
+    <string name="hpaan_city">Hpa-An</string>
+    <string name="bago_city">Bago</string>
+    <string name="pyay_city">Pyay</string>
+    <string name="magway_city">Magway</string>
+
+</resources>

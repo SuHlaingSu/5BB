@@ -1,0 +1,91 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
+
+/*
+apply plugin: 'kotlin-android-extensions'
+*/
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+
+    //buildToolsVersion rootProject.ext.buildToolVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.compileSdkVersion
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    namespace 'com.fivebb.shared'
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':mmtext')
+
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    def multidex_version = "2.0.1"
+    implementation "androidx.multidex:multidex:$multidex_version"
+    implementation rootProject.ext.libraries.cardView
+    implementation rootProject.ext.libraries.recyclerView
+    implementation rootProject.ext.libraries.support
+    implementation rootProject.ext.libraries.designSupport
+
+    implementation rootProject.ext.libraries.glide
+    kapt rootProject.ext.aptLibraries.glideCompiler
+
+    implementation rootProject.ext.libraries.retrofit
+    implementation rootProject.ext.libraries.retrofitConverter
+    implementation rootProject.ext.libraries.retrofitAdapter
+
+    implementation rootProject.ext.libraries.okhttp
+    implementation rootProject.ext.libraries.okhttpLogging
+
+    implementation rootProject.ext.libraries.dagger
+    kapt rootProject.ext.aptLibraries.daggerCompiler
+
+    compileOnly rootProject.ext.libraries.javaxannotation
+    implementation rootProject.ext.libraries.javax
+    implementation rootProject.ext.libraries.javapoet
+
+    implementation rootProject.ext.libraries.rxAndroid
+    implementation rootProject.ext.libraries.rxJava
+
+    implementation rootProject.ext.libraries.archComponent
+
+    testImplementation rootProject.ext.testLibraries.junit
+    androidTestImplementation rootProject.ext.testLibraries.supportTestRunner
+    androidTestImplementation rootProject.ext.testLibraries.espresso
+
+    //
+    //
+    //
+    // api rootProject.ext.libraries.mmtextview
+    api rootProject.ext.libraries.room
+    kapt rootProject.ext.aptLibraries.roomCompiler
+    api rootProject.ext.libraries.roomRxJava
+
+    implementation rootProject.ext.libraries.customtab
+
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+
+    debugImplementation 'com.readystatesoftware.chuck:library:1.1.0'
+    releaseImplementation 'com.readystatesoftware.chuck:library-no-op:1.1.0'
+}
+repositories {
+    mavenCentral()
+}
+

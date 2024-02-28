@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.fivebb.selfcare.app-mergePsrReleaseResources-47:/layout/view_holder_notification_small.xml",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_holder_notification_small.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-mergePsrReleaseResources-47:/layout/px_plan_price_list_item.xml",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/px_plan_price_list_item.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-mergePsrReleaseResources-47:/layout/aty_choose_adv_month_scroll.xml",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/aty_choose_adv_month_scroll.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-mergePsrReleaseResources-47:/layout/activity_help.xml",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_help.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-mergePsrReleaseResources-47:/layout/aty_choose_adv_month.xml",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/aty_choose_adv_month.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-mergePsrReleaseResources-47:/layout/show_list_email.xml",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/show_list_email.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-mergePsrReleaseResources-47:/layout/list_item_showroom.xml",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/list_item_showroom.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-mergePsrReleaseResources-47:/layout/rdo_item.xml",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/rdo_item.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-mergePsrReleaseResources-47:/layout/item_recharge.xml",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/item_recharge.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-mergePsrReleaseResources-47:/layout/aty_choose_adv_month_2.xml",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/aty_choose_adv_month_2.xml"
+    }
+]

@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CategoryTitle">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/text_regular_2x</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextInputLayoutHint">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+    
+    <style name="AttributeValue">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/text_regular_2x</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AttributeName">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/text_regular</item>
+    </style>
+
+    <style name="ButtonPrimary">
+        <item name="android:background">@drawable/primary_button</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_regular_2x</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:padding">@dimen/margin_medium</item>
+        <item name="android:foreground">@drawable/ripple_white</item>
+    </style>
+
+    <style name="ButtonOutlined">
+        <item name="android:background">@drawable/bg_outlined_button</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_regular_2x</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:padding">@dimen/margin_medium</item>
+        <item name="android:foreground">@drawable/ripple_white</item>
+    </style>
+
+    <style name="ButtonContained">
+        <item name="android:background">@drawable/bg_contained_button</item>
+        <item name="android:textColor">@color/black_full</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_regular_2x</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:padding">@dimen/margin_medium</item>
+        <item name="android:foreground">@drawable/ripple_white</item>
+    </style>
+
+    <style name="NavigationTitle">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="PrimaryTextButton">
+        <item name="android:textSize">@dimen/text_regular</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <!--<item name="android:foreground">@drawable/ripple_accent</item>-->
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="ScreenTitle">
+        <item name="android:textSize">@dimen/text_regular_3x</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginStart">@dimen/margin_medium_2</item>
+        <item name="android:layout_marginEnd">@dimen/margin_medium_2</item>
+        <item name="android:gravity">end|center_vertical</item>
+    </style>
+    
+    <style name="RelocationEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">@dimen/text_regular</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textColorHint">@color/divider</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/bg_border_divider</item>
+        <item name="android:padding">@dimen/margin_medium_2</item>
+        <item name="android:layout_marginStart">@dimen/margin_medium_2</item>
+        <item name="android:layout_marginEnd">@dimen/margin_medium_2</item>
+        <item name="android:max">50</item>
+    </style>
+
+
+    <style name="CreateTicket">
+        <item name="android:background">@drawable/bg_border_icon_spinner</item>
+        <item name="android:paddingStart">@dimen/margin_medium</item>
+        <item name="android:paddingTop">@dimen/margin_small</item>
+        <item name="android:paddingBottom">@dimen/margin_small</item>
+        <item name="android:paddingEnd">@dimen/margin_large</item>
+        <item name="android:foreground">@drawable/ripple_white</item>
+    </style>
+
+    <style name="PriorityRadioButton">
+        <item name="android:textSize">@dimen/text_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="RegularEditText">
+        <item name="android:textColorHint">@color/secondary_text</item>
+        <item name="android:textSize">@dimen/text_regular</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+</resources>

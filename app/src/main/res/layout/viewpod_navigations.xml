@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fivebb.selfcare.viewpods.NavigationViewPod xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+     android:background="@color/bg_navigations">
+             <!--android:background="@color/white_full">-->
+
+
+    <LinearLayout
+            android:id="@+id/llNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="6"
+            android:orientation="horizontal">
+
+        <FrameLayout
+                android:id="@+id/vRecharge"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:clickable="true"
+                android:foreground="@drawable/ripple_white">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    app:srcCompat="@drawable/ic_recharge"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_medium_2"/>
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/lblRecharge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/navigation_text_padding"
+                    android:text="@string/lbl_recharge"
+                    android:gravity="center_horizontal"
+                    android:paddingStart="@dimen/margin_medium"
+                    android:paddingEnd="@dimen/margin_medium"
+                    android:paddingBottom="@dimen/margin_medium_2"
+                    style="@style/NavigationTitle"/>
+
+            <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@color/divider"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginBottom="@dimen/margin_small"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+                android:id="@+id/vActivityLogs"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:clickable="true"
+                android:foreground="@drawable/ripple_white">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/navigation_icon_height"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                app:srcCompat="@drawable/activity_log" />
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/lblActivityLog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/navigation_text_padding"
+                    android:text="@string/lbl_activity_log"
+                    android:gravity="center_horizontal"
+                    android:paddingStart="@dimen/margin_medium"
+                    android:paddingEnd="@dimen/margin_medium"
+                    android:paddingBottom="@dimen/margin_medium_2"
+                    style="@style/NavigationTitle"/>
+
+            <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@color/divider"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginBottom="@dimen/margin_small"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+                android:id="@+id/vRelocation"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:clickable="true"
+                android:foreground="@drawable/ripple_white">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/navigation_icon_height"
+                    android:layout_height="@dimen/navigation_icon_height"
+                    app:srcCompat="@drawable/relocation"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_medium_2"/>
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/lblRelocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/navigation_text_padding"
+                    android:text="@string/lbl_relocation"
+                    android:gravity="center_horizontal"
+                    android:paddingStart="@dimen/margin_medium"
+                    android:paddingEnd="@dimen/margin_medium"
+                    android:paddingBottom="@dimen/margin_medium_2"
+                    style="@style/NavigationTitle"/>
+
+            <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:background="@color/divider"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginBottom="@dimen/margin_small"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+                android:id="@+id/vTicket"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:clickable="true"
+                android:foreground="@drawable/ripple_white">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/navigation_icon_height"
+                    android:layout_height="@dimen/navigation_icon_height"
+                    app:srcCompat="@drawable/ticket"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_medium_2"/>
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/lblTicket"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/navigation_text_padding"
+                    android:text="@string/lbl_ticket"
+                    android:gravity="center_horizontal"
+                    android:paddingStart="@dimen/margin_medium"
+                    android:paddingEnd="@dimen/margin_medium"
+                    android:paddingBottom="@dimen/margin_medium_2"
+                    style="@style/NavigationTitle"/>
+
+            <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:background="@color/divider"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginBottom="@dimen/margin_small"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+                android:id="@+id/vNotification"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:clickable="true"
+                android:foreground="@drawable/ripple_white"
+                android:visibility="visible">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/navigation_icon_height"
+                    android:layout_height="@dimen/navigation_icon_height"
+                    app:srcCompat="@drawable/ic_bell"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_medium_2"/>
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/lblNotification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/navigation_text_padding"
+                    android:text="@string/lbl_notification"
+                    android:gravity="center_horizontal"
+                    android:paddingStart="@dimen/margin_medium"
+                    android:paddingEnd="@dimen/margin_medium"
+                    android:paddingBottom="@dimen/margin_medium_2"
+                    style="@style/NavigationTitle"/>
+
+            <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:background="@color/divider"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginBottom="@dimen/margin_small"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+                android:id="@+id/vHelp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:clickable="true"
+                android:foreground="@drawable/ripple_white">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/navigation_icon_height"
+                    android:layout_height="@dimen/navigation_icon_height"
+                    app:srcCompat="@drawable/help"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_medium_2"/>
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/lblHelp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/navigation_text_padding"
+                    android:text="@string/lbl_help"
+                    android:gravity="center_horizontal"
+                    android:paddingStart="@dimen/margin_medium"
+                    android:paddingEnd="@dimen/margin_medium"
+                    android:paddingBottom="@dimen/margin_medium_2"
+                    style="@style/NavigationTitle"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</com.fivebb.selfcare.viewpods.NavigationViewPod>

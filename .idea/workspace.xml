@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="_device_class_phone" />
+        <device id="_device_class_tablet" />
+        <device id="_device_class_foldable" />
+        <option name="nonWearDeviceLastStateName" value="portrait" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1aa03efe-934f-4ed2-9b6a-0f6736dddad6" name="Changes" comment="Project Upload" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Dell\.android\avd\Pixel_XL_API_26.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="5BB_P2" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\SH\5BB\Key\S-5BB-SelfCare-Android-Release-Key" />
+    <option name="KEY_ALIAS" value="S-5BB-SelfCare-Android-Release-Key" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/shared/build.gradle" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2G1e894khHoKQq1tQAutBtzDClk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="5BB_P2.app" />
+    <property name="DEBUGGABLE_DEVICE" value="oppo-cph2363-6f47d93c" />
+    <property name="DEBUGGABLE_PROCESS" value="com.fivebb.selfcare.dev" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="ExportApk.ApkPath" value="D:\SH\5BB\5BB_P2\app" />
+    <property name="ExportApk.BuildVariants" value="psrRelease" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="true" />
+    <property name="android-custom-viewC:/Users/Dell/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.4.0/90635e5c864748b479ea6bdd3439b68a6eb678a9/appcompat-1.4.0-sources.jar!/androidx/appcompat/widget/AppCompatEditText.java_SELECTED" value="AppCompatEditText" />
+    <property name="android-custom-viewC:/Users/Dell/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.0.0/2151d26c3b241f0a887f2dadb9ab091649fcf020/recyclerview-1.0.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-viewC:/Users/Dell/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0-beta01/d898001f8cf8d02ebbdf7d5f48a787deefae2be3/recyclerview-1.1.0-beta01-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_SELECTED" value="RecyclerView" />
+    <property name="android-custom-viewC:/Users/Dell/.gradle/caches/modules-2/files-2.1/androidx.swiperefreshlayout/swiperefreshlayout/1.0.0/ab92d86c004eb1d48e45f311b02ca53d6c86b607/swiperefreshlayout-1.0.0-sources.jar!/androidx/swiperefreshlayout/widget/SwipeRefreshLayout.java_SELECTED" value="SwipeRefreshLayout" />
+    <property name="android-custom-viewC:/Users/Dell/AppData/Local/Android/Sdk/sources/android-30/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-viewC:/Users/Dell/AppData/Local/Android/Sdk/sources/android-31/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-viewC:/Users/Dell/AppData/Local/Android/Sdk/sources/android-31/android/widget/RadioGroup.java_SELECTED" value="RadioGroup" />
+    <property name="android-custom-viewC:/Users/Dell/AppData/Local/Android/Sdk/sources/android-32/android/widget/CalendarView.java_SELECTED" value="CalendarView" />
+    <property name="android-custom-viewC:/Users/Dell/AppData/Local/Android/Sdk/sources/android-33/android/view/View.java_SELECTED" value="View" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/app/src/main/java/com/fivebb/selfcare/components/CustomMapView.kt_SELECTED" value="CustomMapView" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/AccountDetailItemViewPod.kt_AccountDetailItemViewPod_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/AccountDetailItemViewPod.kt_SELECTED" value="AccountDetailItemViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/LatestPaymentViewPod.kt_SELECTED" value="LatestPaymentViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/LatestRechargedViewPod.kt_SELECTED" value="LatestRechargedViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/NavigationViewPod.kt_SELECTED" value="NavigationViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/OutstandingInvoiceViewPod.kt_SELECTED" value="OutstandingInvoiceViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/PlanChangeViewPod.kt_SELECTED" value="PlanChangeViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/QuotaUsageViewPod.kt_SELECTED" value="QuotaUsageViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/UsageSummaryViewPod.kt_SELECTED" value="UsageSummaryViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/WalletViewPod.kt_SELECTED" value="WalletViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/mmtext/src/main/java/mm/technomation/mmtext/MMButtonView.java_SELECTED" value="MMButtonView" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/mmtext/src/main/java/mm/technomation/mmtext/MMTextView.java_SELECTED" value="MMTextView" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2/shared/src/main/java/com/fivebb/shared/pods/EmptyViewPod.java_SELECTED" value="EmptyViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2_06_04_2023/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/LatestPaymentViewPod.kt_SELECTED" value="LatestPaymentViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2_06_04_2023/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/NavigationViewPod.kt_SELECTED" value="NavigationViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2_06_04_2023/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/PXPlanChangeViewPod.kt_SELECTED" value="PXPlanChangeViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2_06_04_2023/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/PlanChangeViewPod.kt_SELECTED" value="PlanChangeViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2_06_04_2023/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/PrepaidNextPlanViewPod.kt_PrepaidNextPlanViewPod_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2_06_04_2023/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/PrepaidNextPlanViewPod.kt_SELECTED" value="PrepaidNextPlanViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2_06_04_2023/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/PrepaidViewPod.kt_PrepaidViewPod_DIMENSIONS" value="1080&#10;1920" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2_06_04_2023/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/PrepaidViewPod.kt_SELECTED" value="PrepaidViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2_06_04_2023/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/QuotaUsageViewPod.kt_SELECTED" value="QuotaUsageViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2_06_04_2023/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/UsageSummaryViewPod.kt_SELECTED" value="UsageSummaryViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2_06_04_2023/5BB_P2/app/src/main/java/com/fivebb/selfcare/viewpods/WalletViewPod.kt_SELECTED" value="WalletViewPod" />
+    <property name="android-custom-viewD:/SH/5BB/5BB_P2_06_04_2023/5BB_P2/mmtext/src/main/java/mm/technomation/mmtext/MMTextView.java_SELECTED" value="MMTextView" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Signing Configs" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\res\drawable" />
+      <recent name="D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\res\drawable-xhdpi" />
+      <recent name="D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\res\layout" />
+      <recent name="D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\res\layout-v26" />
+      <recent name="D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\res\drawable\business" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\res\layout" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="com.fivebb.selfcare.network.requests" />
+      <recent name="com.fivebb.selfcare.activities" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.fivebb.selfcare.mvp.presenters.impls" />
+      <recent name="com.fivebb.selfcare.activities.recharge" />
+      <recent name="com.fivebb.selfcare.activities.prepaid" />
+      <recent name="com.fivebb.selfcare.network" />
+      <recent name="com.fivebb.selfcare.adapters.email" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.fivebb.selfcare.activities" />
+      <recent name="com.fivebb.shared.vos" />
+      <recent name="com.fivebb.selfcare.models" />
+      <recent name="com.fivebb.selfcare.mvp.presenters" />
+      <recent name="com.fivebb.selfcare.network.responses" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="5BB_P2.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="true" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="true" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+        <option name="PROFILING_MODE" value="NOT_SET" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="5BB_P2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Gradle.5BB_P2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.5BB_P2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1aa03efe-934f-4ed2-9b6a-0f6736dddad6" name="Changes" comment="" />
+      <created>1665560356189</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665560356189</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/5BB" />
+    </ignored-roots>
+    <MESSAGE value="Project Upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Upload" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/EmailVerifyPresenter.kt</url>
+          <line>103</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/EmailVerifyPresenter.kt</url>
+          <line>106</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/EmailVerifyPresenter.kt</url>
+          <line>100</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>1216</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>1218</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/EmailVerifyPresenter.kt</url>
+          <line>126</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/EmailVerifyPresenter.kt</url>
+          <line>95</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/EmailVerifyPresenter.kt</url>
+          <line>97</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/EmailVerifyPresenter.kt</url>
+          <line>93</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/EmailVerifyPresenter.kt</url>
+          <line>77</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>1172</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>1184</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>1189</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/EmailVerifyPresenter.kt</url>
+          <line>39</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/VerifyEmailAty.kt</url>
+          <line>55</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/VerifyEmailAty.kt</url>
+          <line>130</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/EmailVerifyPresenter.kt</url>
+          <line>74</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/AddNewEmailAty.kt</url>
+          <line>76</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/EmailVerifyPresenter.kt</url>
+          <line>124</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/EmailVerifyPresenter.kt</url>
+          <line>120</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/AddNewEmailAty.kt</url>
+          <line>222</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/AddNewEmailAty.kt</url>
+          <line>201</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/AddNewEmailAty.kt</url>
+          <line>191</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/AddNewEmailAty.kt</url>
+          <line>189</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/AddNewEmailAty.kt</url>
+          <line>190</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>273</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>275</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/viewholders/PaymentMethodViewHolder.kt</url>
+          <line>32</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
+          <line>68</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+          <line>508</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+          <line>525</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+          <line>549</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+          <line>560</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+          <line>573</line>
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/StaticDataModel.kt</url>
+          <line>112</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+          <line>368</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>417</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>499</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
+          <line>44</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
+          <line>43</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>432</line>
+          <option name="timeStamp" value="298" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/PaymentHistoryPresenter.kt</url>
+          <line>89</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/PaymentHistoryPresenter.kt</url>
+          <line>96</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/viewholders/PaymentHistoryViewHolder.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/DownloadPDFActivity.kt</url>
+          <line>44</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/DownloadPDFActivity.kt</url>
+          <line>51</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/DownloadPDFActivity.kt</url>
+          <line>23</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.kt</url>
+          <line>199</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/viewpods/LatestPaymentViewPod.kt</url>
+          <line>48</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/ActivityLogsActivity.kt</url>
+          <line>74</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/ActivityLogsActivity.kt</url>
+          <line>95</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/PaymentHistoryActivity.kt</url>
+          <line>68</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/PaymentHistoryPresenter.kt</url>
+          <line>126</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/PaymentHistoryActivity.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/PaymentHistoryActivity.kt</url>
+          <line>63</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/PaymentHistoryActivity.kt</url>
+          <line>113</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/PaymentHistoryActivity.kt</url>
+          <line>114</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/fragments/ChooseDateRangeFragment.kt</url>
+          <line>188</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/fragments/ChooseDateRangeFragment.kt</url>
+          <line>251</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>267</line>
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>303</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>75</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/viewpods/LatestPaymentViewPod.kt</url>
+          <line>44</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.kt</url>
+          <line>129</line>
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>168</line>
+          <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>260</line>
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>297</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>296</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>552</line>
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>535</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>266</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/prepaid/PXPlanChangeActivity.kt</url>
+          <line>97</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/PXPlanChangePresenter.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/PXPlanChangePresenter.kt</url>
+          <line>39</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/prepaid/PXPlanChangeActivity.kt</url>
+          <line>55</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/prepaid/PXPlanChangeActivity.kt</url>
+          <line>57</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/prepaid/PXPlanChangeActivity.kt</url>
+          <line>59</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/prepaid/PXPlanChangeActivity.kt</url>
+          <line>173</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/viewpods/PXPlanChangeViewPod.kt</url>
+          <line>38</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>560</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/prepaid/PXPlanChangeActivity.kt</url>
+          <line>95</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/viewpods/PrepaidNextPlanViewPod.kt</url>
+          <line>42</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/viewpods/PrepaidNextPlanViewPod.kt</url>
+          <line>43</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>565</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/PXTopUpPresenter.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/prepaid/PXTopUpActivity.kt</url>
+          <line>55</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/PXTopUpPresenter.kt</url>
+          <line>16</line>
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>134</line>
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>765</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>767</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>143</line>
+          <option name="timeStamp" value="381" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.kt</url>
+          <line>115</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>274</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+          <line>538</line>
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
+          <line>64</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
+          <line>111</line>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
+          <line>108</line>
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+          <line>655</line>
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+          <line>415</line>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>1072</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>1075</line>
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>1036</line>
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
+          <line>95</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+          <line>405</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/AdvTopUpPresenter.kt</url>
+          <line>84</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/ChooseBankActivity.kt</url>
+          <line>230</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/ChooseBankActivity.kt</url>
+          <line>190</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/models/UserModelImpl.kt</url>
+          <line>1034</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/AdvTopUpPresenter.kt</url>
+          <line>85</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/viewpods/PrepaidViewPod.kt</url>
+          <line>61</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/PXPaymentPresenterImpls.kt</url>
+          <line>187</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>411</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.kt</url>
+          <line>185</line>
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
+          <line>263</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/viewpods/PrepaidNextPlanViewPod.kt</url>
+          <line>30</line>
+          <properties class="com.fivebb.selfcare.viewpods.PrepaidNextPlanViewPod" method="bindData">
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

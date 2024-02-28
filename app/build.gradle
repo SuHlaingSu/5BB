@@ -1,0 +1,256 @@
+//import com.google.gms.googleservices.GoogleServicesPlugin
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'//replace kotlin-android-extensions
+apply plugin: "me.moallemi.advanced-build-version"
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'com.google.firebase.crashlytics'
+
+
+repositories {
+   // maven { url 'https://maven.fabric.io/public' }
+    mavenCentral()
+}
+
+advancedVersioning {
+
+    nameOptions {
+        versionMajor 1
+        versionMinor 9
+        versionPatch 0
+
+    }
+    codeOptions {
+        versionCodeType 'AUTO_INCREMENT_ONE_STEP'
+    }
+
+    outputOptions {
+        renameOutput true
+        nameFormat '5BB-SelfCare-v${versionName}'
+    }
+}
+
+def appVersionName = advancedVersioning.versionName
+def appVersionCode = advancedVersioning.versionCode
+def package_name = "com.fivebb.selfcare" //Added by SH
+
+android {
+   compileSdkVersion rootProject.ext.compileSdkVersion
+
+
+    defaultConfig {
+        applicationId "${package_name}" //Added By SH
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdk 33
+        versionCode appVersionCode
+        versionName "1.9.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildFeatures {
+        dataBinding = true
+    }
+    flavorDimensions "5bb-selfcare"
+
+    productFlavors {
+        def BUILD_TYPE_FIELD = "FIVEBB_BUILD_TYPE"
+        def BUILD_TYPE_DEV = "\"DEV\""
+        def BUILD_TYPE_RELEASE = "\"RELEASE\""
+
+        def BASE_URL_FIELD = "BASE_URL"
+        def BASE_URL_DEV = "\"https://uatcare.5bb.com.mm/MSOIntegration/\""
+        def BASE_URL_RELEASE = "\"https://care.5bb.com.mm/MSOIntegration/\""
+//        def BASE_URL_RELEASE = "\"https://uatcare.5bb.com.mm/MSOIntegration/\""
+
+        def MOBILE_API_BASE_URL_FIELD = "MOBILE_API_BASE_URL_FIELD"
+        def MOBILE_API_BASE_URL_DEV = "\"https://uatgtgapi.5bb.com.mm/MobileAppAPI/\""
+        def MOBILE_API_BASE_URL_RELEASE = "\"https://gtgapi.5bb.com.mm/MobileAppAPI/\""
+//        def MOBILE_API_BASE_URL_RELEASE = "\"https://5bbwebportal.ap-southeast-1.elasticbeanstalk.com/MobileAppAPI/\""
+
+        def BSS_API_BASE_URL_FIELD = "BSS_API_BASE_URL_FIELD"
+        def BSS_API_BASE_URL_DEV = "\"https://uatgtgapi.5bb.com.mm/BSS/\""
+        def BSS_API_BASE_URL_RELEASE = "\"https://gtgapi.5bb.com.mm/BSS/\""
+
+        def PAYMENT_API_BASE_URL_FIELD = "PAYMENT_API_BASE_URL_FIELD"
+        def PAYMENT_API_BASE_URL_DEV = "\"https://uatgtgapi.5bb.com.mm/\""
+        def PAYMENT_API_BASE_URL_RELEASE = "\"http://gtgapi.5bb.com.mm/\""
+//        def PAYMENT_API_BASE_URL_RELEASE = "\"https://uatgtgapi.5bb.com.mm/\""
+
+        def ENCRYPTION_KEY_FILED = "ENCRYPTION_KEY"
+        def ENCRYPTION_KEY_DEV = "\"T%E#S@\""
+        def ENCRYPTION_KEY_RELEASE = "\"G%F#B@\""
+//        def ENCRYPTION_KEY_RELEASE = "\"T%E#S@\""
+
+        def ACCOUNT_CODE_FILED = "ACCOUNT_CODE"
+        def ACCOUNT_CODE_DEV = "\"TEST001!@#\""
+        def ACCOUNT_CODE_RELEASE = "\"GTG001!@#\""
+//        def ACCOUNT_CODE_RELEASE = "\"TEST001!@#\""
+
+        def PAYMENT_USER_NAME_FIELD="Username"
+        def PAYMENT_USER_NAME_DEV="\"8ca8e92d109067532a551e8af981d020\""
+        def PAYMENT_USER_NAME_RELEASE="\"b059312e0441a2ceba8adf85437107ec\""
+
+        def PAYMENT_PASSWORD_FIELD="Password"
+        def PAYMENT_PASSWORD_DEV="\"CpxoEGTXQ/RVGYeuizbY7LfwpN+WH74txbj/8KEHIIJjRZQ85wGRqA==\""
+        def PAYMENT_PASSWORD_RELEASE="\"gkm4Fl0hbsj7LWUtcBRs/nie+j7Sin56E+B3cbrcCW9jRZQ85wGRqA==\""
+
+       /* def APP_LABEL = "launcher_name"
+        def LABEL_DEV = "\"5BB_Dev\""
+       // def LABEL_DEV = "\"5BB-SelfCare (Dev)\""
+        def LABEL_RELEASE = "\"5BB-SelfCare\""*/
+
+        dev {
+            applicationIdSuffix ".dev" //Added by SH
+            //applicationId = "com.fivebb.selfcare.dev" //Close Comment By SH
+            buildConfigField "String", BUILD_TYPE_FIELD, BUILD_TYPE_DEV
+            buildConfigField "String", BASE_URL_FIELD, BASE_URL_DEV
+            buildConfigField "String", MOBILE_API_BASE_URL_FIELD, MOBILE_API_BASE_URL_DEV
+            buildConfigField "String", PAYMENT_API_BASE_URL_FIELD, PAYMENT_API_BASE_URL_DEV
+            buildConfigField "String", BSS_API_BASE_URL_FIELD, BSS_API_BASE_URL_DEV
+            buildConfigField "String", ENCRYPTION_KEY_FILED, ENCRYPTION_KEY_DEV
+            buildConfigField "String", ACCOUNT_CODE_FILED, ACCOUNT_CODE_DEV
+            buildConfigField "String",PAYMENT_USER_NAME_FIELD,PAYMENT_USER_NAME_DEV
+            buildConfigField "String",PAYMENT_PASSWORD_FIELD,PAYMENT_PASSWORD_DEV
+            buildConfigField "boolean", "ALLOW_INVALID_CERTIFICATE", "true"
+            //resValue "string", APP_LABEL, LABEL_DEV
+        }
+
+        /*psr {
+            applicationIdSuffix '' //Added By SH
+            //applicationId = "com.fivebb.selfcare" //Close Comment By SH
+            buildConfigField "String", BUILD_TYPE_FIELD, BUILD_TYPE_RELEASE
+            buildConfigField "String", BASE_URL_FIELD, BASE_URL_RELEASE
+            buildConfigField "String", MOBILE_API_BASE_URL_FIELD, MOBILE_API_BASE_URL_RELEASE
+            buildConfigField "String", PAYMENT_API_BASE_URL_FIELD, PAYMENT_API_BASE_URL_RELEASE
+            buildConfigField "String", BSS_API_BASE_URL_FIELD, BSS_API_BASE_URL_RELEASE
+            buildConfigField "String", ENCRYPTION_KEY_FILED, ENCRYPTION_KEY_RELEASE
+            buildConfigField "String", ACCOUNT_CODE_FILED, ACCOUNT_CODE_RELEASE
+            buildConfigField "String",PAYMENT_USER_NAME_FIELD,PAYMENT_USER_NAME_RELEASE
+            buildConfigField "String",PAYMENT_PASSWORD_FIELD,PAYMENT_PASSWORD_RELEASE
+            buildConfigField "boolean", "ALLOW_INVALID_CERTIFICATE", "false"
+//            resValue "string", APP_LABEL, LABEL_RELEASE
+        }*/
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+    namespace 'com.fivebb.selfcare'
+}
+advancedVersioning.renameOutputApk()
+dependencies {
+    implementation project(path: ':shared')
+    implementation project(':mmtext')
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    //uat kbz sdk
+    //implementation(name: 'kbzsdk_1.1.0', ext: 'aar') **Old SDK**
+    //implementation fileTree(include: ['*.aar'], dir: 'libs')
+    //prod kbz sdk
+   implementation fileTree(include: ['*.aar'], dir: 'libs/prod')
+    def multidex_version = "2.0.1"
+    implementation "androidx.multidex:multidex:$multidex_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    //implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.4.0'//1.4.0
+    implementation 'androidx.core:core-ktx:1.1.0'//1.1.0
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation files('libs/sun.misc.BASE64Decoder.jar')
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
+    testImplementation 'junit:junit:4.13.2'//4.12
+    androidTestImplementation 'androidx.test:runner:1.5.2'//1.2.0
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'//3.2.0
+
+   /* implementation('com.crashlytics.sdk.android:crashlytics:2.10.1@aar') {
+        transitive = true;
+    }*/
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation rootProject.ext.libraries.cardView
+    implementation rootProject.ext.libraries.recyclerView
+    implementation rootProject.ext.libraries.support
+    implementation rootProject.ext.libraries.designSupport
+
+    implementation rootProject.ext.libraries.glide
+    kapt rootProject.ext.aptLibraries.glideCompiler
+
+    implementation rootProject.ext.libraries.retrofit
+    implementation rootProject.ext.libraries.retrofitConverter
+    implementation rootProject.ext.libraries.retrofitAdapter
+
+    implementation rootProject.ext.libraries.okhttp
+    implementation rootProject.ext.libraries.okhttpLogging
+
+    implementation rootProject.ext.libraries.dagger
+//    kapt rootProject.ext.aptLibraries.daggerCompiler
+
+    implementation rootProject.ext.libraries.javaxannotation
+    implementation rootProject.ext.libraries.javax
+    implementation rootProject.ext.libraries.javapoet
+
+    implementation rootProject.ext.libraries.rxAndroid
+    implementation rootProject.ext.libraries.rxJava
+
+    implementation rootProject.ext.libraries.archComponent
+
+    testImplementation rootProject.ext.testLibraries.junit
+    androidTestImplementation rootProject.ext.testLibraries.supportTestRunner
+    androidTestImplementation rootProject.ext.testLibraries.espresso
+
+   // implementation rootProject.ext.libraries.mmtextview
+    implementation rootProject.ext.libraries.room
+//    kapt rootProject.ext.aptLibraries.roomCompiler
+    implementation rootProject.ext.libraries.roomRxJava
+
+    implementation rootProject.ext.libraries.customtab
+
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+
+    // Add the Firebase Crashlytics SDK
+    implementation 'com.google.firebase:firebase-crashlytics:18.3.5'
+
+    implementation 'com.google.firebase:firebase-analytics:21.2.0'
+   // implementation 'com.google.firebase:firebase-messaging:23.1.2'
+    implementation rootProject.ext.libraries.firebaseMessaging
+    implementation rootProject.ext.libraries.firebaseCore
+
+    implementation 'com.ss.bannerslider:bannerslider:2.0.0'
+
+    implementation 'com.google.android.exoplayer:exoplayer:2.7.2'
+
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+
+    implementation 'com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2'
+
+    implementation 'com.facebook.android:facebook-android-sdk:5.15.3'
+
+    implementation 'com.facebook.android:facebook-core:5.15.3'
+
+    implementation 'com.facebook.android:facebook-marketing:5.15.3'
+
+    implementation 'com.github.florent37:viewtooltip:1.2.0'
+
+    implementation "io.reactivex.rxjava3:rxjava:3.0.0"
+}
+
+repositories {
+    mavenCentral()
+}

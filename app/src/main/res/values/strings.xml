@@ -1,0 +1,389 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">5BB</string>
+    <string name="outstanding_invoice">Outstanding Invoice</string>
+    <string name="due_date">Due Date :</string>
+    <string name="lbl_service_plan">Service Plan</string>
+    <string name="lbl_bill_no">Invoice Number</string>
+    <string name="lbl_bill_id">Bill Id</string>
+    <string name="lbl_bill_date">Bill Date</string>
+    <string name="lbl_charges">Charges</string>
+    <string name="lbl_unpaid_amount">Unpaid Amount</string>
+    <string name="value_small_kyat"><![CDATA[ %1$s <small>Ks</small>]]></string>
+    <string name="lbl_discount">Discount</string>
+    <string name="lbl_total_amount">Total Amount</string>
+    <string name="lbl_payment">Payment</string>
+    <string name="transition_name_logo" translatable="false">LOGO</string>
+    <string name="lbl_invoice_due_date"><![CDATA[Due Date : %1$s]]></string>
+    <string name="host_name" translatable="false">https://www.5bb.com.mm</string>
+    <string name="terms" translatable="false">By continuing, you agree to 5BB\'s <b><font color="#000000">Terms &amp; Conditions</font></b>.</string>
+
+    //Pop Up
+    <string name="lbl_alert">Please kindly settle the unpaid bill invoice first, before you make advance payment.</string>
+
+    //Navigation
+    <string name="lbl_recharge">Recharge</string>
+    <string name="lbl_activity_log">Activity Logs</string>
+    <string name="lbl_relocation">Relocation</string>
+    <string name="lbl_ticket">Customer Service</string>
+    <string name="lbl_notification">Notifications</string>
+    <string name="lbl_help">Contact Us</string>
+
+
+    <string name="lbl_see_all">See all</string>
+    <string name="lbl_latest_payment">Latest Payment</string>
+    <string name="lbl_payment_mode">Payment Mode :</string>
+    <string name="lbl_total_amount_paid">Total Amount :</string>
+    <string name="lbl_paid_at">Paid At :</string>
+    <string name="lbl_show_invoice_in_pdf">Show invoice in pdf</string>
+
+    <string name="lbl_latest_recharged">Latest Recharged</string>
+    <string name="lbl_recharge_type">Recharge Type :</string>
+    <string name="recharge_duration">Duration :</string>
+    <string name="recharged_date">Recharged Date :</string>
+    <string name="recharged_due_date">Due Date :</string>
+
+    <string name="lbl_current_plan">Current Service Plan</string>
+    <string name="lbl_change">Change</string>
+
+
+    <string name="lbl_plan_change_request">Plan Change Request</string>
+    <string name="lbl_current_using_service_plan">Current Service Plan</string>
+    <string name="lbl_choose_new_plan">Choose New Plan</string>
+    <string name="lbl_change_date">Change Date</string>
+    <string name="lbl_submit">Submit</string>
+    <string name="lbl_date_sample">DD/MM/YYYY</string>
+
+
+    <string-array name="plan_attributes">
+        <item>22+ Devices at a time</item>
+        <item>Heavy Usage activities</item>
+        <item>Extreme Speed</item>
+        <item>Excellent for multipler gaming</item>
+        <item>Unlimited Usage</item>
+    </string-array>
+
+    <string name="lbl_filter">Filter</string>
+
+    <string name="lbl_relocation_screen_title">Relocation</string>
+    <string name="lbl_change_address">Change Address</string>
+    <string name="hint_home_number">Home Number or Room Number</string>
+    <string name="hint_residential_quarter">Residential Quarter</string>
+    <string name="hint_street_or_road">Street (or) Road</string>
+    <string name="hint_township">Township</string>
+    <string name="hint_city">City</string>
+    <string name="hint_state_or_region">State (or) Region</string>
+
+    <string name="lbl_show_more">Show More</string>
+    <string name="lbl_show_less">Show Less</string>
+
+    <string name="lbl_create_ticket">Customer Service</string>
+    <string name="lbl_source">Source</string>
+    <string name="lbl_ticket_type">Ticket Type</string>
+    <string name="lbl_priority">Priority</string>
+    <string name="lbl_low">Low</string>
+    <string name="lbl_medium">Medium</string>
+    <string name="lbl_high">High</string>
+    <string name="lbl_problem_category">Problem Category</string>
+    <string name="lbl_sub_root_problem_category">Sub Root Problem Category</string>
+    <string name="lbl_ticket_summary">Ticket Summary</string>
+
+    <string-array name="ticket_source">
+        <item>Select</item>
+        <item>Call</item>
+        <item>E-mail</item>
+        <item>Helpdesk</item>
+        <item>CWSC</item>
+    </string-array>
+
+    <string-array name="ticket_type">
+        <item>Select</item>
+        <item>Complaint</item>
+        <item>Inquiry</item>
+        <item>Request</item>
+    </string-array>
+
+    <string-array name="ticket_problem_category">
+        <item>Select</item>
+        <item>Connection Issues</item>
+        <item>Device Issues</item>
+        <item>LOS Red</item>
+        <item>Other Issues</item>
+    </string-array>
+
+    <string-array name="ticket_sub_problem_category">
+        <item>Select</item>
+        <item>WAN IP not assigned in ONT</item>
+        <item>Adapter Error</item>
+        <item>ONT LAN Port Error</item>
+        <item>Wifi Error</item>
+    </string-array>
+
+    <string name="title_payment_history">Payment History</string>
+    <string name="title_change_password">Change Password</string>
+    <string name="title_account_detail">Account Detail</string>
+    <string name="lbl_profile">Profile</string>
+    <string name="lbl_email">Email Verification</string>
+
+    <string name="cancel_status" translatable="false">Already Received Payment! Not allowed to cancel.</string>
+
+
+    <string name="lbl_adv_top_up">Advance Top Up</string>
+    <string name="lbl_payment_history">Payment History</string>
+    <string name="lbl_recharged_history">Recharged History</string>
+    <string name="lbl_change_password">Change Password</string>
+    <string name="lbl_account_detail">Account Detail</string>
+    <string name="lbl_log_out">Log Out</string>
+
+    <string name="lbl_adv_top_up_samsung">Advance\nTop Up</string>
+    <string name="lbl_payment_history_samsung">Payment\nHistory</string>
+    <string name="lbl_recharged_history_samsung">Recharged History</string>
+    <string name="lbl_change_password_samsung">Change\nPassword</string>
+    <string name="lbl_account_detail_samsung">Account\nDetail</string>
+    <string name="lbl_log_out_samsung">Log\nOut</string>
+
+    <string name="lbl_customer_information">Customer Information</string>
+    <string name="lbl_contact_information">Contact Information</string>
+    <string name="lbl_billing_information">Billing Information</string>
+    <string name="lbl_plan_detail">Plan Detail</string>
+<!--
+    <string name="lbl_profile_name"><![CDATA[Name : <b><xliff:g id="name">%1$s</xliff:g></b>]]></string>
+-->
+    <string name="lbl_profile_name"><![CDATA[Name : %1$s]]></string>
+    <string name="lbl_profile_account_no">
+        <![CDATA[Account No. : %1$s]]></string>
+    <string name="lbl_profile_status"><![CDATA[Status : %1$s]]></string>
+    <string name="lbl_profile_billing_status">
+        <![CDATA[Billing Status : <b><xliff:g id="name">%1$s</xliff:g></b>]]></string>
+    <string name="lbl_profile_adv_pay">Advance Payment\nBalance :  </string>
+
+
+    <string name="lbl_invoice_payment">Invoice Payment</string>
+
+    <string name="lbl_invoice_payment_amount">Amount :</string>
+
+    <string name="lbl_how_to_pay">How To Pay</string>
+
+    <string name="lbl_open_kbz_mobile_banking">Open KBZ Mobile Banking</string>
+    <string name="lbl_open_kbz_pay">Pay with KBZPay</string>
+    <string name="lbl_open_aya_pay">Pay with AYAPay</string>
+    <string name="lbl_open_aya_mobile_banking">Open AYA Mobile Banking</string>
+    <string name="lbl_open_cb_mobile_banking">Open CB Mobile Banking</string>
+    <string name="lbl_open_onepay">Open Onepay</string>
+    <string name="lbl_open_msp">Open Mandalay Smart Pay</string>
+    <string name="lbl_open_wavemoney">Pay with WavePay</string>
+    <string name="lbl_open_uab">Open UAB Mobile Banking</string>
+    <string name="lbl_open_mcf">Pay with Citizens Pay</string>
+
+    <string name="lbl_old_password">Old Password</string>
+    <string name="lbl_new_password">New Password</string>
+    <string name="lbl_confirm_password">Confirm Password</string>
+
+    <string name="lbl_login">Login</string>
+    <string name="lbl_customer_account_number">Customer Account Number</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_remember_me">Remember me</string>
+    <string name="lbl_forgot_password">Forgot Password?</string>
+
+    <string name="lbl_contact_number">Contact Number</string>
+    <string name="lbl_email_address">Email Address</string>
+
+    <string name="operator_time">Mon - Fri 9:00 AM - 5:00 PM</string>
+
+    <string name="contact_number_one">0949208223</string>
+    <string name="contact_number_two">0949208224</string>
+    <string name="contact_number_three">01524978</string>
+
+    <string name="email_address">salesoffice471.5bb@gmail.com</string>
+    <string name="location_address">No. 471, Pyay Road, Near Novotel Hotel, Kamaryut Township, Yangon.</string>
+
+    <string name="lbl_choose_bank">Choose a bank</string>
+
+    <string name="err_fill_account_number">Account Number is empty!</string>
+    <string name="err_fill_password">Password is empty!</string>
+
+    //Account Detail
+    <string name="lbl_detail_account_number">Account No :</string>
+    <string name="lbl_detail_name">Name :</string>
+    <string name="lbl_detail_dob">DOB :</string>
+    <string name="lbl_detail_title">Title :</string>
+    <string name="lbl_detail_gender">Gender :</string>
+    <string name="lbl_detail_creation_date">Creation Date :</string>
+    <string name="lbl_detail_status">Status :</string>
+    <string name="lbl_detail_mobile_number">Registered Mobile Number :</string>
+    <string name="lbl_detail_email">Email Address :</string>
+    <string name="lbl_detail_address">Address :</string>
+    <string name="lbl_detail_currency">Currency :</string>
+    <string name="lbl_customer_type">Customer Type :</string>
+    <string name="lbl_billing_status">Billing Status :</string>
+    <string name="lbl_bill_delivery_mode">Bill Delivery Mode :</string>
+    <string name="lbl_detail_plan_name">Name :</string>
+    <string name="lbl_type">Type :</string>
+    <string name="lbl_promotion_offer">Promotion Offer :</string>
+
+    <string name="err_password_count_invalid">Password must be at least 8 characters.</string>
+    <string name="err_confirm_password">The password confirmation does not match.</string>
+
+    <string name="lbl_select_date_range">Select Date Range</string>
+    <string name="lbl_from">From :</string>
+    <string name="lbl_to">To :</string>
+    <string name="err_choose_date_range">Choose All Date!</string>
+
+    <string name="lbl_ads_close">Close</string>
+    <string name="lbl_ads_more">More</string>
+
+    <string name="err_fill_information">Need to fill information</string>
+    <string name="msg_app_not_found">Application not found!</string>
+
+    <string name="msg_pop_up">5BB users can enjoy the premium movies at LaLaKy! App. Be a smart living with our 5BB services.</string>
+    <string name="msg_session_expired">Session expired! Please login again.</string>
+    <string name="confirm_msg_relocation">Are you sure to send relocation request?</string>
+    <string name="confirm_msg_create_ticket">Are you sure to send?</string>
+    <string name="confirm_msg_plan_change">Are you sure to send plan change request?</string>
+    <string name="lbl_answer_secret_question">Answer secret question</string>
+    <string name="lbl_answer">Answer</string>
+    <string name="lbl_next">Next</string>
+    <string name="lbl_done">Done</string>
+    <string name="msg_to_call_service_center">Please, call the service center.</string>
+    <string name="lbl_relocation_remark">Relocation can be available on 5BB Coverage location. Relocation Fees is 50,000 MMK+ 15% commercial tax for 5BB Relocation Service. You must be paid for Relocation Fees at 5BB Office, KBZ (Mobile Banking), AYA (Mobile banking), CB (Mobile Banking), KBZ Pay.The installation period may take depending on the circumstances.</string>
+    <string name="lbl_usage_summary">Usage Summary</string>
+    <string name="lbl_quota_usage">Remaining Quota</string>
+    <string name="txt_tooltips">This amount is the advance payment balance inside your account. The monthly bill will be auto settled from this. </string>
+
+
+    <string name="msg_check_your_email" translatable="false"><xliff:g id="correct_answer">%1$s</xliff:g> Check your email.</string>
+
+    <string name="format_relocation_request" translatable="false">
+        Dear operator, \n
+        Relocation Request \n
+        ------------------------------------------------\n
+        Customer Account No : <xliff:g id="customerId">%1$s</xliff:g>\n
+        Name : <xliff:g id="name">%2$s</xliff:g>\n
+        Email : <xliff:g id="email">%3$s</xliff:g>\n
+        Phone : <xliff:g id="phone">%4$s</xliff:g>\n
+        Current Address : <xliff:g id="current_address">%5$s</xliff:g>\n
+        New Address : <xliff:g id="new_address">%6$s</xliff:g>\n \n
+        Send by 5BB Mobile App
+    </string>
+
+    <string name="format_ticket" translatable="false">
+        Dear operator,\n
+        Ticket\n
+        ------------------------------------------------\n
+        Complain Date and Time : <xliff:g id="dateAndTime">%1$s</xliff:g>\n
+        Customer Name : <xliff:g id="name">%2$s</xliff:g>\n
+        Service Id : <xliff:g id="serviceId">%3$s</xliff:g>\n
+        Service Plan : <xliff:g id="servicePlan">%4$s</xliff:g>\n
+        Complain Type : <xliff:g id="complainType">%5$s</xliff:g>\n
+        Complain Detail : \n<xliff:g id="complainDetail">%6$s</xliff:g>\n
+        Installation Address : <xliff:g id="address">%7$s</xliff:g>\n
+        Contact Number : <xliff:g id="contactNumber">%8$s</xliff:g>\n
+        Contact Person : <xliff:g id="contactPerson">%9$s</xliff:g>\n\n
+        Send by 5BB Mobile App
+    </string>
+
+    <string name="ticket_detail" translatable="false">
+        Ticket Type = <xliff:g id="type">%1$s</xliff:g>\n
+        Problem Category = <xliff:g id="category">%2$s</xliff:g>\n
+        Summary = <xliff:g id="summary">%3$s</xliff:g>
+    </string>
+
+    <string name="format_plan_change_request" translatable="false">
+        Dear operator, \n
+        Plan Change Request \n
+        ------------------------------------------------\n
+        Customer Account No : <xliff:g id="customerId">%1$s</xliff:g>\n
+        Name : <xliff:g id="name">%2$s</xliff:g>\n
+        Email : <xliff:g id="email">%3$s</xliff:g>\n
+        Phone : <xliff:g id="phone">%4$s</xliff:g>\n
+        Current Plan : <xliff:g id="current_plan">%5$s</xliff:g>\n
+        New Plan : <xliff:g id="new_plan">%6$s</xliff:g>\n
+        Date : <xliff:g id="date">%7$s</xliff:g>\n\n
+        Send by 5BB Mobile App
+    </string>
+
+    <string name="cost_and_currency" translatable="false"><xliff:g id="cost">%1$s</xliff:g> <xliff:g id="currency">%2$s</xliff:g></string>
+
+    <string name="confirm_msg_change_password" translatable="false">Are you sure to change password?</string>
+    <string name="lbl_app_version" translatable="false">Ver <xliff:g id="version">%1$s</xliff:g></string>
+    <string name="lbl_day_left" translatable="false"><xliff:g id="day">%1$s</xliff:g> days</string>
+    <string name="lbl_one_day_left" translatable="false">One day left</string>
+    <string name="lbl_today_last" translatable="false">Last day</string>
+    <string name="lbl_expired" translatable="false">Expired :</string>
+    <string name="tv_question" translatable="false">Q. <xliff:g id="question">%1$s</xliff:g></string>
+
+    <string name="email_subject_relocation" translatable="false">Relocation Request</string>
+    <string name="email_subject_create_ticket" translatable="false">Customer Service</string>
+    <string name="email_subject_plan_change" translatable="false">Plan Change Request</string>
+
+    <string name="msg_send_request_successfully" translatable="false">Sent request successfully.</string>
+
+    <string name="format_activity_log_plan_change" translatable="false">
+        You requested to change your current plan " <xliff:g id="current_plan">%1$s</xliff:g> - <xliff:g id="current_bandwidth">%2$s</xliff:g> " to new plan " <xliff:g id="new_plan">%3$s</xliff:g> - <xliff:g id="new_bandwidth">%4$s</xliff:g> on <xliff:g id="date">%5$s</xliff:g>.
+    </string>
+
+    <string name="format_activity_log_relocation" translatable="false">
+        You requested to relocate your current address  - “ <xliff:g id="current_location">%1$s</xliff:g> " to new address " <xliff:g id="new_location">%2$s</xliff:g> on <xliff:g id="date">%3$s</xliff:g> ".
+    </string>
+
+    <string name="format_activity_log_ticket" translatable="false">
+        You reported \'<xliff:g id="type">%1$s</xliff:g> - <xliff:g id="category">%2$s</xliff:g>\'.\n
+        Ticket Summary - <xliff:g id="summary">%3$s</xliff:g>
+    </string>
+
+    <string name="format_activity_log_ticket_no_summary" translatable="false">
+        You reported \'<xliff:g id="type">%1$s</xliff:g> - <xliff:g id="category">%2$s</xliff:g>\'.
+    </string>
+
+    <string name="extension_mbps" translatable="false">
+        <xliff:g id="bandwidth">%1$s</xliff:g> Mbps
+    </string>
+
+    <string name="hint_subject" translatable="false">Subject</string>
+
+    <string name="hint_body" translatable="false">Body</string>
+
+    <string name="lbl_send" translatable="false">Send</string>
+
+    <string name="format_send_email" translatable="false">Send To : <xliff:g id="email">%1$s</xliff:g>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="skip" translatable="false">Skip</string>
+
+    <string name="facebook_app_id" translatable="false">367254240901043</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb367254240901043</string>
+
+    <string name="lblTop_up">Advance Payment - Top Up</string>
+    <string name="lblRTop_up">Recharge</string>
+    <string name="lblPX">Prepaid</string>
+    <string name="lblPreferMonths">Choose Preferred Months : </string>
+    <string name="lblAVPreferMonths">Advance Payment Preferred Months : </string>
+    <string name="lblRechargePack">Selected Recharge Pack : </string>
+    <string name="lblPXPack">Selected Prepaid Pack : </string>
+    <string name="todo" translatable="false">TODO</string>
+
+    //email verification
+    <string name="lbl_choose_email">Please choose the primary email.</string>
+    <string name="lbl_add_email">Add</string>
+    <string name="lbl_new_email">Please add new email address.</string>
+    <string name="lbl_enter_email">Enter your email</string>
+    <string name="lbl_cancel_email">Cancel</string>
+    <string name="lbl_text">You will get a verification code via email.</string>
+    <string name="lbl_btn_verify">Verify</string>
+    <string name="lbl_did_not_code">Did\'t receive the verification code?</string>
+    <string name="lbl_resend">Resend again.</string>
+    <string name="lbl_primary_not_delete">Email can\'t be deleted</string>
+    <string name="lbl_no_more_add">No more added,Email has limitation</string>
+    <string name="lbl_ready_mail">Email already</string>
+    <string name="lbl_right_format_mail">Enter valid email format!</string>
+    <string name="lbl_set_primary">Set Primary</string>
+    <string name="lbl_make_primary">Please make one email verify</string>
+    <string name="download">Payment Receipt</string>
+    <string name="top_up">Prepaid TopUp</string>
+    <string name="next_plan_subscribe">Next Service Plan</string>
+    <string name="please_add_your_aya_pay_no">Please Add Your AYA Pay No</string>
+    <string name="enter_your_aya_pay_no">Enter your AYA Pay No</string>
+    <string name="ok">OK</string>
+    <string name="you_need_to_fill_aya_pay_no">You need to fill your aya pay ph no</string>
+</resources>

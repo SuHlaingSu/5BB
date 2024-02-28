@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:layout_gravity="center_vertical">
+
+        <ImageView
+                android:layout_width="9dp"
+                android:layout_height="9dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/primary_fill_circle_24dp"/>
+
+        <View android:layout_width="1dp"
+              android:layout_height="wrap_content"
+              android:background="@color/colorPrimary"
+              android:layout_marginStart="@dimen/margin_small"/>
+
+    </FrameLayout>
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/tvAttribute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dummy_paid_at"
+            android:textSize="@dimen/text_small"
+            android:gravity="center_vertical"
+            android:paddingTop="@dimen/margin_card_medium"
+            android:paddingBottom="@dimen/margin_card_medium"
+            android:layout_marginStart="@dimen/margin_medium"
+            android:layout_marginEnd="@dimen/margin_medium_2"
+            android:textColor="@color/primary_text"/>
+
+</LinearLayout>

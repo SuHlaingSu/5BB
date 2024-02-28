@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="account_name">U Myo Myint Maung</string>
+    <string name="account_number">YGNFX0938233</string>
+    <string name="dummy_due_date">Due Date : 17-07-2019</string>
+    <string name="service_plan">M_Special</string>
+    <string name="dummy_payment_mode">BANK</string>
+    <string name="dummy_paid_at">27 July 2019 at 05:30 PM</string>
+
+    <string name="dummy_recharged_type">5BB Voucher</string>
+    <string name="dummy_recharged_duration">30 days</string>
+    <string name="dummy_recharged_date">01-05-2019</string>
+
+    <string name="dummy_plan_type">M</string>
+    <string name="dummy_internet_speed">70 Mbps</string>
+    <string name="dummy_plan_cost">249,500 Ks</string>
+    <string name="dummy_plan_note">Get the best of your media, work, wearables, connected appliances and whatever else.</string>
+
+    <string name="dummy_activity_log_date">17 Feb</string>
+    <string name="dummy_activity_log_time">10:24</string>
+    <string name="dummy_activity_log_category">Relocation</string>
+    <string name="dummy_activity_log_content">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</string>
+
+    <string name="dummy_profile_status">Active</string>
+    <string name="dummy_profile_billing_status">Enabled</string>
+
+    <string name="dummy_starter_pack">Starter pack</string>
+    <string name="dummy_lte_speed">5 Mbps</string>
+    <string name="dummy_day_left">20 days left</string>
+</resources>

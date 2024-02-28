@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "788338666156",
+    "project_id": "gtg-5bb-uat-d396e",
+    "storage_bucket": "gtg-5bb-uat-d396e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788338666156:android:2af1fbc029da19e7fbcd09",
+        "android_client_info": {
+          "package_name": "com.fivebb.selfcare.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788338666156-hlnj1nred6tmvkss5e9k6er9tccs0kho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZhEahjsEfLmaqoV34tbiX2Re_Hf8VNaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788338666156-hlnj1nred6tmvkss5e9k6er9tccs0kho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

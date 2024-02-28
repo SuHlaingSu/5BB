@@ -1,0 +1,10 @@
+package com.fivebb.selfcare.utils
+
+import java.math.BigInteger
+import java.security.MessageDigest
+
+fun String.md5Hash(): String {
+    val md = MessageDigest.getInstance("MD5")
+    val bigInt = BigInteger(1, md.digest(this.toByteArray(Charsets.UTF_8)))
+    return String.format("%032x", bigInt)
+}

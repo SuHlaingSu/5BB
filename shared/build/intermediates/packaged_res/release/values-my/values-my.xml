@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">shared</string>
+    <string name="ayeyarwady_region">ဧရာ၀တီတိုင်းဒေသကြီး</string>
+    <string name="bago_city">ပဲခူး</string>
+    <string name="bago_region">ပဲခူးတိုင်းဒေသကြီး</string>
+    <string name="channel_description">5bb channel description</string>
+    <string name="channel_name">5bb channel name</string>
+    <string name="chin_state">ချင်းပြည်နယ်</string>
+    <string name="content_description_empty_action">Action for empty data set</string>
+    <string name="content_description_empty_image">Image for empty data set</string>
+    <string name="content_description_empty_label">Label for empty data set</string>
+    <string name="hpaan_city">ဘားအံ</string>
+    <string name="kachin_state">ကချင် ပြည်နယ်</string>
+    <string name="kayah_state">ကယား ပြည်နယ်</string>
+    <string name="kayin_state">ကရင် ပြည်နယ်</string>
+    <string name="lbl_app_title">5BB</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_ok">Ok</string>
+    <string name="lbl_select_city">မြို့ရွေးချယ်ပါ</string>
+    <string name="loading">လုပ်ဆောင်နေပါသည်…</string>
+    <string name="magway_city">မကွေး</string>
+    <string name="magway_region">မကွေးတိုင်းဒေသကြီး</string>
+    <string name="mandalay_city">မန္တလေး</string>
+    <string name="mandalay_region">မန္တလေးတိုင်းဒေသကြီး</string>
+    <string name="mawlamyaing_city">မော်လမြိုင်</string>
+    <string name="mon_state">မွန် ပြည်နယ်</string>
+    <string name="msg_default_empty">အချက်အလက်များမရှိသေးပါ။</string>
+    <string name="msg_no_internet_connection">အင်တာနက်ချိတ်ဆက်၍မရပါ။</string>
+    <string name="pyay_city">ပြည်</string>
+    <string name="rakhine_state">ရခိုင် ပြည်နယ်</string>
+    <string name="sagaing_region">စစ်ကိုင်းတိုင်းဒေသကြီး</string>
+    <string name="shan_state">ရှမ်း ပြည်နယ်</string>
+    <string name="tanintharyi_region">တနလာရီတိုင်းဒေသကြီး</string>
+    <string name="warning_to_grant_permissions">Needs all permissions to be granted.</string>
+    <string name="yangon_city">ရန်ကုန်</string>
+    <string name="yangon_region">ရန်ကုန်တိုင်းဒေသကြီး</string>
+</resources>

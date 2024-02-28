@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+
+    <application
+            android:name=".FiveBBApp"
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher_fivebb"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round_fivebb"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:usesCleartextTraffic="true"
+            tools:targetApi="m">
+
+        <service
+                android:name=".firebase.FCMService"
+                android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
+        <meta-data
+                android:name="com.facebook.sdk.CodelessDebugLogEnabled"
+                android:value="true" />
+
+        <meta-data
+                android:name="com.google.firebase.messaging.default_notification_icon"
+                android:resource="@drawable/logo" />
+        <meta-data
+                android:name="com.google.firebase.messaging.default_notification_color"
+                android:resource="@color/colorPrimary" />
+
+        <activity
+                android:name=".activities.SkippableNoticeActivity"
+                android:screenOrientation="portrait" />
+        <activity android:name=".activities.prepaid.PXPaymentBankActivity"/>
+
+        <activity
+                android:name=".activities.DownloadPDFActivity"
+                android:screenOrientation="portrait" />
+
+        <activity
+                android:name=".activities.SendEmailActivity"
+                android:screenOrientation="portrait" />
+
+        <activity
+                android:name=".activities.recharge.RechargeActivity"
+                android:screenOrientation="portrait" />
+
+        <activity
+                android:name=".activities.prepaid.PXTopUpActivity"
+                android:screenOrientation="portrait" />
+
+        <activity
+                android:name=".activities.LatestPaymentDownloadPDFActivity"
+                android:screenOrientation="portrait" />
+
+        <activity
+                android:name=".activities.recharge.RechargeTopUpActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="mlink/screen=dynamicconfirm?requestedid="
+                    android:scheme="ayapay" /><!--ayapay://mLink/screen=DynamicConfirm?requestedId=64cb456d953889338231db49"-->
+            </intent-filter>
+        </activity>
+
+
+        <activity
+                android:name=".activities.SplashActivity"
+                android:screenOrientation="portrait"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                        android:host="@string/host_name"
+                        android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.kbzbank.payment.sdk.callback.CallbackResultActivity"
+        android:exported="true"/>
+
+        <activity
+                android:name=".activities.LoginActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.HomeActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.PlanChangeActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.prepaid.PXPlanChangeActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.ActivityLogsActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.RelocationActivity"
+                android:screenOrientation="portrait"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.CheckVerificationActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.NotificationActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.InfoNotiDetailActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.TransNotiDetailActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.PromoNotiDetailActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.CreateTicketActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.ProfileActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.LTEProfileActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.ChooseAdvMonthActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="mlink/screen=dynamicconfirm?requestedid="
+                    android:scheme="ayapay" /><!--ayapay://mLink/screen=DynamicConfirm?requestedId=64cb456d953889338231db49"-->
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".activities.ChooseBankActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="mlink/screen=dynamicconfirm?requestedid="
+                    android:scheme="ayapay" /><!--ayapay://mLink/screen=DynamicConfirm?requestedId=64cb456d953889338231db49"-->
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.AddNewEmailAty"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.AccountDetailActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.InvoicePaymentActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:exported="true">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="mlink/screen=dynamicconfirm?requestedid="
+                    android:scheme="ayapay" /><!--ayapay://mLink/screen=DynamicConfirm?requestedId=64cb456d953889338231db49"-->
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activities.ChangePasswordActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.PaymentHistoryActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.recharge.RechargedHistoryActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.HelpActivity"
+                android:configChanges="orientation"
+                android:hardwareAccelerated="true"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.VideoFullScreenActivity"
+                android:screenOrientation="landscape" />
+        <activity
+                android:name=".activities.SecretQuestionActivity"
+                android:screenOrientation="portrait" />
+
+        <activity
+                android:name=".activities.VerifyEmailAty"
+                android:screenOrientation="portrait" />
+        <meta-data
+                android:name="firebase_crashlytics_collection_enabled"
+                android:value="false" />
+        <!--<meta-data
+                android:name="io.fabric.ApiKey"
+                android:value="ffdd68d264d8ac2a87fbd88d215d46bacf7f46a3" />-->
+        <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="AIzaSyAl7fsmjsnq2s5YNJGQDWcDPVUnstzL8RY" />
+    </application>
+
+</manifest>

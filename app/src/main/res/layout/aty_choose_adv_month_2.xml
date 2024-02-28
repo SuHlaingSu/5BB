@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_full">
+
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/bg_main"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+                android:id="@+id/lyHeader"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                    android:id="@+id/ivBack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_keyboard_arrow_left_black_48dp" />
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/tvScreenTitle"
+                    style="@style/ScreenTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblTop_up"
+                    android:layout_gravity="end|center_vertical"/>
+        </LinearLayout>
+
+        <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/lyHeader"
+                android:background="@color/white_full">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rec_choose_month"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        tools:listitem="@layout/item_recharge"/>
+            </LinearLayout>
+        </ScrollView>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/scrollView"
+                android:background="@color/white_full"/>
+        <LinearLayout
+                        android:id="@+id/ly"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white_full"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium_3"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:text="" />
+                    <TextView
+                            android:id="@+id/terms"
+                            style="@style/CategoryTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/margin_medium_2"
+                            android:layout_marginStart="@dimen/margin_medium_3"
+                            android:textColor="@color/secondary_text"
+                            android:textAlignment="center"
+                            android:lines="2"
+                            android:text="@string/terms"/>
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

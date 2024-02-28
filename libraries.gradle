@@ -1,0 +1,91 @@
+ext {
+    minSdkVersion = 22//Android 5.1 (Lollipop)
+    compileSdkVersion = 33 //Android 12 (snow cone)
+    //buildToolVersion = "30.0.0"//"28.0.3"
+
+    //Android
+    androidSupportVersion = "28.0.0"
+    constraintlayoutVersion = "1.1.3"
+    okhttpVersion = "4.9.1"
+    retrofitVersion = "2.6.0"
+    glideVersion = "4.11.0"
+    daggerVersion = "2.12"
+    jpoetVersion = "1.9.0"
+    javaxVersion = "1"
+    javaxAnnotationVersion = "1.0"
+    mmtextViewVersion = "1.11"
+    lifecycleVersion = "1.1.1"
+    rxAndroidVersion = "2.0.2"
+    rxJavaVersion = "2.x.x"
+    firebaseVersion = "21.1.1"
+    firebaseCloudMessagingVersion = "23.1.2"//"19.0.1"
+    roomVersion = "2.2.5"
+    mockitoVersion = "2.7.22"
+    mokitoKotlin = "2.0.0-RC1"
+    hamcrestVersion = "1.3"
+    robolectricVersion = "3.5.1"
+    customtabVersion = "28.0.0"
+
+    //Testing
+    junitVersion = "4.12"
+    supportTestVersion = "1.0.1"
+    espressoVersion = "3.0.1"
+    uiAutomatorVersion = "2.0.0"
+
+    libraries = [
+
+            appCompat           : "com.android.support:appcompat-v7:${androidSupportVersion}",
+            support             : 'androidx.legacy:legacy-support-v4:1.0.0',
+            designSupport       : 'com.google.android.material:material:1.0.0',
+            customtab           : 'androidx.browser:browser:1.0.0',
+            vectorSupport       : "com.android.support:support-vector-drawable:${androidSupportVersion}",
+            cardView            : 'androidx.cardview:cardview:1.0.0',
+            recyclerView        : 'androidx.recyclerview:recyclerview:1.0.0',
+            gridLayout          : "com.android.support:gridlayout-v7:${androidSupportVersion}",
+            constraintLayout    : "com.android.support.constraint:constraint-layout:${constraintlayoutVersion}",
+            okhttp              : "com.squareup.okhttp3:okhttp:${okhttpVersion}",
+            okhttpLogging       : "com.squareup.okhttp3:logging-interceptor:${okhttpVersion}",
+            retrofit            : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            retrofitConverter   : "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+            retrofitAdapter     : "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
+            glide               : "com.github.bumptech.glide:glide:${glideVersion}",
+            glideAnnotation     : "com.github.bumptech.glide:compiler:${glideVersion}",
+            dagger              : "com.google.dagger:dagger:${daggerVersion}",
+            javax               : "javax.inject:javax.inject:${javaxVersion}",
+            javapoet            : "com.squareup:javapoet:${jpoetVersion}",
+            javaxannotation     : "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+            mmtextview          : "org.mmtextview:mmtextview:${mmtextViewVersion}",
+            archComponent       : 'androidx.lifecycle:lifecycle-extensions:2.0.0',
+            archComponentRuntime: "android.arch.lifecycle:runtime:${lifecycleVersion}",
+            rxAndroid           : "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
+            rxJava              : "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
+            firebaseCore        : "com.google.firebase:firebase-core:${firebaseVersion}",
+            firebaseStorage     : "com.google.firebase:firebase-storage:${firebaseVersion}",
+            firebaseMessaging   : "com.google.firebase:firebase-messaging:${firebaseCloudMessagingVersion}",
+            room                : 'androidx.room:room-runtime:2.2.5',
+            roomRxJava          : 'androidx.room:room-rxjava2:2.2.5'
+    ]
+
+    aptLibraries = [
+            roomCompiler       : 'androidx.room:room-compiler:2.2.5',
+            daggerCompiler     : "com.google.dagger:dagger-compiler:${daggerVersion}",
+            glideCompiler      : "com.github.bumptech.glide:compiler:${glideVersion}",
+    ]
+
+    testLibraries = [
+            junit             : "junit:junit:${junitVersion}",
+            supportAnnotations: "com.android.support:support-annotations:${androidSupportVersion}",
+            supportTestRunner : 'androidx.test.ext:junit:1.1.1',
+            supportTestRules  : "com.android.support.test:rules:${supportTestVersion}",
+            espresso          : 'androidx.test.espresso:espresso-core:3.1.0',
+            espressoContrib   : "com.android.support.test.espresso:espresso-contrib:${espressoVersion}",
+            espressoIntents   : "com.android.support.test.espresso:espresso-intents:${espressoVersion}",
+            uiautomator     : "com.android.support.test.uiautomator:uiautomator-v18:${uiAutomatorVersion}",
+            hamcrest          : "org.hamcrest:hamcrest-library:${hamcrestVersion}",
+            mockitoCore       : "org.mockito:mockito-core:${mockitoVersion}",
+            mockitoAndroid    : "org.mockito:mockito-android:${mockitoVersion}",
+            mokitoKotlin      : "com.nhaarman.mockitokotlin2:mockito-kotlin:${mokitoKotlin}",
+            liveDataTestHelper: "android.arch.core:core-testing:${lifecycleVersion}",
+            robolectric       : "org.robolectric:robolectric:${robolectricVersion}"
+    ]
+}

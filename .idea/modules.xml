@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/5BB_P2.iml" filepath="$PROJECT_DIR$/.idea/modules/5BB_P2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/5BB_P2.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/5BB_P2.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/5BB_P2.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/5BB_P2.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/5BB_P2.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/5BB_P2.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/5BB_P2.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/5BB_P2.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mmtext/5BB_P2.mmtext.iml" filepath="$PROJECT_DIR$/.idea/modules/mmtext/5BB_P2.mmtext.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mmtext/5BB_P2.mmtext.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/mmtext/5BB_P2.mmtext.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mmtext/5BB_P2.mmtext.main.iml" filepath="$PROJECT_DIR$/.idea/modules/mmtext/5BB_P2.mmtext.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mmtext/5BB_P2.mmtext.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/mmtext/5BB_P2.mmtext.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/5BB_P2.shared.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/5BB_P2.shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/5BB_P2.shared.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/5BB_P2.shared.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/5BB_P2.shared.main.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/5BB_P2.shared.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/5BB_P2.shared.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/5BB_P2.shared.unitTest.iml" />
+    </modules>
+  </component>
+</project>

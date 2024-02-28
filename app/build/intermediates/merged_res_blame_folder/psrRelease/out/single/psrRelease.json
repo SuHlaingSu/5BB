@@ -1,0 +1,986 @@
+[
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_skippable_notice.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/skippable_notice.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_msp.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/msp.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_lte_cover_3.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/lte_cover_3.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ftth_cover_5.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ftth_cover_5.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_recharged_history.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_recharged_history.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_keyboard_arrow_right_24dp.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_keyboard_arrow_right_24dp.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_recharge_choose_bank.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/recharge_choose_bank.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_border_icon_spinner.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_border_icon_spinner.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_holder_activity_log.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_holder_activity_log.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_promo_noti.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_promo_noti.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xhdpi_bg_fill_blue.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xhdpi/bg_fill_blue.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_login.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_login.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-mdpi_ic_edit.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-mdpi/ic_edit.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_transaction_noti_detail.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/transaction_noti_detail.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_promo_noti_detail.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/promo_noti_detail.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_wavemoney.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/wavemoney.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_citizens_pay.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/citizens_pay.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_log_out.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_log_out.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ftth_cover_4.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ftth_cover_4.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_list_item_showroom.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/list_item_showroom.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_icon_fill_white_circle.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_icon_fill_white_circle.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_transcation_50.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_transcation_50.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-v24_bg_adv.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-v24/bg_adv.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_info_noti.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_info_noti.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_outlined_button.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_outlined_button.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ripple_accent.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ripple_accent.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_location.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_location.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-anydpi_ic_tooltips.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-anydpi/ic_tooltips.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_force_update_dialog_left_shape.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/force_update_dialog_left_shape.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_info_noti_48.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_info_noti_48.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_change_password.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_rdo_item.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/rdo_item.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-anydpi_splash.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-anydpi/splash.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_send_email.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_send_email.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_holder_recharged.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_holder_recharged.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_lte_cover_1.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/lte_cover_1.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ftth_cover_3.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ftth_cover_3.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/mipmap-hdpi_ic_launcher_fivebb.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/mipmap-hdpi/ic_launcher_fivebb.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_edit_pencil.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_edit_pencil.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_force_update_dialog_right_shape.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/force_update_dialog_right_shape.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-mdpi_ic_new_64.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-mdpi/ic_new_64.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/mipmap-mdpi_icon_hook_green_128.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/mipmap-mdpi/icon_hook_green_128.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ripple_white.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ripple_white.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_create_ticket.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_create_ticket.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_exo_playback_control_view.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/exo_playback_control_view.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/mipmap-hdpi_ic_launcher_round_fivebb.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/mipmap-hdpi/ic_launcher_round_fivebb.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_speedometer.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/speedometer.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_switch_language_change.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/switch_language_change.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_file.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_file.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_fivebb.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/mipmap-xxxhdpi/ic_launcher_fivebb.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_valid_24.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/valid_24.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_plan_change.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_plan_change.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_dialog_force_update.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/dialog_force_update.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_kbz_pay.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/kbz_pay.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_lte_cover_4.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/lte_cover_4.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_bg_image_secret_question_answer.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/bg_image_secret_question_answer.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_fill_light_yellow.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_fill_light_yellow.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_business_activity_profile.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/business_activity_profile.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_viewpod_px_plan_change.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/viewpod_px_plan_change.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_secret_question.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_secret_question.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_valid.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/valid.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_relocation.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/relocation.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_contact.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_contact.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_skippable_notice.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_skippable_notice.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_speed_24.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/speed_24.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_viewpod_navigations.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/viewpod_navigations.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_promo_noti_48.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_promo_noti_48.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-anydpi_latest.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-anydpi/latest.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_pencil.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_pencil.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_icon_new.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/icon_new.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-v24_ic_bell.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-v24/ic_bell.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_pod_prepaid_next_plan.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_pod_prepaid_next_plan.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_login.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_check.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_check.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_acitivty_log_title.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_acitivty_log_title.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/mipmap-mdpi_ic_launcher_fivebb.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/mipmap-mdpi/ic_launcher_fivebb.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_bg_main_image.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/bg_main_image.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_white_switch.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_white_switch.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_promo_48.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_promo_48.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout-v26_email_otp.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout-v26/email_otp.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_wpay.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_wpay.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_viewpod_latest_recharged.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/viewpod_latest_recharged.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_pod_account_detail_item.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_pod_account_detail_item.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_main_2.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_main_2.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_eye.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_eye.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_switch_thumb_en.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/switch_thumb_en.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_plan_type_border_primary.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/plan_type_border_primary.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-v24_ic_recycle_bin_24.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-v24/ic_recycle_bin_24.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_dialog_fragment_skippable_notice.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/dialog_fragment_skippable_notice.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_video_full_screen.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_video_full_screen.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_px_choose_bank.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/px_choose_bank.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_fill_primary_round.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_fill_primary_round.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_round_border_button.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_round_border_button.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_primary_border.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_primary_border.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_validation.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/validation.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_item_recharge.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/item_recharge.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_account_detail.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_account_detail.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_account_detail.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_account_detail.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_main.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_main.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_icon_hot.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/icon_hot.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xhdpi_bg_gray_outlined.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xhdpi/bg_gray_outlined.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_youtube.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_youtube.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-mdpi_ic_recharge.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-mdpi/ic_recharge.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_recycle_bin_48.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_recycle_bin_48.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.fivebb.selfcare.app-psr-43:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_fullscreen_exit_white_32dp.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_fullscreen_exit_white_32dp.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_lte_cover_2.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/lte_cover_2.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xhdpi_ic_tooltips.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xhdpi/ic_tooltips.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_logs.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_logs.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_keyboard_arrow_left_black_48dp.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_keyboard_arrow_left_black_48dp.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_relocaiton.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_relocaiton.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_cb_bank.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/cb_bank.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_kbz.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/kbz.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_view_file.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_view_file.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout-v26_add_aya_pay_phno.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout-v26/add_aya_pay_phno.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_add_email_new.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/add_email_new.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_change_password.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_change_password.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_lte_activity_profile.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/lte_activity_profile.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_contained_button.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_contained_button.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_fragment_choose_date_range.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/fragment_choose_date_range.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_bg_plan_change.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/bg_plan_change.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_holder_notification_small.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_holder_notification_small.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_secret_question.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_secret_question.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_email.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_email.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_transcation_48.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_transcation_48.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_holder_outstanding_invoice.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_holder_outstanding_invoice.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_info_48.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_info_48.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bs_bg_white_switch.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bs_bg_white_switch.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-anydpi_ad2.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-anydpi/ad2.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-mdpi_ic_tooltips.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-mdpi/ic_tooltips.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_help.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/help.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_bs_activity_main.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/bs_activity_main.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_img_splash_screen.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/img_splash_screen.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_icon_promo.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/icon_promo.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_holder_plan_attribute.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_holder_plan_attribute.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_account_detail_2.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_account_detail_2.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_filter.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_filter.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/mipmap-mdpi_ic_launcher_round_fivebb.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/mipmap-mdpi/ic_launcher_round_fivebb.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_relocation_region.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_relocation_region.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_account_circle_white_48dp.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_account_circle_white_48dp.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_skip.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_skip.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_callback_result.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_callback_result.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_aty_px_topup.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/aty_px_topup.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_onepay.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/onepay.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_operation_time.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_operation_time.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_transaction_noti_48.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_transaction_noti_48.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_app_cover_pop_design.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/app_cover_pop_design.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_bg_main_image_2.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/bg_main_image_2.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_fivebb_main_bg.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/fivebb_main_bg.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_aya_pay_logo.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/aya_pay_logo.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_fill_circle_red_24.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_fill_circle_red_24.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_px_plan_price_list_item.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/px_plan_price_list_item.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_custom_splash.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/custom_splash.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_phone_black_32.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_phone_black_32.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_main.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_img_email_verify.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/img_email_verify.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_bg_login_image.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/bg_login_image.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_aty_choose_adv_month_scroll.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/aty_choose_adv_month_scroll.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_aya_bank.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/aya_bank.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/mipmap-xhdpi_ic_launcher_round_fivebb.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/mipmap-xhdpi/ic_launcher_round_fivebb.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_fivebb_logo.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/fivebb_logo.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-hdpi_ic_tooltips.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-hdpi/ic_tooltips.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_fivebb.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/mipmap-xxhdpi/ic_launcher_fivebb.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bs_bg_main_2.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bs_bg_main_2.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-v24_icons8recycle_bin_32.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-v24/icons8recycle_bin_32.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxhdpi_ic_tooltips.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxhdpi/ic_tooltips.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_pod_usage_summary.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_pod_usage_summary.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_help.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_help.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_switch_thumb_mm.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/switch_thumb_mm.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_pod_quota_usage.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_pod_quota_usage.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-v24_ic_bin_swipe.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-v24/ic_bin_swipe.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-v24_ic_recycle_bin_32.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-v24/ic_recycle_bin_32.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_white_fill_round.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_white_fill_round.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_filter_list_black_24dp.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_filter_list_black_24dp.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-v24_ic_purse_48.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-v24/ic_purse_48.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_aty_choose_adv_month.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/aty_choose_adv_month.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/mipmap-xxhdpi_ic_launcher_round_fivebb.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/mipmap-xxhdpi/ic_launcher_round_fivebb.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_dialog_ads.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/dialog_ads.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_splash.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_payment_history.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_payment_history.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_holder_plan_type.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_holder_plan_type.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_us.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/us.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_fragment_ads_slider.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/fragment_ads_slider.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_ic_hot.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/ic_hot.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bg_border_divider.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bg_border_divider.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_viewpod_latest_payment.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/viewpod_latest_payment.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_show_list_email.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/show_list_email.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_px_plan_change.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_px_plan_change.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_baseline_delete_outline_24.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_baseline_delete_outline_24.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_kbz_bank.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/kbz_bank.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ftth_cover_1.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ftth_cover_1.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/mipmap-xhdpi_ic_launcher_fivebb.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/mipmap-xhdpi/ic_launcher_fivebb.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_check_verification.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/check_verification.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_fullscreen_white_24dp.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_fullscreen_white_24dp.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_aty_recharge.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/aty_recharge.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-anydpi_ad.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-anydpi/ad.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-v24_ic_bin.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-v24/ic_bin.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_info_noti_detail.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/info_noti_detail.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_aty_choose_bank.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/aty_choose_bank.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_trash_48.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_trash_48.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_activity_log.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/activity_log.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_notification.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_notification.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_holder_payment.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_holder_payment.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-v24_ic_pay.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-v24/ic_pay.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-v24_ic_card.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-v24/ic_card.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_ticket.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/ticket.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_aty_choose_adv_month_2.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/aty_choose_adv_month_2.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_calendar.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/calendar.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_main_2.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_main_2.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_plan_type_fill_primary.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/plan_type_fill_primary.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_payment_history.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_payment_history.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_viewpod_outstanding_invoice.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/viewpod_outstanding_invoice.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_primary_button.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/primary_button.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_holder_notification.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_holder_notification.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-anydpi_latest_splash.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-anydpi/latest_splash.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_unchecked_border_primary.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_unchecked_border_primary.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_close_black_24dp.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_close_black_24dp.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_aya.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/aya.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_cb_pay.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/cb_pay.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_ic_arrow_down_black.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/ic_arrow_down_black.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_aty_adv_msg.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/aty_adv_msg.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_lte_cover_5.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/lte_cover_5.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_plus.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_plus.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_viewpod_plan_change.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/viewpod_plan_change.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_facebook.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_facebook.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_transaction_noti.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_transaction_noti.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_latest_payment_aty_download.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/latest_payment_aty_download.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_myanmar.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/myanmar.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/mipmap-xxxhdpi_ic_launcher_round_fivebb.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/mipmap-xxxhdpi/ic_launcher_round_fivebb.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_splash_design.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/splash_design.jpg"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-v24_ic_adv_pay.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-v24/ic_adv_pay.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_viewpod_wallet.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/viewpod_wallet.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_pod_prepaid.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_pod_prepaid.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_item_add_email.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/item_add_email.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable-xxxhdpi_notifications.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable-xxxhdpi/notifications.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_invoice_payment.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_invoice_payment.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_plus_add.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_plus_add.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_activity_profile.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_aty_download.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/aty_download.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout-v26_view_holder_plan_type.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout-v26/view_holder_plan_type.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ic_transcation_noti.png.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ic_transcation_noti.png"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_primary_fill_circle_24dp.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/primary_fill_circle_24dp.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_bs_bg_main.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/bs_bg_main.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/layout_view_holder_bank.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/layout/view_holder_bank.xml"
+    },
+    {
+        "merged": "com.fivebb.selfcare.app-merged_res-48:/drawable_ftth_cover_2.jpg.flat",
+        "source": "com.fivebb.selfcare.app-main-49:/drawable/ftth_cover_2.jpg"
+    }
+]
