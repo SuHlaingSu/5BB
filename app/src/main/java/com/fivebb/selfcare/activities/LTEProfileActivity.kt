@@ -66,7 +66,7 @@ class LTEProfileActivity : BaseActivity(), ProfileView {
             btnAdvPay.visibility = View.GONE
         }
         else{
-            btnAdvPay.visibility = View.VISIBLE
+            btnAdvPay.visibility = View.GONE
         }
 
         if(SharedPreferenceUtils.getIsSufficient(applicationContext).equals(true)){

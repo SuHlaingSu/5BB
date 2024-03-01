@@ -1,2 +1,0 @@
-#- File Locator -
-listingFile=../../../../../../../5BB_P2/app/psr/release/output-metadata.json

@@ -4,7 +4,7 @@
             "outputFile": "com.fivebb.selfcare.app-mergeDevDebugResources-47:/values-mdpi-v4/values-mdpi-v4.xml",
             "map": [
                 {
-                    "source": "D:\\SH\\5BB\\5BB_P2_06_04_2023\\5BB_P2\\app\\src\\main\\res\\values-mdpi\\dimens.xml",
+                    "source": "D:\\SH\\5BB\\5BB_P2_06_04_2023\\5BB\\app\\src\\main\\res\\values-mdpi\\dimens.xml",
                     "from": {
                         "startLines": "19,10,9,15,17,4,7,3,6,13,21,26,30,41,39,32,44,27,29,42,31,43,40,28,25,38,33,45,24,34,35,36,60,12,59,58,55,56,57,52,53,54,49,50,51,48,47",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

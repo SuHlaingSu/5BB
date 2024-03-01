@@ -6,34 +6,34 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml
+8-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml
+9-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:5:5-67
-11-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:5:22-64
+11-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:6:5-7:40
-12-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:6:22-78
+12-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:6:5-7:40
+12-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:6:22-78
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:8:5-80
-13-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:8:22-77
+13-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:8:5-80
+13-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:8:22-77
 14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:9:5-79
-14-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:9:22-76
+14-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:9:5-79
+14-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:9:22-76
 15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-15-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:10:5-81
-15-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:10:22-79
+15-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:10:5-81
+15-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:10:22-79
 16    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
-16-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:11:5-93
-16-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:11:22-91
+16-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:11:5-93
+16-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:11:22-91
 17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-17-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:12:5-76
-17-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:12:22-74
+17-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:12:5-76
+17-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:12:22-74
 18    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-18-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:13:5-78
-18-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:13:22-76
+18-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:13:5-78
+18-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:13:22-76
 19    <uses-permission android:name="com.kbzbank.kpaycustomer.permission.inapp_payment" />
 19-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:11:5-89
 19-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:11:22-86
@@ -56,8 +56,8 @@
 29    </queries>
 30
 31    <uses-permission android:name="android.permission.CALL_PHONE" />
-31-->[:shared] D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-69
-31-->[:shared] D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-66
+31-->[:shared] D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-69
+31-->[:shared] D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-66
 32    <uses-permission android:name="android.permission.WAKE_LOCK" />
 32-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:26:5-68
 32-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:26:22-65
@@ -74,439 +74,439 @@
 38-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
 39
 40    <application
-40-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:15:5-241:19
+40-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:15:5-241:19
 41        android:name="com.fivebb.selfcare.FiveBBApp"
-41-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:16:13-38
+41-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:16:13-38
 42        android:allowBackup="true"
-42-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:17:13-39
+42-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:17:13-39
 43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 43-->[androidx.core:core:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\f23b9169dd2687684e2543113831d41f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 44        android:debuggable="true"
 45        android:icon="@mipmap/ic_launcher_fivebb"
-45-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:18:13-54
+45-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:18:13-54
 46        android:label="@string/app_name"
-46-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:19:13-45
+46-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:19:13-45
 47        android:roundIcon="@mipmap/ic_launcher_round_fivebb"
-47-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:20:13-65
+47-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:20:13-65
 48        android:supportsRtl="true"
-48-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:21:13-39
+48-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:21:13-39
 49        android:testOnly="true"
 50        android:theme="@style/AppTheme.NoActionBar"
-50-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:22:13-56
+50-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:22:13-56
 51        android:usesCleartextTraffic="true" >
-51-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:23:13-48
+51-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:23:13-48
 52        <service
-52-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:26:9-32:19
+52-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:26:9-32:19
 53            android:name="com.fivebb.selfcare.firebase.FCMService"
-53-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:27:17-52
+53-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:27:17-52
 54            android:exported="false" >
-54-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:28:17-41
+54-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:28:17-41
 55            <intent-filter>
-55-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:29:13-31:29
+55-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:29:13-31:29
 56                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-56-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:30:17-78
-56-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:30:25-75
+56-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:30:17-78
+56-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:30:25-75
 57            </intent-filter>
 58        </service>
 59
 60        <meta-data
-60-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:34:9-107
+60-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:34:9-107
 61            android:name="com.facebook.sdk.ApplicationId"
-61-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:34:20-65
+61-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:34:20-65
 62            android:value="@string/facebook_app_id" />
-62-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:34:66-105
+62-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:34:66-105
 63        <meta-data
-63-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:36:9-38:40
+63-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:36:9-38:40
 64            android:name="com.facebook.sdk.CodelessDebugLogEnabled"
-64-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:37:17-72
+64-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:37:17-72
 65            android:value="true" />
-65-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:38:17-37
+65-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:38:17-37
 66        <meta-data
-66-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:40:9-42:53
+66-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:40:9-42:53
 67            android:name="com.google.firebase.messaging.default_notification_icon"
-67-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:41:17-87
+67-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:41:17-87
 68            android:resource="@drawable/logo" />
-68-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:42:17-50
+68-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:42:17-50
 69        <meta-data
-69-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:43:9-45:58
+69-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:43:9-45:58
 70            android:name="com.google.firebase.messaging.default_notification_color"
-70-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:44:17-88
+70-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:44:17-88
 71            android:resource="@color/colorPrimary" />
-71-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:45:17-55
+71-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:45:17-55
 72
 73        <activity
-73-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:47:9-49:56
+73-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:47:9-49:56
 74            android:name="com.fivebb.selfcare.activities.SkippableNoticeActivity"
-74-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:48:17-67
+74-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:48:17-67
 75            android:screenOrientation="portrait" />
-75-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:49:17-53
+75-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:49:17-53
 76        <activity android:name="com.fivebb.selfcare.activities.prepaid.PXPaymentBankActivity" />
-76-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:50:9-77
-76-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:50:19-75
+76-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:50:9-77
+76-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:50:19-75
 77        <activity
-77-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:52:9-54:56
+77-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:52:9-54:56
 78            android:name="com.fivebb.selfcare.activities.DownloadPDFActivity"
-78-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:53:17-63
+78-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:53:17-63
 79            android:screenOrientation="portrait" />
-79-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:54:17-53
+79-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:54:17-53
 80        <activity
-80-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:56:9-58:56
+80-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:56:9-58:56
 81            android:name="com.fivebb.selfcare.activities.SendEmailActivity"
-81-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:57:17-61
+81-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:57:17-61
 82            android:screenOrientation="portrait" />
-82-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:58:17-53
+82-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:58:17-53
 83        <activity
-83-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:60:9-62:56
+83-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:60:9-62:56
 84            android:name="com.fivebb.selfcare.activities.recharge.RechargeActivity"
-84-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:61:17-69
+84-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:61:17-69
 85            android:screenOrientation="portrait" />
-85-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:62:17-53
+85-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:62:17-53
 86        <activity
-86-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:64:9-66:56
+86-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:64:9-66:56
 87            android:name="com.fivebb.selfcare.activities.prepaid.PXTopUpActivity"
-87-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:65:17-67
+87-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:65:17-67
 88            android:screenOrientation="portrait" />
-88-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:66:17-53
+88-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:66:17-53
 89        <activity
-89-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:68:9-70:56
+89-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:68:9-70:56
 90            android:name="com.fivebb.selfcare.activities.LatestPaymentDownloadPDFActivity"
-90-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:69:17-76
+90-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:69:17-76
 91            android:screenOrientation="portrait" />
-91-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:70:17-53
+91-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:70:17-53
 92        <activity
-92-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:72:9-85:20
+92-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:72:9-85:20
 93            android:name="com.fivebb.selfcare.activities.recharge.RechargeTopUpActivity"
-93-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:73:17-74
+93-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:73:17-74
 94            android:exported="true"
-94-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:75:13-36
+94-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:75:13-36
 95            android:screenOrientation="portrait" >
-95-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:74:13-49
+95-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:74:13-49
 96            <intent-filter android:autoVerify="true" >
-96-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:76:13-84:29
-96-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:76:28-53
+96-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:13-84:29
+96-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:28-53
 97                <action android:name="android.intent.action.VIEW" />
-97-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:17-69
-97-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:25-66
+97-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+97-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
 98
 99                <category android:name="android.intent.category.DEFAULT" />
-99-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:17-76
-99-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:27-73
+99-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+99-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
 100                <category android:name="android.intent.category.BROWSABLE" />
-100-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:17-78
-100-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:27-75
+100-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+100-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
 101
 102                <data
-102-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:81:17-83:47
+102-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
 103                    android:host="mlink/screen=dynamicconfirm?requestedid="
-103-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:82:21-76
+103-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
 104                    android:scheme="ayapay" /> <!-- ayapay://mLink/screen=DynamicConfirm?requestedId=64cb456d953889338231db49" -->
-104-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:83:21-44
+104-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
 105            </intent-filter>
 106        </activity>
 107        <activity
-107-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:88:9-107:20
+107-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:88:9-107:20
 108            android:name="com.fivebb.selfcare.activities.SplashActivity"
-108-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:89:17-58
+108-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:89:17-58
 109            android:exported="true"
-109-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:91:17-40
+109-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:91:17-40
 110            android:screenOrientation="portrait" >
-110-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:90:17-53
+110-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:90:17-53
 111            <intent-filter>
-111-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:92:13-101:29
+111-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:92:13-101:29
 112                <action android:name="android.intent.action.VIEW" />
-112-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:17-69
-112-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:25-66
+112-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+112-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
 113
 114                <category android:name="android.intent.category.DEFAULT" />
-114-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:17-76
-114-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:27-73
+114-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+114-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
 115                <category android:name="android.intent.category.BROWSABLE" />
-115-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:17-78
-115-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:27-75
+115-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+115-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
 116
 117                <data
-117-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:81:17-83:47
+117-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
 118                    android:host="@string/host_name"
-118-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:82:21-76
+118-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
 119                    android:scheme="https" />
-119-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:83:21-44
+119-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
 120            </intent-filter>
 121            <intent-filter>
-121-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:102:13-106:29
+121-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:102:13-106:29
 122                <action android:name="android.intent.action.MAIN" />
-122-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:103:17-69
-122-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:103:25-66
+122-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:103:17-69
+122-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:103:25-66
 123
 124                <category android:name="android.intent.category.LAUNCHER" />
-124-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:105:17-77
-124-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:105:27-74
+124-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:105:17-77
+124-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:105:27-74
 125            </intent-filter>
 126        </activity>
 127        <activity
-127-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:109:9-110:34
+127-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:109:9-110:34
 128            android:name="com.kbzbank.payment.sdk.callback.CallbackResultActivity"
-128-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:109:19-89
+128-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:109:19-89
 129            android:exported="true" />
-129-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:110:9-32
+129-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:110:9-32
 130        <activity
-130-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:112:9-114:56
+130-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:112:9-114:56
 131            android:name="com.fivebb.selfcare.activities.LoginActivity"
-131-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:113:17-57
+131-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:113:17-57
 132            android:screenOrientation="portrait" />
-132-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:114:17-53
+132-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:114:17-53
 133        <activity
-133-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:115:9-117:56
+133-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:115:9-117:56
 134            android:name="com.fivebb.selfcare.activities.HomeActivity"
-134-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:116:17-56
+134-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:116:17-56
 135            android:screenOrientation="portrait" />
-135-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:117:17-53
+135-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:117:17-53
 136        <activity
-136-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:118:9-120:56
+136-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:118:9-120:56
 137            android:name="com.fivebb.selfcare.activities.PlanChangeActivity"
-137-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:119:17-62
+137-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:119:17-62
 138            android:screenOrientation="portrait" />
-138-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:120:17-53
+138-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:120:17-53
 139        <activity
-139-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:121:9-123:56
+139-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:121:9-123:56
 140            android:name="com.fivebb.selfcare.activities.prepaid.PXPlanChangeActivity"
-140-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:122:17-72
+140-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:122:17-72
 141            android:screenOrientation="portrait" />
-141-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:123:17-53
+141-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:123:17-53
 142        <activity
-142-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:124:9-126:56
+142-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:124:9-126:56
 143            android:name="com.fivebb.selfcare.activities.ActivityLogsActivity"
-143-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:125:17-64
+143-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:125:17-64
 144            android:screenOrientation="portrait" />
-144-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:126:17-53
+144-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:126:17-53
 145        <activity
-145-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:127:9-134:20
+145-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:127:9-134:20
 146            android:name="com.fivebb.selfcare.activities.RelocationActivity"
-146-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:128:17-62
+146-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:128:17-62
 147            android:exported="true"
-147-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:130:17-40
+147-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:130:17-40
 148            android:screenOrientation="portrait" >
-148-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:129:17-53
+148-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:129:17-53
 149            <intent-filter>
-149-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:131:13-133:29
+149-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:131:13-133:29
 150                <action android:name="android.intent.action.SEND" />
-150-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:132:17-69
-150-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:132:25-66
+150-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:132:17-69
+150-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:132:25-66
 151            </intent-filter>
 152        </activity>
 153        <activity
-153-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:135:9-137:56
+153-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:135:9-137:56
 154            android:name="com.fivebb.selfcare.activities.CheckVerificationActivity"
-154-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:136:17-69
+154-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:136:17-69
 155            android:screenOrientation="portrait" />
-155-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:137:17-53
+155-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:137:17-53
 156        <activity
-156-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:138:9-140:56
+156-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:138:9-140:56
 157            android:name="com.fivebb.selfcare.activities.NotificationActivity"
-157-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:139:17-64
+157-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:139:17-64
 158            android:screenOrientation="portrait" />
-158-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:140:17-53
+158-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:140:17-53
 159        <activity
-159-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:141:9-143:56
+159-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:141:9-143:56
 160            android:name="com.fivebb.selfcare.activities.InfoNotiDetailActivity"
-160-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:142:17-66
+160-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:142:17-66
 161            android:screenOrientation="portrait" />
-161-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:143:17-53
+161-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:143:17-53
 162        <activity
-162-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:144:9-146:56
+162-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:144:9-146:56
 163            android:name="com.fivebb.selfcare.activities.TransNotiDetailActivity"
-163-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:145:17-67
+163-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:145:17-67
 164            android:screenOrientation="portrait" />
-164-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:146:17-53
+164-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:146:17-53
 165        <activity
-165-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:147:9-149:56
+165-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:147:9-149:56
 166            android:name="com.fivebb.selfcare.activities.PromoNotiDetailActivity"
-166-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:148:17-67
+166-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:148:17-67
 167            android:screenOrientation="portrait" />
-167-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:149:17-53
+167-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:149:17-53
 168        <activity
-168-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:150:9-152:56
+168-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:150:9-152:56
 169            android:name="com.fivebb.selfcare.activities.CreateTicketActivity"
-169-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:151:17-64
+169-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:151:17-64
 170            android:screenOrientation="portrait" />
-170-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:152:17-53
+170-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:152:17-53
 171        <activity
-171-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:153:9-155:56
+171-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:153:9-155:56
 172            android:name="com.fivebb.selfcare.activities.ProfileActivity"
-172-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:154:17-59
+172-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:154:17-59
 173            android:screenOrientation="portrait" />
-173-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:155:17-53
+173-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:155:17-53
 174        <activity
-174-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:156:9-158:56
+174-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:156:9-158:56
 175            android:name="com.fivebb.selfcare.activities.LTEProfileActivity"
-175-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:157:17-62
+175-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:157:17-62
 176            android:screenOrientation="portrait" />
-176-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:158:17-53
+176-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:158:17-53
 177        <activity
-177-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:159:9-172:20
+177-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:159:9-172:20
 178            android:name="com.fivebb.selfcare.activities.ChooseAdvMonthActivity"
-178-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:160:17-66
+178-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:160:17-66
 179            android:exported="true"
-179-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:162:13-36
+179-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:162:13-36
 180            android:screenOrientation="portrait" >
-180-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:161:13-49
+180-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:161:13-49
 181            <intent-filter android:autoVerify="true" >
-181-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:76:13-84:29
-181-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:76:28-53
+181-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:13-84:29
+181-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:28-53
 182                <action android:name="android.intent.action.VIEW" />
-182-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:17-69
-182-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:25-66
+182-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+182-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
 183
 184                <category android:name="android.intent.category.DEFAULT" />
-184-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:17-76
-184-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:27-73
+184-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+184-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
 185                <category android:name="android.intent.category.BROWSABLE" />
-185-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:17-78
-185-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:27-75
+185-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+185-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
 186
 187                <data
-187-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:81:17-83:47
+187-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
 188                    android:host="mlink/screen=dynamicconfirm?requestedid="
-188-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:82:21-76
+188-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
 189                    android:scheme="ayapay" /> <!-- ayapay://mLink/screen=DynamicConfirm?requestedId=64cb456d953889338231db49" -->
-189-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:83:21-44
+189-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
 190            </intent-filter>
 191        </activity>
 192        <activity
-192-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:174:9-187:20
+192-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:174:9-187:20
 193            android:name="com.fivebb.selfcare.activities.ChooseBankActivity"
-193-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:175:17-62
+193-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:175:17-62
 194            android:exported="true"
-194-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:177:13-36
+194-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:177:13-36
 195            android:screenOrientation="portrait" >
-195-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:176:13-49
+195-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:176:13-49
 196            <intent-filter android:autoVerify="true" >
-196-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:76:13-84:29
-196-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:76:28-53
+196-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:13-84:29
+196-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:28-53
 197                <action android:name="android.intent.action.VIEW" />
-197-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:17-69
-197-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:25-66
+197-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+197-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
 198
 199                <category android:name="android.intent.category.DEFAULT" />
-199-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:17-76
-199-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:27-73
+199-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+199-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
 200                <category android:name="android.intent.category.BROWSABLE" />
-200-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:17-78
-200-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:27-75
+200-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+200-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
 201
 202                <data
-202-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:81:17-83:47
+202-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
 203                    android:host="mlink/screen=dynamicconfirm?requestedid="
-203-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:82:21-76
+203-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
 204                    android:scheme="ayapay" /> <!-- ayapay://mLink/screen=DynamicConfirm?requestedId=64cb456d953889338231db49" -->
-204-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:83:21-44
+204-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
 205            </intent-filter>
 206        </activity>
 207        <activity
-207-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:188:9-190:56
+207-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:188:9-190:56
 208            android:name="com.fivebb.selfcare.activities.AddNewEmailAty"
-208-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:189:17-58
+208-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:189:17-58
 209            android:screenOrientation="portrait" />
-209-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:190:17-53
+209-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:190:17-53
 210        <activity
-210-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:191:9-193:56
+210-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:191:9-193:56
 211            android:name="com.fivebb.selfcare.activities.AccountDetailActivity"
-211-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:192:17-65
+211-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:192:17-65
 212            android:screenOrientation="portrait" />
-212-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:193:17-53
+212-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:193:17-53
 213        <activity
-213-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:194:9-207:20
+213-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:194:9-207:20
 214            android:name="com.fivebb.selfcare.activities.InvoicePaymentActivity"
-214-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:195:17-66
+214-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:195:17-66
 215            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
-215-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:196:13-122
+215-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:196:13-122
 216            android:exported="true" >
-216-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:197:13-36
+216-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:197:13-36
 217            <intent-filter android:autoVerify="true" >
-217-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:76:13-84:29
-217-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:76:28-53
+217-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:13-84:29
+217-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:28-53
 218                <action android:name="android.intent.action.VIEW" />
-218-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:17-69
-218-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:25-66
+218-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+218-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
 219
 220                <category android:name="android.intent.category.DEFAULT" />
-220-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:17-76
-220-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:27-73
+220-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+220-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
 221                <category android:name="android.intent.category.BROWSABLE" />
-221-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:17-78
-221-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:27-75
+221-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+221-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
 222
 223                <data
-223-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:81:17-83:47
+223-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
 224                    android:host="mlink/screen=dynamicconfirm?requestedid="
-224-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:82:21-76
+224-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
 225                    android:scheme="ayapay" /> <!-- ayapay://mLink/screen=DynamicConfirm?requestedId=64cb456d953889338231db49" -->
-225-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:83:21-44
+225-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
 226            </intent-filter>
 227        </activity>
 228        <activity
-228-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:208:9-210:56
+228-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:208:9-210:56
 229            android:name="com.fivebb.selfcare.activities.ChangePasswordActivity"
-229-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:209:17-66
+229-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:209:17-66
 230            android:screenOrientation="portrait" />
-230-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:210:17-53
+230-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:210:17-53
 231        <activity
-231-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:211:9-213:56
+231-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:211:9-213:56
 232            android:name="com.fivebb.selfcare.activities.PaymentHistoryActivity"
-232-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:212:17-66
+232-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:212:17-66
 233            android:screenOrientation="portrait" />
-233-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:213:17-53
+233-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:213:17-53
 234        <activity
-234-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:214:9-216:56
+234-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:214:9-216:56
 235            android:name="com.fivebb.selfcare.activities.recharge.RechargedHistoryActivity"
-235-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:215:17-77
+235-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:215:17-77
 236            android:screenOrientation="portrait" />
-236-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:216:17-53
+236-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:216:17-53
 237        <activity
-237-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:217:9-221:56
+237-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:217:9-221:56
 238            android:name="com.fivebb.selfcare.activities.HelpActivity"
-238-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:218:17-56
+238-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:218:17-56
 239            android:configChanges="orientation"
-239-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:219:17-52
+239-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:219:17-52
 240            android:hardwareAccelerated="true"
-240-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:220:17-51
+240-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:220:17-51
 241            android:screenOrientation="portrait" />
-241-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:221:17-53
+241-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:221:17-53
 242        <activity
-242-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:222:9-224:57
+242-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:222:9-224:57
 243            android:name="com.fivebb.selfcare.activities.VideoFullScreenActivity"
-243-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:223:17-67
+243-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:223:17-67
 244            android:screenOrientation="landscape" />
-244-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:224:17-54
+244-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:224:17-54
 245        <activity
-245-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:225:9-227:56
+245-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:225:9-227:56
 246            android:name="com.fivebb.selfcare.activities.SecretQuestionActivity"
-246-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:226:17-66
+246-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:226:17-66
 247            android:screenOrientation="portrait" />
-247-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:227:17-53
+247-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:227:17-53
 248        <activity
-248-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:229:9-231:56
+248-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:229:9-231:56
 249            android:name="com.fivebb.selfcare.activities.VerifyEmailAty"
-249-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:230:17-58
+249-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:230:17-58
 250            android:screenOrientation="portrait" />
-250-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:231:17-53
+250-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:231:17-53
 251
 252        <meta-data
-252-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:232:9-234:41
+252-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:232:9-234:41
 253            android:name="firebase_crashlytics_collection_enabled"
-253-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:233:17-71
+253-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:233:17-71
 254            android:value="false" />
-254-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:234:17-38
+254-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:234:17-38
 255        <!--
 256            <meta-data
 257                android:name="io.fabric.ApiKey"
 258                android:value="ffdd68d264d8ac2a87fbd88d215d46bacf7f46a3" />
 259        -->
 260        <meta-data
-260-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:238:9-240:75
+260-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:238:9-240:75
 261            android:name="com.google.android.geo.API_KEY"
-261-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:239:17-62
+261-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:239:17-62
 262            android:value="AIzaSyAl7fsmjsnq2s5YNJGQDWcDPVUnstzL8RY" />
-262-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:240:17-72
+262-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:240:17-72
 263
 264        <provider
 264-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:23:9-26:40
@@ -565,22 +565,22 @@
 292            <intent-filter>
 292-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\4b8f86d465ef36260e893ff7b136a0d4\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
 293                <action android:name="android.intent.action.VIEW" />
-293-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:17-69
-293-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:25-66
+293-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+293-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
 294
 295                <category android:name="android.intent.category.DEFAULT" />
-295-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:17-76
-295-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:27-73
+295-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+295-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
 296                <category android:name="android.intent.category.BROWSABLE" />
-296-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:17-78
-296-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:27-75
+296-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+296-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
 297
 298                <data
-298-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:81:17-83:47
+298-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
 299                    android:host="cct.com.fivebb.selfcare.dev"
-299-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:82:21-76
+299-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
 300                    android:scheme="fbconnect" />
-300-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:83:21-44
+300-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
 301            </intent-filter>
 302        </activity>
 303        <activity
@@ -598,23 +598,23 @@
 309            <intent-filter>
 309-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
 310                <action android:name="android.intent.action.VIEW" />
-310-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:17-69
-310-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:25-66
+310-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+310-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
 311
 312                <category android:name="android.intent.category.DEFAULT" />
-312-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:17-76
-312-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:27-73
+312-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+312-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
 313                <category android:name="android.intent.category.BROWSABLE" />
-313-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:17-78
-313-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:27-75
+313-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+313-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
 314
 315                <data
-315-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:81:17-83:47
+315-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
 316                    android:host="firebase.auth"
-316-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:82:21-76
+316-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
 317                    android:path="/"
 318                    android:scheme="genericidp" />
-318-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:83:21-44
+318-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
 319            </intent-filter>
 320        </activity>
 321        <activity
@@ -632,23 +632,23 @@
 327            <intent-filter>
 327-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
 328                <action android:name="android.intent.action.VIEW" />
-328-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:17-69
-328-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:77:25-66
+328-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+328-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
 329
 330                <category android:name="android.intent.category.DEFAULT" />
-330-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:17-76
-330-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:79:27-73
+330-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+330-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
 331                <category android:name="android.intent.category.BROWSABLE" />
-331-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:17-78
-331-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:80:27-75
+331-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+331-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
 332
 333                <data
-333-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:81:17-83:47
+333-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
 334                    android:host="firebase.auth"
-334-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:82:21-76
+334-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
 335                    android:path="/"
 336                    android:scheme="recaptcha" />
-336-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:83:21-44
+336-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
 337            </intent-filter>
 338        </activity>
 339
@@ -726,10 +726,10 @@
 379            android:exported="false" >
 379-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
 380            <intent-filter android:priority="-500" >
-380-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:29:13-31:29
+380-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:29:13-31:29
 381                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-381-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:30:17-78
-381-->D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\app\src\main\AndroidManifest.xml:30:25-75
+381-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:30:17-78
+381-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:30:25-75
 382            </intent-filter>
 383        </service>
 384

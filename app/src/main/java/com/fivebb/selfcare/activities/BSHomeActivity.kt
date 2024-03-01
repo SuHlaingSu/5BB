@@ -534,6 +534,10 @@ class BSHomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,Plan
         startActivity(LatestPaymentDownloadPDFActivity.newIntent(applicationContext,invoiceVO.url))
     }
 
+    override fun navigateToAdvPayTopUp() {
+        startActivity(ChooseAdvMonthActivity.newIntent(applicationContext))
+    }
+
     override fun viewClickInvoice(invoiceVO: InvoiceVO) {
         startActivity(DownloadPDFActivity.newIntent(applicationContext,invoiceVO.url))
     }

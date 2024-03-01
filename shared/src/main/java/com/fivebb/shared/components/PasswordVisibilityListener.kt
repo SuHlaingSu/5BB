@@ -17,19 +17,11 @@ class PasswordVisibilityListener : View.OnTouchListener {
         if (event.action == MotionEvent.ACTION_UP) {
             if (event.rawX >= etPassword.right - etPassword.compoundDrawables[DRAWABLE_RIGHT].bounds.width()) {
                 if (isPasswordShown) {
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                        etPassword.setCompoundDrawablesWithIntrinsicBounds(null, null, view.getContext().resources.getDrawable(R.drawable.ic_visibility_off_24dp, view.getContext().theme), null)
-                    } else {
-                        etPassword.setCompoundDrawablesWithIntrinsicBounds(null, null, view.getContext().resources.getDrawable(R.drawable.ic_visibility_off_24dp), null)
-                    }
+                    etPassword.setCompoundDrawablesWithIntrinsicBounds(null, null, view.getContext().resources.getDrawable(R.drawable.ic_visibility_off_24dp, view.getContext().theme), null)
 
                     etPassword.transformationMethod = PasswordTransformationMethod()
                 } else {
-                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                        etPassword.setCompoundDrawablesWithIntrinsicBounds(null, null, view.getContext().resources.getDrawable(R.drawable.ic_visibility_24dp, view.getContext().theme), null)
-                    } else {
-                        etPassword.setCompoundDrawablesWithIntrinsicBounds(null, null, view.getContext().resources.getDrawable(R.drawable.ic_visibility_24dp), null)
-                    }
+                    etPassword.setCompoundDrawablesWithIntrinsicBounds(null, null, view.getContext().resources.getDrawable(R.drawable.ic_visibility_24dp, view.getContext().theme), null)
 
                     etPassword.transformationMethod = null
                 }
@@ -40,7 +32,6 @@ class PasswordVisibilityListener : View.OnTouchListener {
         }
         return false
     }
-
     companion object {
 
         //    private static final int DRAWABLE_LEFT = 0;

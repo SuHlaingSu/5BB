@@ -1405,6 +1405,7 @@ drawable bg_round_border_button
 drawable bg_secret_question
 drawable bg_skip
 drawable bg_white_fill_round
+drawable bg_white_fill_round_2
 drawable bg_white_switch
 drawable bs_bg_main
 drawable bs_bg_main_2
@@ -1947,7 +1948,7 @@ id image
 id imgBack
 id imgDollar
 id imgEmail
-id imgEye
+id imgEyeOpen
 id imgRecycle
 id imgTags
 id imgVerified
@@ -1986,6 +1987,7 @@ id largeLabel
 id lbl
 id lblAccountNo
 id lblActivityLog
+id lblAdvBal
 id lblAdvPay
 id lblAlert
 id lblAmt

@@ -792,6 +792,10 @@
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\ftth_cover_5.jpg"
     },
     {
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable-hdpi_bg_white_fill_round_2.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable-hdpi\\bg_white_fill_round_2.xml"
+    },
+    {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_primary_fill_circle_24dp.xml.flat",
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\primary_fill_circle_24dp.xml"
     },

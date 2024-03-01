@@ -1,33 +1,33 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml:1:1-6:12
-INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml:1:1-6:12
-INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml:1:1-6:12
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml:1:1-6:12
 	package
-		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml:1:1-6:12
-		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml
+		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml:1:1-6:12
+		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml:1:11-69
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.CALL_PHONE
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml:3:5-69
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml:3:5-69
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml:3:22-66
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml:3:22-66
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml:5:5-78
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml:5:5-78
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml:5:22-76
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml:5:22-76
 uses-sdk
-INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml
-INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml
-INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml
-INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml
+INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml
+INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml
+INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml
+INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml
-		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml
+		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml
+		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml
-		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB_P2\shared\src\main\AndroidManifest.xml
+		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml
+		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\src\main\AndroidManifest.xml

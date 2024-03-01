@@ -1,10 +1,13 @@
 package com.fivebb.selfcare.activities
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.os.SystemClock
+import android.text.method.HideReturnsTransformationMethod
+import android.text.method.PasswordTransformationMethod
 import android.util.Log
 import android.view.View
 import androidx.lifecycle.Observer
@@ -31,6 +34,7 @@ import com.fivebb.selfcare.viewpods.*
 import com.fivebb.shared.utils.PersistentUtil
 import com.fivebb.shared.utils.SharedConstants
 import com.fivebb.shared.vos.*
+import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_main.autoScrollViewPager
 import kotlinx.android.synthetic.main.activity_main.btnProfile
 import kotlinx.android.synthetic.main.activity_main.lblOutstandingInvoice
@@ -126,6 +130,8 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
     }
 
     override fun saveAdvPay(paymentVO: AdvancePaymentVO) {
+        txtResult.text= paymentVO.adjustedBalanceVO?.balance + " MMK"
+
         if(paymentVO.adjustedBalanceVO?.balance!="0")
         {
             SharedPreferenceUtils.saveAdvPay(applicationContext,paymentVO.adjustedBalanceVO?.balance.toString() + " MMK")
@@ -249,6 +255,9 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
 
     private lateinit var mServiceType: String
 
+    private var IsOpenEye = false;
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main_2)
@@ -259,7 +268,6 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
 
         initViewPods()
         getIntentExtraData()
-
         setUpPresenter()
         initListeners()
         bindLocalizedData()
@@ -274,15 +282,6 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
         {
             mPresenter.getPXDetails()
         }
-
-        if (SharedPreferenceUtils.getServiceType(applicationContext) == SharedConstants.SERVICE_TYPE_LTE)
-        {
-            btnAdvPay.visibility = View.GONE
-        }
-        else{
-            btnAdvPay.visibility = View.VISIBLE
-        }
-
     }
 
     private fun getIntentExtraData() {
@@ -406,10 +405,27 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
         })
     }
 
+    @SuppressLint("ClickableViewAccessibility")
     private fun initListeners() {
 
         btnProfile.setOnClickListener {
             mPresenter.onTapProfile()
+        }
+
+        btnTopUp.setOnClickListener {
+           navigateToAdvPayTopUp()
+        }
+
+        imgEyeOpen.setOnClickListener {
+           if(IsOpenEye)
+           {
+               imgEyeOpen.setImageResource(R.drawable.ic_visibility_24dp)
+               txtResult.transformationMethod = HideReturnsTransformationMethod.getInstance()
+           }else{
+               imgEyeOpen.setImageResource(R.drawable.ic_visibility_off_24dp)
+               txtResult.transformationMethod = PasswordTransformationMethod.getInstance()
+           }
+            IsOpenEye = !IsOpenEye
         }
 
         switchLanguageChange.isChecked =
@@ -491,6 +507,7 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
             usageSummaryViewPod.visibility = View.VISIBLE
         }
         planChangeViewPod.visibility = View.GONE
+        btnAdvPay.visibility = View.GONE
     }
 
     private fun uiForFTTHCustomer() {
@@ -500,18 +517,21 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
             prepaidViewPod.visibility = View.VISIBLE
             usageSummaryViewPod.visibility = View.GONE
             quotaUsageSummaryViewPod.visibility = View.GONE
+            btnAdvPay.visibility = View.GONE
         }else if (SharedPreferenceUtils.getCategory(this)==SharedConstants.CATEGORY_BUSINESS){
             usageSummaryViewPod.visibility = View.GONE
             quotaUsageSummaryViewPod.visibility = View.GONE
             prepaidViewPod.visibility = View.GONE
             planChangeViewPod.visibility = View.VISIBLE
             px_planChangeViewPod.visibility = View.GONE
+            btnAdvPay.visibility = View.VISIBLE
         }else{
             usageSummaryViewPod.visibility = View.GONE
             quotaUsageSummaryViewPod.visibility = View.GONE
             prepaidViewPod.visibility = View.GONE
             planChangeViewPod.visibility = View.VISIBLE
             px_planChangeViewPod.visibility = View.GONE
+            btnAdvPay.visibility = View.VISIBLE
         }
     }
 
@@ -522,13 +542,14 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
     }
 
     override fun navigateToProfileActivity() {
-        if (SharedPreferenceUtils.getServiceType(applicationContext)== SharedConstants.SERVICE_TYPE_LTE || SharedPreferenceUtils.getCategory(applicationContext)== SharedConstants.CATEGORY_PREPAID ) //|| SharedPreferenceUtils.getCategory(this) == SharedConstants.CATEGORY_BUSINESS
+        startActivity(LTEProfileActivity.newIntent(applicationContext))
+        /*if (SharedPreferenceUtils.getServiceType(applicationContext)== SharedConstants.SERVICE_TYPE_LTE || SharedPreferenceUtils.getCategory(applicationContext)== SharedConstants.CATEGORY_PREPAID ) //|| SharedPreferenceUtils.getCategory(this) == SharedConstants.CATEGORY_BUSINESS
         {
             startActivity(LTEProfileActivity.newIntent(applicationContext))
         }
         else{
             startActivity(ProfileActivity.newIntent(applicationContext))
-        }
+        }*/
     }
 
     override fun showForceUpdateDialog(isForceUpdate: Boolean, versionName: String) {
@@ -541,6 +562,10 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
 
     override fun afterClickDownload(invoiceVO: InvoiceVO) {
         startActivity(LatestPaymentDownloadPDFActivity.newIntent(applicationContext,invoiceVO.url))
+    }
+
+    override fun navigateToAdvPayTopUp() {
+        startActivity(ChooseAdvMonthActivity.newIntent(applicationContext))
     }
 
     override fun viewClickInvoice(invoiceVO: InvoiceVO) {

@@ -27,7 +27,7 @@ interface HomeScreenView : BaseView {
     fun navigateToGooglePlayStore()
     fun showForceUpdateDialog(isForceUpdate:Boolean,versionName: String)
     fun afterClickDownload(invoiceVO: InvoiceVO)
-
+    fun navigateToAdvPayTopUp()
     fun viewClickInvoice(invoiceVO: InvoiceVO)
 
 }
