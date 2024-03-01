@@ -61,7 +61,7 @@ class LoginActivity : BaseActivity(), LoginView {
         mPresenter.checkedRememberPreviousAccountId()
 
         //Set application version
-        val versionNo = getString(R.string.lbl_app_version,BuildConfig.VERSION_NAME)
+        val versionNo = getString(R.string.lbl_app_version,BuildConfig.VERSION_NAME)  +" "+ BuildConfig.FLAVOR
         SharedPreferenceUtils.saveVersionNo(this,versionNo)
         tvVersion.text = versionNo
     }

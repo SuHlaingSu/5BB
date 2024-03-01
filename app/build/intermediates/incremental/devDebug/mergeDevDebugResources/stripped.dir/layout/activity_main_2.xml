@@ -279,18 +279,6 @@
                             android:background="@color/colorAccent"
                             android:src="@drawable/ic_visibility_24dp"/>
 
-                        <!--<ImageView
-                            android:id="@+id/imgEyeOff"
-                            android:layout_width="25dp"
-                            android:layout_height="20dp"
-                            android:layout_marginTop="@dimen/margin_medium_3"
-                            android:layout_marginStart="@dimen/margin_medium"
-                            android:visibility="invisible"
-                            app:layout_constraintStart_toEndOf="@id/lblAdvBal"
-                            app:layout_constraintTop_toTopOf="parent"
-                            android:background="@color/colorAccent"
-                            android:src="@drawable/ic_visibility_off_24dp"/>-->
-
                         <TextView
                             android:id="@+id/txtResult"
                             android:layout_width="wrap_content"
