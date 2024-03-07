@@ -2524,6 +2524,9 @@ layout aty_recharge
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout bs_activity_main
+layout bs_activity_profile
+layout bs_dialog_force_update
+layout bs_view_holder_outstanding_invoice
 layout business_activity_profile
 layout check_verification
 layout chuck_activity_main
@@ -3081,6 +3084,7 @@ style AppTheme
 style AppTheme_NoActionBar
 style AttributeName
 style AttributeValue
+style BSButtonPrimary
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

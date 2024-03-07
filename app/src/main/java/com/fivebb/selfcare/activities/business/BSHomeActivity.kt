@@ -1,10 +1,12 @@
-package com.fivebb.selfcare.activities
+package com.fivebb.selfcare.activities.business
 
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.os.SystemClock
+import android.text.method.HideReturnsTransformationMethod
+import android.text.method.PasswordTransformationMethod
 import android.util.Log
 import android.view.View
 import androidx.lifecycle.Observer
@@ -14,12 +16,14 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager.widget.ViewPager
 import com.fivebb.selfcare.FiveBBApp
 import com.fivebb.selfcare.R
+import com.fivebb.selfcare.activities.*
 import com.fivebb.selfcare.activities.prepaid.PXPlanChangeActivity
 import com.fivebb.selfcare.activities.prepaid.PXTopUpActivity
 import com.fivebb.selfcare.activities.recharge.RechargeActivity
 import com.fivebb.selfcare.activities.recharge.RechargedHistoryActivity
 import com.fivebb.selfcare.adapters.AdsSlideAdapter
 import com.fivebb.selfcare.adapters.OutstandingInvoiceAdapter
+import com.fivebb.selfcare.adapters.business.BSOustandingInvoiceAdapter
 import com.fivebb.selfcare.delegates.*
 import com.fivebb.selfcare.dialog.ForceUpdateDialog
 import com.fivebb.selfcare.fragments.AdsFragment
@@ -124,6 +128,8 @@ class BSHomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,Plan
     }
 
     override fun saveAdvPay(paymentVO: AdvancePaymentVO) {
+        txtResult.text= paymentVO.adjustedBalanceVO?.balance + " MMK"
+
         if(paymentVO.adjustedBalanceVO?.balance!="0")
         {
             SharedPreferenceUtils.saveAdvPay(applicationContext,paymentVO.adjustedBalanceVO?.balance.toString() + " MMK")
@@ -242,11 +248,14 @@ class BSHomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,Plan
 
     private lateinit var quotaUsageSummaryViewPod:  QuotaUsageViewPod
 
-    private lateinit var mOutstandingInvoiceAdapter: OutstandingInvoiceAdapter
+    private lateinit var mOutstandingInvoiceAdapter: BSOustandingInvoiceAdapter
 
     private lateinit var mAdsSlideAdapter: AdsSlideAdapter
 
     private lateinit var mServiceType: String
+
+    private var IsOpenEye = false;
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -334,7 +343,7 @@ class BSHomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,Plan
 
     private fun setUpAdapters() {
 
-        mOutstandingInvoiceAdapter = OutstandingInvoiceAdapter(this)
+        mOutstandingInvoiceAdapter = BSOustandingInvoiceAdapter(this)
         rvInvoicePayment.layoutManager =
             LinearLayoutManager(applicationContext, RecyclerView.VERTICAL, false)
         rvInvoicePayment.adapter = mOutstandingInvoiceAdapter
@@ -403,6 +412,21 @@ class BSHomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,Plan
             mPresenter.onTapProfile()
         }
 
+        btnTopUp.setOnClickListener {
+            navigateToAdvPayTopUp()
+        }
+
+        imgEyeOpen.setOnClickListener {
+            if(IsOpenEye)
+            {
+                imgEyeOpen.setImageResource(R.drawable.ic_visibility_24dp)
+                txtResult.transformationMethod = HideReturnsTransformationMethod.getInstance()
+            }else{
+                imgEyeOpen.setImageResource(R.drawable.ic_visibility_off_24dp)
+                txtResult.transformationMethod = PasswordTransformationMethod.getInstance()
+            }
+            IsOpenEye = !IsOpenEye
+        }
         switchLanguageChange.isChecked =
             PersistentUtil.newInstance(applicationContext)
                 .getLanguage()!! == SharedConstants.SELECTED_LANGUAGE_MY
@@ -513,13 +537,14 @@ class BSHomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,Plan
     }
 
     override fun navigateToProfileActivity() {
-        if (SharedPreferenceUtils.getServiceType(applicationContext)== SharedConstants.SERVICE_TYPE_LTE || SharedPreferenceUtils.getCategory(applicationContext)== SharedConstants.CATEGORY_PREPAID ) //|| SharedPreferenceUtils.getCategory(this) == SharedConstants.CATEGORY_BUSINESS
+        startActivity(BSProfileActivity.newIntent(applicationContext))
+       /* if (SharedPreferenceUtils.getServiceType(applicationContext)== SharedConstants.SERVICE_TYPE_LTE || SharedPreferenceUtils.getCategory(applicationContext)== SharedConstants.CATEGORY_PREPAID ) //|| SharedPreferenceUtils.getCategory(this) == SharedConstants.CATEGORY_BUSINESS
         {
             startActivity(LTEProfileActivity.newIntent(applicationContext))
         }
         else{
             startActivity(ProfileActivity.newIntent(applicationContext))
-        }
+        }*/
     }
 
     override fun showForceUpdateDialog(isForceUpdate: Boolean, versionName: String) {
@@ -531,7 +556,7 @@ class BSHomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,Plan
     }
 
     override fun afterClickDownload(invoiceVO: InvoiceVO) {
-        startActivity(LatestPaymentDownloadPDFActivity.newIntent(applicationContext,invoiceVO.url))
+        startActivity(LatestPaymentDownloadPDFActivity.newIntent(applicationContext, invoiceVO.url))
     }
 
     override fun navigateToAdvPayTopUp() {
@@ -539,7 +564,7 @@ class BSHomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,Plan
     }
 
     override fun viewClickInvoice(invoiceVO: InvoiceVO) {
-        startActivity(DownloadPDFActivity.newIntent(applicationContext,invoiceVO.url))
+        startActivity(DownloadPDFActivity.newIntent(applicationContext, invoiceVO.url))
     }
 
     override fun navigateToGooglePlayStore() {

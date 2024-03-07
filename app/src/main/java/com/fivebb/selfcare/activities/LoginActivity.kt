@@ -13,12 +13,14 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.fivebb.selfcare.BuildConfig
 import com.fivebb.selfcare.R
+import com.fivebb.selfcare.activities.business.BSHomeActivity
 import com.fivebb.selfcare.mvp.presenters.LoginPresenter
 import com.fivebb.selfcare.mvp.views.LoginView
 import com.fivebb.selfcare.utils.SharedPreferenceUtils
 import com.fivebb.shared.activities.BaseActivity
 import com.fivebb.shared.components.PasswordVisibilityListener
 import com.fivebb.shared.utils.InputValidityUtil
+import com.fivebb.shared.utils.SharedConstants
 import com.fivebb.shared.utils.setMMHint
 import com.fivebb.shared.vos.AdvancePaymentVO
 import com.fivebb.shared.vos.CheckVericationVO
@@ -48,12 +50,6 @@ class LoginActivity : BaseActivity(), LoginView {
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_login)
-
-        /*MMFontUtils.initMMTextView(this) {
-            val intent = newIntent(this)
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
-            startActivity(intent)
-        }*/
         setUpPresenter()
         setUpListeners()
         bindLocalizedData()
@@ -117,24 +113,6 @@ class LoginActivity : BaseActivity(), LoginView {
         tvForgotPassword.setOnClickListener {
             mPresenter.onTapForgetPassword()
         }
-
-        //Auto Fill Password
-//        etAccountNumber.addTextChangedListener(object : TextWatcher {
-//            override fun afterTextChanged(s: Editable?) {
-//                loginHistory.find {it.username == s.toString()}.let {
-//                    if (it != null) etPassword.setText(it.password)
-//                }
-//            }
-//
-//            override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
-//
-//            }
-//
-//            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
-//
-//            }
-//
-//        })
     }
 
     private fun areRequiredFieldsFilled(): Boolean {
@@ -208,6 +186,27 @@ class LoginActivity : BaseActivity(), LoginView {
             SharedPreferenceUtils.deleteCusStep(applicationContext)
             startActivity(intent)
             finish()
+            /*if(SharedPreferenceUtils.getCategory(this) == SharedConstants.CATEGORY_BUSINESS)
+            {
+                val intent =  BSHomeActivity.newIntent(
+                    this,
+                    SharedPreferenceUtils.getServiceType(applicationContext)
+                )
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+                SharedPreferenceUtils.deleteCusStep(applicationContext)
+                startActivity(intent)
+                finish()
+            }else{
+                val intent =  HomeActivity.newIntent(
+                    this,
+                    SharedPreferenceUtils.getServiceType(applicationContext)
+                )
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+                SharedPreferenceUtils.deleteCusStep(applicationContext)
+                startActivity(intent)
+                finish()
+            }*/
+
         }else{
             startActivity(CheckVerificationActivity.newIntent(applicationContext))
         }
@@ -221,6 +220,13 @@ class LoginActivity : BaseActivity(), LoginView {
         }else
         {
             startActivity(HomeActivity.newIntent(applicationContext, SharedPreferenceUtils.getServiceType(this)))
+            /*if(SharedPreferenceUtils.getCategory(this) == SharedConstants.CATEGORY_BUSINESS)
+            {
+                startActivity(BSHomeActivity.newIntent(applicationContext, SharedPreferenceUtils.getServiceType(this)))
+            }else{
+                startActivity(HomeActivity.newIntent(applicationContext, SharedPreferenceUtils.getServiceType(this)))
+            }*/
+
         }
     }
 }

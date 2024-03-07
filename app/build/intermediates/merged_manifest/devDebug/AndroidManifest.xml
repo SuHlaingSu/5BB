@@ -134,6 +134,9 @@
             android:name="com.fivebb.selfcare.activities.HomeActivity"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.fivebb.selfcare.activities.business.BSHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.fivebb.selfcare.activities.PlanChangeActivity"
             android:screenOrientation="portrait" />
         <activity
@@ -170,6 +173,9 @@
             android:screenOrientation="portrait" />
         <activity
             android:name="com.fivebb.selfcare.activities.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fivebb.selfcare.activities.business.BSProfileActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.fivebb.selfcare.activities.LTEProfileActivity"

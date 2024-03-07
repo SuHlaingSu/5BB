@@ -116,6 +116,9 @@
                 android:name=".activities.HomeActivity"
                 android:screenOrientation="portrait" />
         <activity
+            android:name=".activities.business.BSHomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
                 android:name=".activities.PlanChangeActivity"
                 android:screenOrientation="portrait" />
         <activity
@@ -152,6 +155,9 @@
                 android:screenOrientation="portrait" />
         <activity
                 android:name=".activities.ProfileActivity"
+                android:screenOrientation="portrait" />
+        <activity
+                android:name=".activities.business.BSProfileActivity"
                 android:screenOrientation="portrait" />
         <activity
                 android:name=".activities.LTEProfileActivity"

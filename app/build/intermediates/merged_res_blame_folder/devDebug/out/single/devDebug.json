@@ -1,11 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_lte_cover_5.jpg.flat",
-        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\lte_cover_5.jpg"
+        "merged": "com.fivebb.selfcare.app-merged_res-49:/layout_bs_dialog_force_update.xml.flat",
+        "source": "com.fivebb.selfcare.app-main-53:/layout/bs_dialog_force_update.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_bg_main.xml.flat",
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\bg_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_lte_cover_5.jpg.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\lte_cover_5.jpg"
     },
     {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_bg_login.xml.flat",
@@ -116,20 +120,20 @@
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\layout\\aty_choose_adv_month_scroll.xml"
     },
     {
-        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_ic_promo_noti_48.png.flat",
-        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\ic_promo_noti_48.png"
-    },
-    {
-        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_ic_youtube.png.flat",
-        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\ic_youtube.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_us.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\us.png"
     },
     {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_bg_secret_question.xml.flat",
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\bg_secret_question.xml"
     },
     {
-        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_us.png.flat",
-        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\us.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_ic_youtube.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\ic_youtube.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_ic_promo_noti_48.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\ic_promo_noti_48.png"
     },
     {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable-v24_ic_bell.png.flat",
@@ -156,12 +160,12 @@
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\ic_transaction_noti.png"
     },
     {
-        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\layout_activity_change_password.xml.flat",
-        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\layout\\activity_change_password.xml"
-    },
-    {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\layout_activity_invoice_payment.xml.flat",
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\layout\\activity_invoice_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\layout_activity_change_password.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\layout\\activity_change_password.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\mipmap-mdpi_ic_launcher_round_fivebb.png.flat",
@@ -180,28 +184,28 @@
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\layout\\viewpod_latest_payment.xml"
     },
     {
-        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\layout_activity_px_plan_change.xml.flat",
-        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\layout\\activity_px_plan_change.xml"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable-xxxhdpi_bg_image_secret_question_answer.png.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable-xxxhdpi\\bg_image_secret_question_answer.png"
     },
     {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\layout_dialog_force_update.xml.flat",
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\layout\\dialog_force_update.xml"
     },
     {
-        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable-xxxhdpi_bg_image_secret_question_answer.png.flat",
-        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable-xxxhdpi\\bg_image_secret_question_answer.png"
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\layout_activity_px_plan_change.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\layout\\activity_px_plan_change.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\layout_dialog_fragment_skippable_notice.xml.flat",
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\layout\\dialog_fragment_skippable_notice.xml"
     },
     {
-        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable-v24_bg_adv.xml.flat",
-        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable-v24\\bg_adv.xml"
-    },
-    {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable-xxxhdpi_kbz.png.flat",
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable-xxxhdpi\\kbz.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable-v24_bg_adv.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable-v24\\bg_adv.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -864,10 +868,6 @@
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable-xxxhdpi\\onepay.png"
     },
     {
-        "merged": "com.fivebb.selfcare.app-merged_res-49:/layout_activity_main_2.xml.flat",
-        "source": "com.fivebb.selfcare.app-main-53:/layout/activity_main_2.xml"
-    },
-    {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_icon_promo.png.flat",
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\icon_promo.png"
     },
@@ -884,6 +884,10 @@
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\primary_button.xml"
     },
     {
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\layout_bs_view_holder_outstanding_invoice.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\layout\\bs_view_holder_outstanding_invoice.xml"
+    },
+    {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable_ic_baseline_delete_outline_24.xml.flat",
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable\\ic_baseline_delete_outline_24.xml"
     },
@@ -894,6 +898,10 @@
     {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\drawable-xxxhdpi_bg_main_image_2.png.flat",
         "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\drawable-xxxhdpi\\bg_main_image_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\layout-v26_bs_activity_profile.xml.flat",
+        "source": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-main-53:\\layout-v26\\bs_activity_profile.xml"
     },
     {
         "merged": "C:\\Users\\Dell\\.gradle\\daemon\\7.4\\com.fivebb.selfcare.app-merged_res-49:\\layout_viewpod_plan_change.xml.flat",

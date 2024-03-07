@@ -542,13 +542,13 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
     }
 
     override fun navigateToProfileActivity() {
-        startActivity(LTEProfileActivity.newIntent(applicationContext))
+       startActivity(LTEProfileActivity.newIntent(applicationContext))
         /*if (SharedPreferenceUtils.getServiceType(applicationContext)== SharedConstants.SERVICE_TYPE_LTE || SharedPreferenceUtils.getCategory(applicationContext)== SharedConstants.CATEGORY_PREPAID ) //|| SharedPreferenceUtils.getCategory(this) == SharedConstants.CATEGORY_BUSINESS
         {
             startActivity(LTEProfileActivity.newIntent(applicationContext))
         }
         else{
-            startActivity(ProfileActivity.newIntent(applicationContext))
+            startActivity(LTEProfileActivity.newIntent(applicationContext))
         }*/
     }
 

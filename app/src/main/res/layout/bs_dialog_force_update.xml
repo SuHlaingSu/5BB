@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+            android:id="@+id/flLogo"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:background="@drawable/bg_border_divider"
+            android:layout_marginTop="@dimen/margin_xlarge"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/fivebb_logo"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/force_update_dialog_left_shape"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/force_update_dialog_right_shape"/>
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/tvVersionName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ver 1.1.2"
+            android:textSize="@dimen/text_regular"
+            android:textStyle="bold"
+            android:textColor="#A7932F"
+            android:background="@drawable/bg_fill_light_yellow"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:paddingStart="@dimen/margin_medium_3"
+            android:paddingEnd="@dimen/margin_medium_3"
+            android:paddingTop="@dimen/margin_medium"
+            android:paddingBottom="@dimen/margin_medium"
+            app:layout_constraintTop_toBottomOf="@id/flLogo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/tvNewUpdateAvailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvVersionName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:text="New Update Available!"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:textColor="@color/black_full"
+            android:textSize="@dimen/text_regular_2x"
+            android:textStyle="bold"/>
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/tvUpdateDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvNewUpdateAvailable"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textAlignment="center"
+            android:textColor="@color/black_full"
+            android:layout_marginStart="@dimen/margin_xxlarge"
+            android:layout_marginEnd="@dimen/margin_xxlarge"
+            android:lineSpacingMultiplier="1.2"
+            android:text="There is a new version available for download! Please update the app by visiting Google Play Store."
+            android:layout_marginTop="@dimen/margin_medium"/>
+
+    <mm.technomation.mmtext.MMButtonView
+            android:id="@+id/btnNotNow"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:text="Not Now"
+            android:textColor="@color/black_full"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvUpdateDescription"
+            android:layout_marginStart="@dimen/margin_xxlarge"
+            android:layout_marginEnd="@dimen/margin_xxlarge"
+            android:layout_marginTop="@dimen/margin_large"
+            style="@style/ButtonOutlined"
+        />
+
+    <mm.technomation.mmtext.MMButtonView
+            android:id="@+id/btnUpdate"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnNotNow"
+            android:layout_marginStart="@dimen/margin_xxlarge"
+            android:layout_marginEnd="@dimen/margin_xxlarge"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            style="@style/BSButtonPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/margin_xlarge"
+            android:text="Update"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

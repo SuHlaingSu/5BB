@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-243:12
-INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-243:12
-INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-243:12
-INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-243:12
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-249:12
+INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-249:12
+INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-249:12
+INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-249:12
 MERGED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:2:1-21:12
 MERGED from [androidx.databinding:databinding-adapters:7.3.1] C:\Users\Dell\.gradle\caches\transforms-3\a4b5e075f14a2730754e7cd2870dc60f\transformed\databinding-adapters-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:databinding-ktx:7.3.1] C:\Users\Dell\.gradle\caches\transforms-3\abefaf1c4b59913148c33e67dd95d124\transformed\jetified-databinding-ktx-7.3.1\AndroidManifest.xml:2:1-9:12
@@ -123,22 +123,22 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Dell\.gradle\caches\transforms
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Dell\.gradle\caches\transforms-3\4b3217cec464b73e6a6584c251e4ceec\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\Dell\.gradle\caches\transforms-3\8ab8a275428e354583cc70a472956497\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\6621892c5a810c1d365003daeab9a3d0\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-243:12
-INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-243:12
-INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-243:12
+INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-249:12
+INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-249:12
+INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-249:12
 	package
 		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-243:12
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-249:12
 		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-243:12
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-249:12
 		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:3:9-55
 	android:versionCode
 		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-243:12
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-249:12
 		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:11-69
@@ -235,7 +235,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:
 	android:name
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:13:22-76
 application
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:15:5-241:19
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:15:5-247:19
 MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2] C:\Users\Dell\.gradle\caches\transforms-3\d16ae59947425e2b6f04878080b1211d\transformed\jetified-viewpagerdotsindicator-4.1.2\AndroidManifest.xml:11:5-47
 MERGED from [com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2] C:\Users\Dell\.gradle\caches\transforms-3\d16ae59947425e2b6f04878080b1211d\transformed\jetified-viewpagerdotsindicator-4.1.2\AndroidManifest.xml:11:5-47
 MERGED from [:mmtext] D:\SH\5BB\5BB_P2_06_04_2023\5BB\mmtext\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-12:19
@@ -502,180 +502,192 @@ ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:115:
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:117:17-53
 	android:name
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:116:17-56
-activity#com.fivebb.selfcare.activities.PlanChangeActivity
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:118:9-120:56
+activity#com.fivebb.selfcare.activities.business.BSHomeActivity
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:118:9-120:52
 	android:screenOrientation
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:120:17-53
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:120:13-49
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:119:17-62
-activity#com.fivebb.selfcare.activities.prepaid.PXPlanChangeActivity
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:119:13-63
+activity#com.fivebb.selfcare.activities.PlanChangeActivity
 ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:121:9-123:56
 	android:screenOrientation
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:123:17-53
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:122:17-72
-activity#com.fivebb.selfcare.activities.ActivityLogsActivity
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:122:17-62
+activity#com.fivebb.selfcare.activities.prepaid.PXPlanChangeActivity
 ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:124:9-126:56
 	android:screenOrientation
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:126:17-53
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:125:17-64
-activity#com.fivebb.selfcare.activities.RelocationActivity
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:127:9-134:20
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:125:17-72
+activity#com.fivebb.selfcare.activities.ActivityLogsActivity
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:127:9-129:56
 	android:screenOrientation
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:129:17-53
-	android:exported
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:130:17-40
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:128:17-62
-intent-filter#action:name:android.intent.action.SEND
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:131:13-133:29
-action#android.intent.action.SEND
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:132:17-69
-	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:132:25-66
-activity#com.fivebb.selfcare.activities.CheckVerificationActivity
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:135:9-137:56
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:128:17-64
+activity#com.fivebb.selfcare.activities.RelocationActivity
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:130:9-137:20
 	android:screenOrientation
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:137:17-53
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:132:17-53
+	android:exported
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:133:17-40
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:136:17-69
-activity#com.fivebb.selfcare.activities.NotificationActivity
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:131:17-62
+intent-filter#action:name:android.intent.action.SEND
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:134:13-136:29
+action#android.intent.action.SEND
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:135:17-69
+	android:name
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:135:25-66
+activity#com.fivebb.selfcare.activities.CheckVerificationActivity
 ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:138:9-140:56
 	android:screenOrientation
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:140:17-53
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:139:17-64
-activity#com.fivebb.selfcare.activities.InfoNotiDetailActivity
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:139:17-69
+activity#com.fivebb.selfcare.activities.NotificationActivity
 ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:141:9-143:56
 	android:screenOrientation
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:143:17-53
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:142:17-66
-activity#com.fivebb.selfcare.activities.TransNotiDetailActivity
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:142:17-64
+activity#com.fivebb.selfcare.activities.InfoNotiDetailActivity
 ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:144:9-146:56
 	android:screenOrientation
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:146:17-53
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:145:17-67
-activity#com.fivebb.selfcare.activities.PromoNotiDetailActivity
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:145:17-66
+activity#com.fivebb.selfcare.activities.TransNotiDetailActivity
 ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:147:9-149:56
 	android:screenOrientation
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:149:17-53
 	android:name
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:148:17-67
-activity#com.fivebb.selfcare.activities.CreateTicketActivity
+activity#com.fivebb.selfcare.activities.PromoNotiDetailActivity
 ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:150:9-152:56
 	android:screenOrientation
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:152:17-53
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:151:17-64
-activity#com.fivebb.selfcare.activities.ProfileActivity
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:151:17-67
+activity#com.fivebb.selfcare.activities.CreateTicketActivity
 ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:153:9-155:56
 	android:screenOrientation
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:155:17-53
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:154:17-59
-activity#com.fivebb.selfcare.activities.LTEProfileActivity
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:154:17-64
+activity#com.fivebb.selfcare.activities.ProfileActivity
 ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:156:9-158:56
 	android:screenOrientation
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:158:17-53
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:157:17-62
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:157:17-59
+activity#com.fivebb.selfcare.activities.business.BSProfileActivity
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:159:9-161:56
+	android:screenOrientation
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:161:17-53
+	android:name
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:160:17-70
+activity#com.fivebb.selfcare.activities.LTEProfileActivity
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:162:9-164:56
+	android:screenOrientation
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:164:17-53
+	android:name
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:163:17-62
 activity#com.fivebb.selfcare.activities.ChooseAdvMonthActivity
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:159:9-172:20
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:165:9-178:20
 	android:screenOrientation
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:161:13-49
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:167:13-49
 	android:exported
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:162:13-36
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:168:13-36
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:160:17-66
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:166:17-66
 activity#com.fivebb.selfcare.activities.ChooseBankActivity
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:174:9-187:20
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:180:9-193:20
 	android:screenOrientation
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:176:13-49
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:182:13-49
 	android:exported
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:177:13-36
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:183:13-36
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:175:17-62
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:181:17-62
 activity#com.fivebb.selfcare.activities.AddNewEmailAty
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:188:9-190:56
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:194:9-196:56
 	android:screenOrientation
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:190:17-53
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:196:17-53
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:189:17-58
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:195:17-58
 activity#com.fivebb.selfcare.activities.AccountDetailActivity
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:191:9-193:56
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:197:9-199:56
 	android:screenOrientation
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:193:17-53
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:199:17-53
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:192:17-65
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:198:17-65
 activity#com.fivebb.selfcare.activities.InvoicePaymentActivity
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:194:9-207:20
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:200:9-213:20
 	android:exported
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:197:13-36
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:203:13-36
 	android:configChanges
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:196:13-122
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:202:13-122
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:195:17-66
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:201:17-66
 activity#com.fivebb.selfcare.activities.ChangePasswordActivity
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:208:9-210:56
-	android:screenOrientation
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:210:17-53
-	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:209:17-66
-activity#com.fivebb.selfcare.activities.PaymentHistoryActivity
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:211:9-213:56
-	android:screenOrientation
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:213:17-53
-	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:212:17-66
-activity#com.fivebb.selfcare.activities.recharge.RechargedHistoryActivity
 ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:214:9-216:56
 	android:screenOrientation
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:216:17-53
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:215:17-77
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:215:17-66
+activity#com.fivebb.selfcare.activities.PaymentHistoryActivity
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:217:9-219:56
+	android:screenOrientation
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:219:17-53
+	android:name
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:218:17-66
+activity#com.fivebb.selfcare.activities.recharge.RechargedHistoryActivity
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:220:9-222:56
+	android:screenOrientation
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:222:17-53
+	android:name
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:221:17-77
 activity#com.fivebb.selfcare.activities.HelpActivity
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:217:9-221:56
-	android:screenOrientation
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:221:17-53
-	android:hardwareAccelerated
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:220:17-51
-	android:configChanges
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:219:17-52
-	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:218:17-56
-activity#com.fivebb.selfcare.activities.VideoFullScreenActivity
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:222:9-224:57
-	android:screenOrientation
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:224:17-54
-	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:223:17-67
-activity#com.fivebb.selfcare.activities.SecretQuestionActivity
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:225:9-227:56
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:223:9-227:56
 	android:screenOrientation
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:227:17-53
+	android:hardwareAccelerated
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:226:17-51
+	android:configChanges
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:225:17-52
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:226:17-66
-activity#com.fivebb.selfcare.activities.VerifyEmailAty
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:229:9-231:56
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:224:17-56
+activity#com.fivebb.selfcare.activities.VideoFullScreenActivity
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:228:9-230:57
 	android:screenOrientation
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:231:17-53
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:230:17-54
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:230:17-58
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:229:17-67
+activity#com.fivebb.selfcare.activities.SecretQuestionActivity
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:231:9-233:56
+	android:screenOrientation
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:233:17-53
+	android:name
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:232:17-66
+activity#com.fivebb.selfcare.activities.VerifyEmailAty
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:235:9-237:56
+	android:screenOrientation
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:237:17-53
+	android:name
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:236:17-58
 meta-data#firebase_crashlytics_collection_enabled
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:232:9-234:41
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:238:9-240:41
 	android:value
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:234:17-38
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:240:17-38
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:233:17-71
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:239:17-71
 meta-data#com.google.android.geo.API_KEY
-ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:238:9-240:75
+ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:244:9-246:75
 	android:value
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:240:17-72
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:246:17-72
 	android:name
-		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:239:17-62
+		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:245:17-62
 uses-sdk
 INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml

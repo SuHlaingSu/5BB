@@ -2523,6 +2523,9 @@ int layout aty_recharge 0x7f0c003d
 int layout browser_actions_context_menu_page 0x7f0c003e
 int layout browser_actions_context_menu_row 0x7f0c003f
 int layout bs_activity_main 0x7f0c0040
+int layout bs_activity_profile 0x7f0c00b0
+int layout bs_dialog_force_update 0x7f0c00b1
+int layout bs_view_holder_outstanding_invoice 0x7f0c00af
 int layout business_activity_profile 0x7f0c0041
 int layout check_verification 0x7f0c0042
 int layout chuck_activity_main 0x7f0c0043
@@ -3080,6 +3083,7 @@ int style AppTheme 0x7f11000d
 int style AppTheme_NoActionBar 0x7f11000e
 int style AttributeName 0x7f11000f
 int style AttributeValue 0x7f110010
+int style BSButtonPrimary 0x7f110238
 int style Base_AlertDialog_AppCompat 0x7f110011
 int style Base_AlertDialog_AppCompat_Light 0x7f110012
 int style Base_Animation_AppCompat_Dialog 0x7f110013
