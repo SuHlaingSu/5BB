@@ -30,4 +30,6 @@ interface HomeScreenView : BaseView {
     fun navigateToAdvPayTopUp()
     fun viewClickInvoice(invoiceVO: InvoiceVO)
 
+    fun topUpListener(billList: MutableList<BillVO>)
+
 }

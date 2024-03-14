@@ -31,7 +31,7 @@
             <stringArg name="classpath">
               <args>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6af2999e3f17715321226fa6d6fa5454/transformed/jetified-sun.misc.BASE64Decoder.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/5151554da85965a48c91be78b9ee908b/transformed/jetified-kbzsdk_1.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/3bab6367135f1cc34899f5dc7a89492f/transformed/jetified-kbzsdk_1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/4691ff2c6415925b4212bb5cbb9e030d/transformed/espresso-core-3.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0da4bc5023f3d500f439501f079e5ac7/transformed/runner-1.5.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/3ef875c106bcc67349e60eece2d1d065/transformed/jetified-junit-1.1.1-api.jar</arg>

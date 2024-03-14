@@ -163,9 +163,9 @@ dependencies {
 
     //uat kbz sdk
     //implementation(name: 'kbzsdk_1.1.0', ext: 'aar') **Old SDK**
-    //implementation fileTree(include: ['*.aar'], dir: 'libs')
+    implementation fileTree(include: ['*.aar'], dir: 'libs')
     //prod kbz sdk
-   implementation fileTree(include: ['*.aar'], dir: 'libs/prod')
+   //implementation fileTree(include: ['*.aar'], dir: 'libs/prod')
     def multidex_version = "2.0.1"
     implementation "androidx.multidex:multidex:$multidex_version"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"

@@ -494,6 +494,7 @@ class InvoicePaymentActivity : ApplicationBaseActivity(), InvoicePaymentView {
         }
         cancelBtn.setOnClickListener {
             alert.dismiss()
+            onResume()
         }
         alert.show()
     }

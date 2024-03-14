@@ -226,4 +226,16 @@ class HomeScreenPresenter : BasePresenter<HomeScreenView, UserModel>() {
         )
     }
 
+    fun onTapAdvanceTopUp(context:Context){
+        mShowProgressLoadingDialogLiveData.postValue(true)
+        mModel.getBillList(context,
+            success = {
+                mView.topUpListener(it)
+                mHideProgressLoadingDialogLiveData.postValue(true)
+            },
+            failure = {
+                _errorLiveData.postValue(it)
+            })
+    }
+
 }

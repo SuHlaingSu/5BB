@@ -32,7 +32,7 @@
               <args>
                 <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/devDebug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6af2999e3f17715321226fa6d6fa5454/transformed/jetified-sun.misc.BASE64Decoder.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/5151554da85965a48c91be78b9ee908b/transformed/jetified-kbzsdk_1.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/3bab6367135f1cc34899f5dc7a89492f/transformed/jetified-kbzsdk_1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/995c409ef1ac55f30125568d459a9f68/transformed/databinding-runtime-7.3.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b7a46281552f609cdd7097e7e9430e5d/transformed/databinding-adapters-7.3.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/7.3.1/9ce4d7d086454caee5620765f7aa39115aeffb47/databinding-common-7.3.1.jar</arg>

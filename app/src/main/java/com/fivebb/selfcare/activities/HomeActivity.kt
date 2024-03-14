@@ -1,6 +1,7 @@
 package com.fivebb.selfcare.activities
 
 import android.annotation.SuppressLint
+import android.app.AlertDialog
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
@@ -108,7 +109,6 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
     }
 
     override fun showBillingList(billList: MutableList<BillVO>) {
-
         billList.let {
             if (billList.size > 0) {
                 showOutstandingInvoice()
@@ -256,7 +256,6 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
     private lateinit var mServiceType: String
 
     private var IsOpenEye = false;
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -412,8 +411,10 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
             mPresenter.onTapProfile()
         }
 
-        btnTopUp.setOnClickListener {
-           navigateToAdvPayTopUp()
+        btnTopUp.clickWithDebounce {
+            btnTopUp.isEnabled = false
+            btnTopUp.isClickable = false
+            mPresenter.onTapAdvanceTopUp(applicationContext)
         }
 
         imgEyeOpen.setOnClickListener {
@@ -470,6 +471,19 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
         mPresenter.mHideProgressLoadingDialogLiveData.observe(this, Observer {
             swipeRefresh.isRefreshing = false
             hideLoadingDialog()
+        })
+    }
+
+    private fun View.clickWithDebounce(debounceTime: Long = 600L, action: () -> Unit) {
+        this.setOnClickListener(object : View.OnClickListener {
+            private var lastClickTime: Long = 0
+
+            override fun onClick(v: View) {
+                if (SystemClock.elapsedRealtime() - lastClickTime < debounceTime) return
+                else action()
+
+                lastClickTime = SystemClock.elapsedRealtime()
+            }
         })
     }
 
@@ -565,11 +579,35 @@ class HomeActivity : ApplicationBaseActivity(),PXPlanChangeActionDelegate,PlanCh
     }
 
     override fun navigateToAdvPayTopUp() {
+        btnTopUp.isEnabled = true
         startActivity(ChooseAdvMonthActivity.newIntent(applicationContext))
+        btnTopUp.isClickable = true
     }
 
     override fun viewClickInvoice(invoiceVO: InvoiceVO) {
         startActivity(DownloadPDFActivity.newIntent(applicationContext,invoiceVO.url))
+    }
+
+    override fun topUpListener(billList: MutableList<BillVO>) {
+        billList.let {
+            if (billList.size > 0) {
+
+                // setup the alert builder
+                val builder: AlertDialog.Builder = AlertDialog.Builder(this)
+                builder.setTitle("5BB")
+                builder.setMessage(R.string.lbl_alert)
+                // add a button
+                builder.setPositiveButton("OK", null)
+
+                // create and show the alert dialog
+                val dialog: AlertDialog = builder.create()
+                dialog.show()
+                btnTopUp.isEnabled = true
+                btnTopUp.isClickable = true
+            } else {
+                navigateToAdvPayTopUp()
+            }
+        }
     }
 
     override fun navigateToGooglePlayStore() {
