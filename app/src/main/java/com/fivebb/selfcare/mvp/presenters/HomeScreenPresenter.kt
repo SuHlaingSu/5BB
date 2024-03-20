@@ -48,7 +48,8 @@ class HomeScreenPresenter : BasePresenter<HomeScreenView, UserModel>() {
                 }
             },
             failure = {
-
+                mHideProgressLoadingDialogLiveData.postValue(true)
+                _errorLiveData.postValue(it)
             }
         )
     }

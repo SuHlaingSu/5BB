@@ -232,8 +232,8 @@ class RechargeTopUpActivity : ApplicationBaseActivity() ,RechargeTopUpView,BankL
 
     @SuppressLint("CheckResult")
     override fun requestQueryOrderAYAPay(data: AYAPayRequest) {
-        Flowable.interval(7,TimeUnit.SECONDS)
-            .take(5)
+        Flowable.interval(5,15,TimeUnit.SECONDS)
+            .take(6)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(){
@@ -243,17 +243,19 @@ class RechargeTopUpActivity : ApplicationBaseActivity() ,RechargeTopUpView,BankL
 
     @SuppressLint("CheckResult")
     override fun queryOrderAYAPay(data: AYAQueryOrderResponse) {
-        if(data.status == "done")
-        {
-            Flowable.timer(1,TimeUnit.SECONDS)
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe(){
-                    Log.d("IntervalDelay","Delay 3 sec")
-                    finish()
-                    disposables?.dispose()
-                }
+        when(data.status){
+            "done" -> {
+                Flowable.timer(3,TimeUnit.SECONDS)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe(){
+                        Log.d("IntervalDelay","Delay 3 sec")
+                        finish()
+                        disposables?.dispose()
+                    }
+            }
         }
+
     }
 
     @SuppressLint("SetJavaScriptEnabled")

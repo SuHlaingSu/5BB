@@ -51,6 +51,7 @@ import com.kbzbank.payment.KBZPay
 import com.kbzbank.payment.sdk.callback.CallbackResultActivity
 import io.reactivex.Flowable
 import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_callback_result.*
@@ -85,7 +86,7 @@ class InvoicePaymentActivity : ApplicationBaseActivity(), InvoicePaymentView {
 
     private var timeStamp : String = ""
 
-    private lateinit var disposable: Disposable
+    var disposables: CompositeDisposable?= null
 
     companion object {
 
@@ -188,6 +189,8 @@ class InvoicePaymentActivity : ApplicationBaseActivity(), InvoicePaymentView {
     override fun onDestroy() {
         super.onDestroy()
         releasePlayer()
+        disposables?.clear()
+
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -661,6 +664,33 @@ class InvoicePaymentActivity : ApplicationBaseActivity(), InvoicePaymentView {
         Toast.makeText(this,message,Toast.LENGTH_SHORT).show()
     }
 
+    @SuppressLint("CheckResult")
+    override fun requestQueryOrderAYAPay(data: AYAPayRequest) {
+        Flowable.interval(5,10,TimeUnit.SECONDS)
+            .take(10)
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe(){
+                mPresenter.aYAPayQueryOrder(data)
+            }
+    }
+
+    @SuppressLint("CheckResult")
+    override fun queryOrderAYAPay(data: AYAQueryOrderResponse) {
+        when(data.status){
+            "done" -> {
+                Flowable.timer(3,TimeUnit.SECONDS)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe(){
+                        Log.d("IntervalDelay","Delay 3 sec")
+                        finish()
+                        disposables?.dispose()
+                    }
+            }
+        }
+    }
+
     @SuppressLint("SetJavaScriptEnabled")
     override fun mcfPayPaymentLink(data: CitizenPayResponse) {
         wvPayment.visibility = View.VISIBLE
@@ -684,7 +714,7 @@ class InvoicePaymentActivity : ApplicationBaseActivity(), InvoicePaymentView {
     @SuppressLint("CheckResult")
     override fun callPayRetrieveStatus(request: CitizenPayRequest)
     {
-          disposable = Flowable.interval(10, TimeUnit.SECONDS)
+          Flowable.interval(10, TimeUnit.SECONDS)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(){
@@ -805,7 +835,7 @@ class InvoicePaymentActivity : ApplicationBaseActivity(), InvoicePaymentView {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe() {
                     finish()
-                    disposable.dispose()
+                    onDestroy()
 
                 }
             "CANCELLED" -> Flowable.timer(3, TimeUnit.SECONDS)
@@ -813,7 +843,7 @@ class InvoicePaymentActivity : ApplicationBaseActivity(), InvoicePaymentView {
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe() {
                     finish()
-                    disposable.dispose()
+                    onDestroy()
                 }
             else->{
                 if(expiredTime < systemCurrentTime)
@@ -823,7 +853,7 @@ class InvoicePaymentActivity : ApplicationBaseActivity(), InvoicePaymentView {
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe(){
                            finish()
-                            disposable.dispose()
+                            onDestroy()
                         }
                 }
             }

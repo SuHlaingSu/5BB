@@ -19,6 +19,266 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1aa03efe-934f-4ed2-9b6a-0f6736dddad6" name="Changes" comment="Project Upload">
+<<<<<<< Updated upstream
+=======
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-af/values-af.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-am/values-am.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ar/values-ar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-as/values-as.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-az-rAZ/values-az-rAZ.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-az/values-az.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-be-rBY/values-be-rBY.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-be/values-be.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-bg/values-bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-bn-rBD/values-bn-rBD.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-bn/values-bn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-bs-rBA/values-bs-rBA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-bs/values-bs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ca/values-ca.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-cs/values-cs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-da/values-da.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-de/values-de.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-el/values-el.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-en-rXC/values-en-rXC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-es-rES/values-es-rES.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-es/values-es.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-et-rEE/values-et-rEE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-et/values-et.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-eu-rES/values-eu-rES.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-eu/values-eu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-fa/values-fa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-fi/values-fi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-fr/values-fr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-gl-rES/values-gl-rES.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-gl/values-gl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-gu-rIN/values-gu-rIN.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-gu/values-gu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-hi/values-hi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-hr/values-hr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-hu/values-hu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-hy-rAM/values-hy-rAM.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-hy/values-hy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-id/values-id.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-in/values-in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-is-rIS/values-is-rIS.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-is/values-is.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-it/values-it.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-iw/values-iw.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ja/values-ja.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ka-rGE/values-ka-rGE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ka/values-ka.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-kk-rKZ/values-kk-rKZ.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-kk/values-kk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-km-rKH/values-km-rKH.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-km/values-km.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-kn-rIN/values-kn-rIN.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-kn/values-kn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ko/values-ko.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ky-rKG/values-ky-rKG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ky/values-ky.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-land/values-land.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-large-v4/values-large-v4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-lo-rLA/values-lo-rLA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-lo/values-lo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-lt/values-lt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-lv/values-lv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-mdpi-v4/values-mdpi-v4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-mk-rMK/values-mk-rMK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-mk/values-mk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ml-rIN/values-ml-rIN.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ml/values-ml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-mn-rMN/values-mn-rMN.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-mn/values-mn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-mr-rIN/values-mr-rIN.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-mr/values-mr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ms-rMY/values-ms-rMY.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ms/values-ms.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-my-rMM/values-my-rMM.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-my-rZG/values-my-rZG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-my/values-my.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-nb/values-nb.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ne-rNP/values-ne-rNP.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ne/values-ne.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-night-v8/values-night-v8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-nl/values-nl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-or/values-or.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-pa-rIN/values-pa-rIN.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-pa/values-pa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-pl/values-pl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-port/values-port.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-pt/values-pt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ro/values-ro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ru/values-ru.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-si-rLK/values-si-rLK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-si/values-si.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-sk/values-sk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-sl/values-sl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-sq-rAL/values-sq-rAL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-sq/values-sq.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-sr/values-sr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-sv/values-sv.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-sw/values-sw.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ta-rIN/values-ta-rIN.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ta/values-ta.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-te-rIN/values-te-rIN.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-te/values-te.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-th/values-th.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-tl/values-tl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-tr/values-tr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-uk/values-uk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ur-rPK/values-ur-rPK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-ur/values-ur.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-uz-rUZ/values-uz-rUZ.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-uz/values-uz.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-v16/values-v16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-v17/values-v17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-v18/values-v18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-v21/values-v21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-v22/values-v22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-v23/values-v23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-v24/values-v24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-v25/values-v25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-v26/values-v26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-v28/values-v28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-vi/values-vi.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-xxxhdpi-v4/values-xxxhdpi-v4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-zh/values-zh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values-zu/values-zu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout-v26/add_aya_pay_phno.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout-v26/bs_activity_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout-v26/email_otp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout-v26/view_holder_plan_type.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_account_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_account_detail_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_callback_result.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_change_password.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_create_ticket.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_help.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_invoice_payment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_logs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_main_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_notification.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_payment_history.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_plan_change.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_px_plan_change.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_recharged_history.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_relocaiton.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_secret_question.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_send_email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_skippable_notice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/activity_video_full_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/add_email_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/aty_adv_msg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/aty_choose_adv_month.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/aty_choose_adv_month_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/aty_choose_adv_month_scroll.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/aty_choose_bank.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/aty_download.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/aty_px_topup.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/aty_recharge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/bs_activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/bs_view_holder_outstanding_invoice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/business_activity_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/check_verification.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/dialog_ads.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/dialog_force_update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/dialog_fragment_skippable_notice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/exo_playback_control_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/fragment_ads_slider.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/fragment_choose_date_range.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/info_noti_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/item_add_email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/item_recharge.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/latest_payment_aty_download.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/list_item_showroom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/lte_activity_profile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/promo_noti_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/px_choose_bank.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/px_plan_price_list_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/rdo_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/recharge_choose_bank.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/show_list_email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/transaction_noti_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_holder_activity_log.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_holder_bank.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_holder_notification.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_holder_notification_small.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_holder_outstanding_invoice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_holder_payment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_holder_plan_attribute.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_holder_plan_type.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_holder_recharged.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_pod_account_detail_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_pod_prepaid.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_pod_prepaid_next_plan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_pod_quota_usage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/view_pod_usage_summary.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/viewpod_latest_payment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/viewpod_latest_recharged.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/viewpod_navigations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/viewpod_outstanding_invoice.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/viewpod_plan_change.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/viewpod_px_plan_change.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/viewpod_wallet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/1e6cb749c43c31dcacdbc480dc1a76908ac7b6630c2ac72f667e64964dcdc3b2_0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/1e6cb749c43c31dcacdbc480dc1a76908ac7b6630c2ac72f667e64964dcdc3b2_1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/1e6cb749c43c31dcacdbc480dc1a76908ac7b6630c2ac72f667e64964dcdc3b2_2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/1e6cb749c43c31dcacdbc480dc1a76908ac7b6630c2ac72f667e64964dcdc3b2_3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderAYAPay$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$requestQueryOrderAYAPay$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$aYAPayQueryOrder$1.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$aYAPayQueryOrder$2.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderAYAPay$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$requestQueryOrderAYAPay$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$aYAPayQueryOrder$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$aYAPayQueryOrder$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmtext/build/.transforms/0f8863596d00c265780e2ae3687445ea/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmtext/build/.transforms/0f8863596d00c265780e2ae3687445ea/transformed/classes/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmtext/build/intermediates/aar_main_jar/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmtext/build/intermediates/annotations_typedef_file/debug/typedefs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmtext/build/intermediates/annotations_zip/debug/annotations.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmtext/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmtext/build/intermediates/merged_java_res/debug/feature-mmtext.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmtext/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmtext/build/intermediates/variant_model/debug/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmtext/build/outputs/aar/mmtext-debug.aar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/build/.transforms/5a98fa4075936576e7ed91813e4c4eff/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/build/.transforms/5a98fa4075936576e7ed91813e4c4eff/transformed/classes/classes.dex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/build/intermediates/aar_main_jar/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/build/intermediates/annotations_typedef_file/debug/typedefs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/build/intermediates/annotations_zip/debug/annotations.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/build/intermediates/merged_java_res/debug/feature-shared.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/build/intermediates/runtime_library_classes_jar/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/build/intermediates/variant_model/debug/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/build/outputs/aar/shared-debug.aar" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
@@ -28,6 +288,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__D.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__D.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/5BB.app.androidTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/5BB.app.androidTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/5BB.app.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/5BB.app.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/5BB.app.unitTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/5BB.app.unitTest.iml" afterDir="false" />
@@ -35,11 +296,23 @@
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/dev/debug/com/fivebb/selfcare/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/dev/debug/com/fivebb/selfcare/BuildConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/dev/debug/5BB-SelfCare-v1.9.0.apk" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/5BB.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/5BB.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mmtext/5BB.mmtext.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mmtext/5BB.mmtext.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mmtext/5BB.mmtext.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mmtext/5BB.mmtext.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/shared/5BB.shared.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/shared/5BB.shared.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/shared/5BB.shared.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/shared/5BB.shared.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/dev/debug/com/fivebb/selfcare/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/dev/debug/com/fivebb/selfcare/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/dev/debug/5BB-SelfCare-v1.9.0.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk/dev/debug/5BB-SelfCare-v1.9.0.apk" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/dev/debug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk/dev/debug/output-metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/devDebug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/devDebug/R.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeExtDexDevDebug/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeExtDexDevDebug/classes2.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeProjectDexDevDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeProjectDexDevDebug/0/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeProjectDexDevDebug/1/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeProjectDexDevDebug/1/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeProjectDexDevDebug/11/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeProjectDexDevDebug/11/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeProjectDexDevDebug/15/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeProjectDexDevDebug/15/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeProjectDexDevDebug/2/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeProjectDexDevDebug/2/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeProjectDexDevDebug/5/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/devDebug/mergeProjectDexDevDebug/5/classes.dex" afterDir="false" />
@@ -52,10 +325,15 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug-mergeJavaRes/merge-state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/merger.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/devDebug/mergeDevDebugResources/stripped.dir/layout/bs_dialog_force_update.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDevDebug/tmp/devDebug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDevDebug/tmp/devDebug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDevDebug/tmp/devDebug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDevDebug/tmp/devDebug/zip-cache/androidResources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/devDebug/classes/com/fivebb/selfcare/BuildConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/devDebug/classes/com/fivebb/selfcare/BuildConfig.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDevDebug/tmp/devDebug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDevDebug/tmp/devDebug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDevDebug/tmp/devDebug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDevDebug/tmp/devDebug/zip-cache/androidResources" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/devDebug/classes/com/fivebb/selfcare/DataBinderMapperImpl$InnerLayoutIdLookup.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/devDebug/classes/com/fivebb/selfcare/DataBinderMapperImpl$InnerLayoutIdLookup.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/devDebug/classes/com/fivebb/selfcare/DataBinderMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/devDebug/classes/com/fivebb/selfcare/DataBinderMapperImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/devDebug/classes/com/fivebb/selfcare/databinding/ItemRechargeBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/devDebug/classes/com/fivebb/selfcare/databinding/ItemRechargeBinding.class" afterDir="false" />
@@ -68,7 +346,10 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/devDebug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/devDebug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/devDebug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/devDebug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/devDebug/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/devDebug/output-metadata.json" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/devDebug/layout_activity_main_2.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/devDebug/layout_activity_main_2.xml.flat" afterDir="false" />
+=======
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res/devDebug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res/devDebug/values_values.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/devDebug/out/multi-v2/devDebug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/devDebug/out/multi-v2/devDebug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/devDebug/out/multi-v2/values-my-rMM.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/devDebug/out/multi-v2/values-my-rMM.json" afterDir="false" />
@@ -85,11 +366,15 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/b67fc5dc83d98cde3b1e87c8b941a388d2b26039289d45cecde0a2c4d63c8fb5_1.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/b67fc5dc83d98cde3b1e87c8b941a388d2b26039289d45cecde0a2c4d63c8fb5_2.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/b67fc5dc83d98cde3b1e87c8b941a388d2b26039289d45cecde0a2c4d63c8fb5_3.jar" beforeDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/BuildConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/BuildConfig.dex" afterDir="false" />
+=======
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/DataBinderMapperImpl$InnerLayoutIdLookup.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/DataBinderMapperImpl$InnerLayoutIdLookup.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/DataBinderMapperImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/DataBinderMapperImpl.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/AddNewEmailAty.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/AddNewEmailAty.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/CheckVerificationActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/CheckVerificationActivity.dex" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/HomeActivity$setUpAdapters$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/HomeActivity$setUpAdapters$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/HomeActivity$showForceUpdateDialog$dialog$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/HomeActivity$showForceUpdateDialog$dialog$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/HomeActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/HomeActivity.dex" afterDir="false" />
@@ -109,6 +394,44 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/business/BSProfileActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/business/BSProfileActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/prepaid/PXChooseBankActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/prepaid/PXChooseBankActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/prepaid/PXPaymentBankActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/prepaid/PXPaymentBankActivity.dex" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InfoNotiDetailActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InfoNotiDetailActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$Companion.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$Companion.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$callPayRetrieveStatus$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$callPayRetrieveStatus$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$citizenPaymentRetrieveStatus$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$citizenPaymentRetrieveStatus$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$citizenPaymentRetrieveStatus$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$citizenPaymentRetrieveStatus$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$citizenPaymentRetrieveStatus$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$citizenPaymentRetrieveStatus$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$initializePlayer$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$initializePlayer$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$mcfPayPaymentLink$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$mcfPayPaymentLink$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$5.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$5.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$6.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$6.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$7.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$7.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$requestQueryOrderWPay$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$requestQueryOrderWPay$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$requestWavePayResponse$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity$requestWavePayResponse$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/InvoicePaymentActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/LTEProfileActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/LTEProfileActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/LatestPaymentDownloadPDFActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/LatestPaymentDownloadPDFActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/LoginActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/LoginActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/PromoNotiDetailActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/PromoNotiDetailActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/TransNotiDetailActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/TransNotiDetailActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/VerifyEmailAty.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/VerifyEmailAty.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/business/BSProfileActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/business/BSProfileActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/prepaid/PXChooseBankActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/prepaid/PXChooseBankActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/prepaid/PXPaymentBankActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/prepaid/PXPaymentBankActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$callPayRetrieveStatus$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$callPayRetrieveStatus$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$citizenPaymentRetrieveStatus$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$citizenPaymentRetrieveStatus$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$citizenPaymentRetrieveStatus$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$citizenPaymentRetrieveStatus$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$citizenPaymentRetrieveStatus$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$citizenPaymentRetrieveStatus$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$mcfPayPaymentLink$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$mcfPayPaymentLink$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$queryOrderAYAPay$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$queryOrderAYAPay$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$queryOrderWPay$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$queryOrderWPay$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$requestQueryOrderWPay$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$requestQueryOrderWPay$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$requestWavePayResponse$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$requestWavePayResponse$1.dex" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/adapters/ActivityLogAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/adapters/ActivityLogAdapter.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/adapters/BankAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/adapters/BankAdapter.dex" afterDir="false" />
@@ -139,6 +462,7 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/fragments/AdsFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/fragments/AdsFragment.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/fragments/AdsSliderFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/fragments/AdsSliderFragment.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/fragments/ChooseDateRangeFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/fragments/ChooseDateRangeFragment.dex" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadAppImageList$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadAppImageList$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onHomeScreenUiReady$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onHomeScreenUiReady$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onUiReady$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onUiReady$1.dex" afterDir="false" />
@@ -148,6 +472,59 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/devDebug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/devDebug/stableIds.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getAdvPayment$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getAdvPayment$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getAdvPayment$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getAdvPayment$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getPXDetails$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getPXDetails$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getPXDetails$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getPXDetails$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadAppImageList$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadAppImageList$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadAppImageList$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadAppImageList$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadBillingList$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadBillingList$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadBillingList$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadBillingList$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadCustomerBasicViewDetails$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadCustomerBasicViewDetails$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadCustomerBasicViewDetails$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadCustomerBasicViewDetails$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadPaymentHistory$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadPaymentHistory$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadPaymentHistory$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadPaymentHistory$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onDownloadPaymentPDF$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onDownloadPaymentPDF$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onDownloadPaymentPDF$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onDownloadPaymentPDF$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onHomeScreenUiReady$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onHomeScreenUiReady$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onHomeScreenUiReady$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onHomeScreenUiReady$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onUiReady$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onUiReady$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onViewPaymentPDF$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onViewPaymentPDF$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onViewPaymentPDF$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onViewPaymentPDF$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$citizenPaymentRetrieve$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$citizenPaymentRetrieve$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$citizenPaymentRetrieve$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$citizenPaymentRetrieve$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadKBZOrderInfo$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadKBZOrderInfo$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadKBZOrderInfo$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadKBZOrderInfo$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadPaymentMethodList$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadPaymentMethodList$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadPaymentMethodList$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadPaymentMethodList$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onPayWithCitizen$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onPayWithCitizen$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onPayWithCitizen$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onPayWithCitizen$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithAYAPay$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithAYAPay$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithAYAPay$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithAYAPay$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$2$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$2$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$2$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$2$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapWavePayRequest$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapWavePayRequest$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapWavePayRequest$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapWavePayRequest$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$wPayQueryOrder$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$wPayQueryOrder$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$wPayQueryOrder$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$wPayQueryOrder$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/views/InvoicePaymentView.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/mvp/views/InvoicePaymentView.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/notification/NotificationUtilsKt.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/devDebug/out/com/fivebb/selfcare/notification/NotificationUtilsKt.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/devDebug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/devDebug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/devDebug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/devDebug/stableIds.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.values.s" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
@@ -168,7 +545,13 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.s" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.values.s" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDevDebugKotlin/cacheable/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
@@ -223,14 +606,19 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/cacheable/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/kaptGenerateStubsDevDebugKotlin/local-state/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-dev-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-dev-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDevDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDevDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/devDebug/com/fivebb/selfcare/activities/HomeActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/devDebug/com/fivebb/selfcare/activities/HomeActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/devDebug/com/fivebb/selfcare/activities/business/BSHomeActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/devDebug/com/fivebb/selfcare/activities/business/BSHomeActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.class" afterDir="false" />
@@ -264,6 +652,58 @@
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/business/BSProfileActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/business/BSProfileActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/prepaid/PXChooseBankActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/prepaid/PXChooseBankActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/prepaid/PXPaymentBankActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/prepaid/PXPaymentBankActivity.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/devDebug/com/fivebb/selfcare/mvp/views/InvoicePaymentView.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/incrementalData/devDebug/com/fivebb/selfcare/mvp/views/InvoicePaymentView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/mvp/views/InvoicePaymentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/mvp/views/InvoicePaymentView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/mvp/views/InvoicePaymentView.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/mvp/views/InvoicePaymentView.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/notification/NotificationUtilsKt.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/devDebug/com/fivebb/selfcare/notification/NotificationUtilsKt.kapt_metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/AddNewEmailAty.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/AddNewEmailAty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/CheckVerificationActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/CheckVerificationActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InfoNotiDetailActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InfoNotiDetailActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$callPayRetrieveStatus$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$callPayRetrieveStatus$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$citizenPaymentRetrieveStatus$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$citizenPaymentRetrieveStatus$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$citizenPaymentRetrieveStatus$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$citizenPaymentRetrieveStatus$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$citizenPaymentRetrieveStatus$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$citizenPaymentRetrieveStatus$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$initializePlayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$initializePlayer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$mcfPayPaymentLink$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$mcfPayPaymentLink$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$queryOrderWPay$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$requestQueryOrderWPay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$requestQueryOrderWPay$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$requestWavePayResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity$requestWavePayResponse$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/InvoicePaymentActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/LTEProfileActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/LTEProfileActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/LatestPaymentDownloadPDFActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/LatestPaymentDownloadPDFActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/LoginActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/PromoNotiDetailActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/PromoNotiDetailActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/TransNotiDetailActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/TransNotiDetailActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/VerifyEmailAty.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/VerifyEmailAty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/business/BSProfileActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/business/BSProfileActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/prepaid/PXChooseBankActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/prepaid/PXChooseBankActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/prepaid/PXPaymentBankActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/prepaid/PXPaymentBankActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$callPayRetrieveStatus$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$callPayRetrieveStatus$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$citizenPaymentRetrieveStatus$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$citizenPaymentRetrieveStatus$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$citizenPaymentRetrieveStatus$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$citizenPaymentRetrieveStatus$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$citizenPaymentRetrieveStatus$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$citizenPaymentRetrieveStatus$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$mcfPayPaymentLink$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$mcfPayPaymentLink$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$queryOrderAYAPay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$queryOrderAYAPay$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$queryOrderWPay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$queryOrderWPay$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$requestQueryOrderWPay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$requestQueryOrderWPay$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$requestWavePayResponse$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity$requestWavePayResponse$1.class" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/adapters/ActivityLogAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/adapters/ActivityLogAdapter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/adapters/BankAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/adapters/BankAdapter.class" afterDir="false" />
@@ -288,6 +728,7 @@
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/fragments/AdsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/fragments/AdsFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/fragments/AdsSliderFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/fragments/AdsSliderFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/fragments/ChooseDateRangeFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/fragments/ChooseDateRangeFragment.class" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadAppImageList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadAppImageList$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onHomeScreenUiReady$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onHomeScreenUiReady$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onUiReady$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onUiReady$1.class" afterDir="false" />
@@ -300,6 +741,63 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/views/HomeScreenView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/views/HomeScreenView.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/bs_activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bs_activity_main.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getAdvPayment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getAdvPayment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getAdvPayment$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getAdvPayment$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getPXDetails$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getPXDetails$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getPXDetails$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$getPXDetails$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadAppImageList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadAppImageList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadAppImageList$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadAppImageList$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadBillingList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadBillingList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadBillingList$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadBillingList$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadCustomerBasicViewDetails$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadCustomerBasicViewDetails$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadCustomerBasicViewDetails$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadCustomerBasicViewDetails$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadHomeScreenInfo$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadPaymentHistory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadPaymentHistory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadPaymentHistory$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$loadPaymentHistory$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onDownloadPaymentPDF$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onDownloadPaymentPDF$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onDownloadPaymentPDF$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onDownloadPaymentPDF$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onHomeScreenUiReady$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onHomeScreenUiReady$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onHomeScreenUiReady$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onHomeScreenUiReady$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onUiReady$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onUiReady$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onViewPaymentPDF$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onViewPaymentPDF$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onViewPaymentPDF$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter$onViewPaymentPDF$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$citizenPaymentRetrieve$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$citizenPaymentRetrieve$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$citizenPaymentRetrieve$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$citizenPaymentRetrieve$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadKBZOrderInfo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadKBZOrderInfo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadKBZOrderInfo$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadKBZOrderInfo$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadPaymentMethodList$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadPaymentMethodList$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadPaymentMethodList$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$loadPaymentMethodList$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onPayWithCitizen$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onPayWithCitizen$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onPayWithCitizen$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onPayWithCitizen$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithAYAPay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithAYAPay$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithAYAPay$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithAYAPay$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapPayWithKBZPay$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapWavePayRequest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapWavePayRequest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapWavePayRequest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$onTapWavePayRequest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$wPayQueryOrder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$wPayQueryOrder$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$wPayQueryOrder$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl$wPayQueryOrder$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/views/InvoicePaymentView.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/mvp/views/InvoicePaymentView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/notification/NotificationUtilsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/devDebug/com/fivebb/selfcare/notification/NotificationUtilsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/ChooseBankActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/ChooseBankActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/prepaid/PXPaymentBankActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/prepaid/PXPaymentBankActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/recharge/RechargeTopUpActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/views/InvoicePaymentView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/views/InvoicePaymentView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/notification/NotificationUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/notification/NotificationUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mmtext/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mmtext/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
@@ -319,6 +817,10 @@
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab.values.at" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/compileDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
@@ -384,7 +886,10 @@
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.len" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
+=======
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-attributes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
@@ -393,6 +898,10 @@
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/constants.tab.values.at" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
@@ -403,7 +912,13 @@
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab.values.s" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
@@ -442,6 +957,10 @@
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/cacheable/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build/kotlin/kaptGenerateStubsDebugKotlin/local-state/build-history.bin" afterDir="false" />
+<<<<<<< Updated upstream
+=======
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/com/fivebb/shared/utils/SharedConstants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/java/com/fivebb/shared/utils/SharedConstants.kt" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -567,7 +1086,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../SDM/SDM/SDM_Android" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -934,32 +1453,52 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
-          <line>68</line>
+          <line>74</line>
           <option name="timeStamp" value="255" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+<<<<<<< Updated upstream
           <line>509</line>
+=======
+          <line>511</line>
+>>>>>>> Stashed changes
           <option name="timeStamp" value="256" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+<<<<<<< Updated upstream
           <line>526</line>
+=======
+          <line>528</line>
+>>>>>>> Stashed changes
           <option name="timeStamp" value="257" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+<<<<<<< Updated upstream
           <line>550</line>
+=======
+          <line>552</line>
+>>>>>>> Stashed changes
           <option name="timeStamp" value="258" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+<<<<<<< Updated upstream
           <line>561</line>
+=======
+          <line>563</line>
+>>>>>>> Stashed changes
           <option name="timeStamp" value="259" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+<<<<<<< Updated upstream
           <line>574</line>
+=======
+          <line>576</line>
+>>>>>>> Stashed changes
           <option name="timeStamp" value="261" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
@@ -969,7 +1508,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
-          <line>368</line>
+          <line>371</line>
           <option name="timeStamp" value="270" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
@@ -984,17 +1523,17 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
-          <line>41</line>
+          <line>47</line>
           <option name="timeStamp" value="292" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
-          <line>44</line>
+          <line>50</line>
           <option name="timeStamp" value="294" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
-          <line>43</line>
+          <line>49</line>
           <option name="timeStamp" value="295" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
@@ -1034,7 +1573,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.kt</url>
-          <line>199</line>
+          <line>200</line>
           <option name="timeStamp" value="309" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
@@ -1120,7 +1659,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.kt</url>
-          <line>129</line>
+          <line>130</line>
           <option name="timeStamp" value="333" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
@@ -1265,7 +1804,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.kt</url>
-          <line>115</line>
+          <line>116</line>
           <option name="timeStamp" value="382" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
@@ -1275,32 +1814,35 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+<<<<<<< Updated upstream
           <line>539</line>
+=======
+          <line>541</line>
+>>>>>>> Stashed changes
           <option name="timeStamp" value="386" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
-          <line>64</line>
+          <line>70</line>
           <option name="timeStamp" value="387" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
-          <line>111</line>
-          <option name="timeStamp" value="390" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
-          <line>108</line>
+          <line>115</line>
           <option name="timeStamp" value="391" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+<<<<<<< Updated upstream
           <line>656</line>
+=======
+          <line>658</line>
+>>>>>>> Stashed changes
           <option name="timeStamp" value="392" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
-          <line>415</line>
+          <line>418</line>
           <option name="timeStamp" value="394" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
@@ -1320,12 +1862,12 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/impls/InvoicePaymentPresenterImpl.kt</url>
-          <line>95</line>
+          <line>101</line>
           <option name="timeStamp" value="399" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
-          <line>405</line>
+          <line>408</line>
           <option name="timeStamp" value="400" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
@@ -1370,13 +1912,18 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/mvp/presenters/HomeScreenPresenter.kt</url>
-          <line>185</line>
+          <line>186</line>
           <option name="timeStamp" value="414" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/HomeActivity.kt</url>
           <line>270</line>
           <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/activities/InvoicePaymentActivity.kt</url>
+          <line>672</line>
+          <option name="timeStamp" value="418" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="kotlin-function">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/fivebb/selfcare/viewpods/PrepaidNextPlanViewPod.kt</url>

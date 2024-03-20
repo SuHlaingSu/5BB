@@ -1,5 +1,6 @@
 package com.fivebb.selfcare.mvp.views
 
+import com.fivebb.selfcare.network.requests.AYAPayRequest
 import com.fivebb.selfcare.network.requests.CitizenPayRequest
 import com.fivebb.selfcare.network.requests.WavePayRequest
 import com.fivebb.selfcare.network.responses.*
@@ -28,10 +29,13 @@ interface InvoicePaymentView: BaseView {
 
     fun errorResponseKBZPayApp(response: String)
 
+    //AYA
     fun ayaPayLink(data: AYARequestPushPaymentResponse)
-
     fun responseOfAYAPay(message:String)
+    fun requestQueryOrderAYAPay(data: AYAPayRequest)
+    fun queryOrderAYAPay (data: AYAQueryOrderResponse)
 
+    //Citizen
     fun mcfPayPaymentLink(data: CitizenPayResponse)
 
     fun citizenPaymentRetrieveStatus(response:CitizenRetrieveResponse)

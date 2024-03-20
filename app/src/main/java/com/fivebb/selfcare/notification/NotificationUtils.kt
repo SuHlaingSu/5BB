@@ -5,6 +5,7 @@ import android.app.Notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
+import android.app.PendingIntent.FLAG_IMMUTABLE
 import android.content.Context
 import android.content.Intent
 import android.media.RingtoneManager
@@ -25,7 +26,7 @@ fun sendNotification(context: Context, title: String, messageBody: String, msgId
 
     val pendingIntent = PendingIntent.getActivity(
         context, 0, intent,
-        PendingIntent.FLAG_UPDATE_CURRENT
+        FLAG_IMMUTABLE
     )
 
     buildAndSendNotification(context, title, messageBody, pendingIntent)

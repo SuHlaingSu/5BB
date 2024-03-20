@@ -1,5 +1,6 @@
 package com.fivebb.selfcare.mvp.presenters.impls
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.util.Log
 import com.fivebb.selfcare.BuildConfig
@@ -16,7 +17,12 @@ import com.fivebb.shared.vos.BankVO
 import com.fivebb.shared.vos.CombinePaymentDataVO
 import com.fivebb.shared.vos.PaymentMethodVO
 import com.fivebb.shared.vos.RegionVO
+import io.reactivex.Flowable
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.schedulers.Schedulers
+import kotlinx.coroutines.delay
 import org.jetbrains.annotations.NotNull
+import java.util.concurrent.TimeUnit
 
 
 class InvoicePaymentPresenterImpl : BasePresenter<InvoicePaymentView, UserModel>(),
@@ -104,16 +110,31 @@ class InvoicePaymentPresenterImpl : BasePresenter<InvoicePaymentView, UserModel>
           })
     }
 
+    @SuppressLint("CheckResult")
     override fun onTapPayWithAYAPay(request: AYAPayRequest) {
         mShowProgressLoadingDialogLiveData.postValue(true)
         val encryptData = generateEncDataForAYAPay(request)
         mModel.payWithAYAPay(encryptData, success = {
             mHideProgressLoadingDialogLiveData.postValue(true)
             mView.ayaPayLink(it)
+            mView.requestQueryOrderAYAPay(request)
         }, failure = {
             mHideProgressLoadingDialogLiveData.postValue(true)
             mView.responseOfAYAPay(it)
         })
+    }
+
+    fun aYAPayQueryOrder(data: AYAPayRequest) {
+        val encryptData = generateEncDataForAYAPayQueryOrder(data)
+        mModel.AYAPayQueryOrder(encryptData,
+            success = {
+                mHideProgressLoadingDialogLiveData.postValue(true)
+                mView.queryOrderAYAPay(it)
+            },
+            failure = {
+                mHideProgressLoadingDialogLiveData.postValue(true)
+                //_errorLiveData.postValue(it)
+            })
     }
 
     override fun onPayWithCitizen(request: CitizenPayRequest) {
@@ -251,6 +272,18 @@ class InvoicePaymentPresenterImpl : BasePresenter<InvoicePaymentView, UserModel>
         data += "|checkSum=${data.md5Hash()}"
 
         Log.i("TAG", "generateEncDataForAYAPay: $data")
+
+        return EncryptDataRequest(Cryptography_Android.Encrypt(data, BuildConfig.ENCRYPTION_KEY))
+    }
+
+    private fun generateEncDataForAYAPayQueryOrder(request: AYAPayRequest): EncryptDataRequest {
+
+        val accountCode = "AccountCode=${BuildConfig.ACCOUNT_CODE}|"
+        val orderID = "OrderID=${request.orderID}"
+
+        var data = accountCode + orderID
+
+        data += "|checkSum=${data.md5Hash()}"
 
         return EncryptDataRequest(Cryptography_Android.Encrypt(data, BuildConfig.ENCRYPTION_KEY))
     }

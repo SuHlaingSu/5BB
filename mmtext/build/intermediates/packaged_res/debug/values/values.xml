@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="bright_foreground_dark">@android:color/background_light</color>
-    <color name="toast_background">#5c5e5c</color>
-    <dimen name="toast_background_radius">24dp</dimen>
-    <dimen name="toast_text_padding">12dp</dimen>
-    <string name="app_name">mmtext</string>
-</resources>

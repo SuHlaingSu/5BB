@@ -123,7 +123,7 @@ android {
             //resValue "string", APP_LABEL, LABEL_DEV
         }
 
-        /*psr {
+       /* psr {
             applicationIdSuffix '' //Added By SH
             //applicationId = "com.fivebb.selfcare" //Close Comment By SH
             buildConfigField "String", BUILD_TYPE_FIELD, BUILD_TYPE_RELEASE
