@@ -1,0 +1,15 @@
+<mm.technomation.mmtext.MMTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@android:id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:paddingEnd="15dip"
+        android:paddingStart="14dip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/text_regular"
+        android:textColor="@color/primary_text"
+        tools:text="@tools:sample/lorem"/>
