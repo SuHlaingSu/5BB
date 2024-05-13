@@ -50,8 +50,8 @@ const val API_AYA_PAY = "Payment/AYARequestPushPayment"
 const val API_AYA_QUERY_ORDER = "Payment/AYAQueryOrder"
 
 //Citizen Api
-const val API_CITIZEN_PAY = "Payment/MCBEMoneyPayments"
-const val API_CITIZEN_RETRIEVE = "Payment/GTGMCBRetrieveEmoneyPayment"
+const val API_CITIZEN_PAY = "Payment/PaymentStep1PG"
+const val API_CITIZEN_RETRIEVE = "Payment/GTGMCBRetrievePaymentStep1PG"
 //WavePay Api
 const val API_WAVE_PAY = "Payment/WMPaymentRequest"
 const val API_WAVE_QUERY_ORDER = "Payment/WMQueryOrder"

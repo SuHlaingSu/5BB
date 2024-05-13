@@ -19,6 +19,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
 import com.fivebb.selfcare.R
 import com.fivebb.selfcare.activities.ApplicationBaseActivity
+import com.fivebb.selfcare.activities.HomeActivity
 import com.fivebb.selfcare.adapters.BankAdapter
 import com.fivebb.selfcare.mvp.presenters.RechargeTopUpPresenter
 import com.fivebb.selfcare.mvp.views.BankListView
@@ -282,52 +283,70 @@ class RechargeTopUpActivity : ApplicationBaseActivity() ,RechargeTopUpView,BankL
 
     @SuppressLint("CheckResult")
     override fun citizenPaymentRetrieveStatus(response: CitizenRetrieveResponse) {
-        Log.i("Status", "citizenPaymentRetrieveStatus: " + response.contextStatus)
-        val expiredTime  = response.expiryTime
-        val systemCurrentTime = System.currentTimeMillis()
-        when(response.contextStatus){
-            "APPROVED" -> Flowable.timer(3, TimeUnit.SECONDS)
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe() {
-                    SharedPreferenceUtils.deleteActionType(this)
-                    SharedPreferenceUtils.deleteBankForPayment(this)
-                    SharedPreferenceUtils.deleteAdvID(this)
-                    SharedPreferenceUtils.deletePlanID(this)
-                    SharedPreferenceUtils.deleteOrderID(this)
-                    SharedPreferenceUtils.deleteAdvPlan(this)
-                    onDestroy()
-                }
+        Log.i("Status", "citizenPaymentRetrieveStatus: " + response.tranHis)
+       /* val expiredTime  = response.expiryTime
+        val systemCurrentTime = System.currentTimeMillis()*/
+        val transStatus = response.tranHis
+        if (transStatus!!.isNotEmpty()) {
+            when(transStatus[0].tranStatus){
+                "Success" -> Flowable.timer(3, TimeUnit.SECONDS)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe() {
+                        val newIntent =  HomeActivity.newIntent(
+                            this,
+                            SharedPreferenceUtils.getServiceType(applicationContext)
+                        )
+                        newIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+                        startActivity(newIntent)
+                        finish()
+                       /* SharedPreferenceUtils.deleteActionType(this)
+                        SharedPreferenceUtils.deleteBankForPayment(this)
+                        SharedPreferenceUtils.deleteAdvID(this)
+                        SharedPreferenceUtils.deletePlanID(this)
+                        SharedPreferenceUtils.deleteOrderID(this)
+                        SharedPreferenceUtils.deleteAdvPlan(this)*/
+                       disposables?.dispose()
+                    }
 
-            "CANCELLED" -> Flowable.timer(3, TimeUnit.SECONDS)
+               /* "CANCELLED" -> Flowable.timer(3, TimeUnit.SECONDS)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe() {
+                        SharedPreferenceUtils.deleteActionType(this)
+                        SharedPreferenceUtils.deleteBankForPayment(this)
+                        SharedPreferenceUtils.deleteAdvID(this)
+                        SharedPreferenceUtils.deletePlanID(this)
+                        SharedPreferenceUtils.deleteOrderID(this)
+                        SharedPreferenceUtils.deleteAdvPlan(this)
+                        onDestroy()
+                    }
+                else->{
+                    if(expiredTime < systemCurrentTime)
+                    {
+                        Flowable.timer(3, TimeUnit.SECONDS)
+                            .subscribeOn(Schedulers.io())
+                            .observeOn(AndroidSchedulers.mainThread())
+                            .subscribe(){
+                                onDestroy()
+                            }
+                    }
+                }*/
+            }
+        }else{
+            Flowable.timer(3, TimeUnit.SECONDS)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe() {
-                    SharedPreferenceUtils.deleteActionType(this)
-                    SharedPreferenceUtils.deleteBankForPayment(this)
-                    SharedPreferenceUtils.deleteAdvID(this)
-                    SharedPreferenceUtils.deletePlanID(this)
-                    SharedPreferenceUtils.deleteOrderID(this)
-                    SharedPreferenceUtils.deleteAdvPlan(this)
-                    onDestroy()
+                  disposables?.dispose()
                 }
-            else->{
-                if(expiredTime < systemCurrentTime)
-                {
-                    Flowable.timer(3, TimeUnit.SECONDS)
-                        .subscribeOn(Schedulers.io())
-                        .observeOn(AndroidSchedulers.mainThread())
-                        .subscribe(){
-                            onDestroy()
-                        }
-                }
-            }
         }
     }
 
     @SuppressLint("CheckResult")
     override fun callPayRetrieveStatus(status: CitizenPayRequest) {
-        Flowable.interval(10, TimeUnit.SECONDS)
+        Flowable.interval(10,20 ,TimeUnit.SECONDS)
+            .take(5)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(){

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/margin_medium_3"
+        android:background="@android:color/transparent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivContent"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:src="@drawable/app_cover_pop_design"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/tvContent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/ivContent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_margin="@dimen/margin_medium_2"
+            android:text="@string/msg_pop_up"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/text_regular_3x"
+            android:lineSpacingMultiplier="1.2"/>
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/btnClose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvContent"
+            app:layout_constraintStart_toStartOf="@id/tvContent"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:text="@string/lbl_ads_close"
+            android:background="@drawable/bg_primary_border"
+            android:gravity="center"
+            android:focusable="true"
+            android:clickable="true"
+            android:foreground="@drawable/ripple_accent"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintVertical_chainStyle="spread_inside"
+            app:layout_constraintEnd_toStartOf="@+id/btnMore"
+            android:layout_marginEnd="@dimen/margin_medium_2"
+            android:paddingTop="@dimen/margin_medium"
+            android:paddingBottom="@dimen/margin_medium"
+            android:textStyle="bold"/>
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/btnMore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_ads_more"
+            app:layout_constraintTop_toBottomOf="@id/tvContent"
+            app:layout_constraintEnd_toEndOf="@id/tvContent"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:background="@drawable/bg_fill_primary_round"
+            android:paddingStart="@dimen/margin_medium_2"
+            android:paddingEnd="@dimen/margin_medium_2"
+            android:paddingTop="@dimen/margin_medium"
+            android:paddingBottom="@dimen/margin_medium"
+            app:layout_constraintStart_toEndOf="@+id/btnClose"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:gravity="center"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold"
+            android:foreground="@drawable/ripple_white"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

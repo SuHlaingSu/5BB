@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_medium_2"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:layout_marginEnd="@dimen/margin_medium_2"
+        android:layout_marginBottom="@dimen/margin_xsmall"
+        app:cardCornerRadius="@dimen/margin_small">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="@dimen/logo_width"
+                android:layout_height="@dimen/logo_height"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:src="@drawable/fivebb_logo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <mm.technomation.mmtext.MMTextView
+                android:id="@+id/tvNotificationTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginTop="@dimen/margin_medium_3"
+                android:layout_marginEnd="@dimen/margin_medium_2"
+                android:text="@string/lbl_notification"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/text_heading_1x"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivLogo"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+                android:id="@+id/llNotificationContent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvNotificationTitle">
+
+            <ImageView
+                    android:id="@+id/ivNotification"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="@dimen/margin_medium_2"
+                    android:layout_marginTop="@dimen/margin_medium_2"
+                    android:layout_marginEnd="@dimen/margin_medium_2"
+                    android:adjustViewBounds="true"
+                    android:scaleType="center"
+                    android:visibility="visible"
+                    tools:src="@tools:sample/backgrounds/scenic" />
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/tvNotificationDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_medium_2"
+                    android:autoLink="web"
+                    android:ellipsize="end"
+                    android:linksClickable="true"
+                    android:maxLines="2"
+                    android:paddingStart="@dimen/margin_medium_2"
+                    android:paddingEnd="@dimen/margin_medium_2"
+                    android:text="@string/dummy_activity_log_content"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/text_regular" />
+        </LinearLayout>
+
+        <mm.technomation.mmtext.MMTextView
+                android:id="@+id/tvTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium_2"
+                android:layout_marginTop="@dimen/margin_medium_3"
+                android:text="@string/dummy_paid_at"
+                android:textColor="@color/secondary_text"
+                android:textSize="@dimen/text_small"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toStartOf="@+id/tvShowMore"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/llNotificationContent" />
+
+        <mm.technomation.mmtext.MMTextView
+                android:id="@+id/tvShowMore"
+                style="@style/PrimaryTextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginTop="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_medium_2"
+                android:layout_marginBottom="@dimen/margin_medium_2"
+                android:padding="@dimen/margin_medium"
+                android:text="@string/lbl_show_more"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/tvTime"
+                app:layout_constraintTop_toBottomOf="@id/llNotificationContent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

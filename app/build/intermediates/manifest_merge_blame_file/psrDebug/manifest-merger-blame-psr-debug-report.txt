@@ -1,0 +1,914 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fivebb.selfcare"
+4    android:versionCode="101"
+5    android:versionName="1.9.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:6:5-7:40
+12-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:8:5-80
+13-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:9:5-79
+14-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+15-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:10:5-81
+15-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:10:22-79
+16    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+16-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:11:5-93
+16-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:11:22-91
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:12:5-76
+17-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:12:22-74
+18    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+18-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:13:5-78
+18-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="com.kbzbank.kpaycustomer.permission.inapp_payment" />
+19-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:11:5-89
+19-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:11:22-86
+20
+21    <queries>
+21-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:13:5-19:15
+22
+23        <!-- 生产包 -->
+24        <package android:name="com.kbzbank.kpaycustomer" />
+24-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:16:9-60
+24-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:16:18-57
+25        <!-- UAT包 -->
+26        <package android:name="com.kbzbank.kpaycustomer.uat" />
+26-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:18:9-64
+26-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:18:18-61
+27        <!-- Needs to be explicitly declared on Android R+ -->
+28        <package android:name="com.google.android.apps.maps" />
+28-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\60367966a0cdabb087c883c1cc1842c9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+28-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\60367966a0cdabb087c883c1cc1842c9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.CALL_PHONE" />
+31-->[:shared] D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-69
+31-->[:shared] D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-66
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:26:5-68
+32-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:26:22-65
+33
+34    <uses-feature
+34-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\60367966a0cdabb087c883c1cc1842c9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+35        android:glEsVersion="0x00020000"
+35-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\60367966a0cdabb087c883c1cc1842c9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+36        android:required="true" />
+36-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\60367966a0cdabb087c883c1cc1842c9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+37
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+38-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:5-110
+38-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:26:22-107
+39
+40    <application
+40-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:15:5-247:19
+41        android:name="com.fivebb.selfcare.FiveBBApp"
+41-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:16:13-38
+42        android:allowBackup="true"
+42-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:17:13-39
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.7.0] C:\Users\Dell\.gradle\caches\transforms-3\f23b9169dd2687684e2543113831d41f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:icon="@mipmap/ic_launcher_fivebb"
+45-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:18:13-54
+46        android:label="@string/app_name"
+46-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:19:13-45
+47        android:roundIcon="@mipmap/ic_launcher_round_fivebb"
+47-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:20:13-65
+48        android:supportsRtl="true"
+48-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:21:13-39
+49        android:testOnly="true"
+50        android:theme="@style/AppTheme.NoActionBar"
+50-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:22:13-56
+51        android:usesCleartextTraffic="true" >
+51-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:23:13-48
+52        <service
+52-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:26:9-32:19
+53            android:name="com.fivebb.selfcare.firebase.FCMService"
+53-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:27:17-52
+54            android:exported="false" >
+54-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:28:17-41
+55            <intent-filter>
+55-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:29:13-31:29
+56                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+56-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:30:17-78
+56-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:30:25-75
+57            </intent-filter>
+58        </service>
+59
+60        <meta-data
+60-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:34:9-107
+61            android:name="com.facebook.sdk.ApplicationId"
+61-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:34:20-65
+62            android:value="@string/facebook_app_id" />
+62-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:34:66-105
+63        <meta-data
+63-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:36:9-38:40
+64            android:name="com.facebook.sdk.CodelessDebugLogEnabled"
+64-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:37:17-72
+65            android:value="true" />
+65-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:38:17-37
+66        <meta-data
+66-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:40:9-42:53
+67            android:name="com.google.firebase.messaging.default_notification_icon"
+67-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:41:17-87
+68            android:resource="@drawable/logo" />
+68-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:42:17-50
+69        <meta-data
+69-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:43:9-45:58
+70            android:name="com.google.firebase.messaging.default_notification_color"
+70-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:44:17-88
+71            android:resource="@color/colorPrimary" />
+71-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:45:17-55
+72
+73        <activity
+73-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:47:9-49:56
+74            android:name="com.fivebb.selfcare.activities.SkippableNoticeActivity"
+74-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:48:17-67
+75            android:screenOrientation="portrait" />
+75-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:49:17-53
+76        <activity android:name="com.fivebb.selfcare.activities.prepaid.PXPaymentBankActivity" />
+76-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:50:9-77
+76-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:50:19-75
+77        <activity
+77-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:52:9-54:56
+78            android:name="com.fivebb.selfcare.activities.DownloadPDFActivity"
+78-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:53:17-63
+79            android:screenOrientation="portrait" />
+79-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:54:17-53
+80        <activity
+80-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:56:9-58:56
+81            android:name="com.fivebb.selfcare.activities.SendEmailActivity"
+81-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:57:17-61
+82            android:screenOrientation="portrait" />
+82-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:58:17-53
+83        <activity
+83-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:60:9-62:56
+84            android:name="com.fivebb.selfcare.activities.recharge.RechargeActivity"
+84-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:61:17-69
+85            android:screenOrientation="portrait" />
+85-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:62:17-53
+86        <activity
+86-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:64:9-66:56
+87            android:name="com.fivebb.selfcare.activities.prepaid.PXTopUpActivity"
+87-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:65:17-67
+88            android:screenOrientation="portrait" />
+88-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:66:17-53
+89        <activity
+89-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:68:9-70:56
+90            android:name="com.fivebb.selfcare.activities.LatestPaymentDownloadPDFActivity"
+90-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:69:17-76
+91            android:screenOrientation="portrait" />
+91-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:70:17-53
+92        <activity
+92-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:72:9-85:20
+93            android:name="com.fivebb.selfcare.activities.recharge.RechargeTopUpActivity"
+93-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:73:17-74
+94            android:exported="true"
+94-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:75:13-36
+95            android:screenOrientation="portrait" >
+95-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:74:13-49
+96            <intent-filter android:autoVerify="true" >
+96-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:13-84:29
+96-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:28-53
+97                <action android:name="android.intent.action.VIEW" />
+97-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+97-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
+98
+99                <category android:name="android.intent.category.DEFAULT" />
+99-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+99-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
+100                <category android:name="android.intent.category.BROWSABLE" />
+100-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+100-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
+101
+102                <data
+102-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
+103                    android:host="mlink/screen=dynamicconfirm?requestedid="
+103-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
+104                    android:scheme="ayapay" /> <!-- ayapay://mLink/screen=DynamicConfirm?requestedId=64cb456d953889338231db49" -->
+104-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
+105            </intent-filter>
+106        </activity>
+107        <activity
+107-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:88:9-107:20
+108            android:name="com.fivebb.selfcare.activities.SplashActivity"
+108-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:89:17-58
+109            android:exported="true"
+109-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:91:17-40
+110            android:screenOrientation="portrait" >
+110-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:90:17-53
+111            <intent-filter>
+111-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:92:13-101:29
+112                <action android:name="android.intent.action.VIEW" />
+112-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+112-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+114-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+115-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
+116
+117                <data
+117-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
+118                    android:host="@string/host_name"
+118-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
+119                    android:scheme="https" />
+119-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
+120            </intent-filter>
+121            <intent-filter>
+121-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:102:13-106:29
+122                <action android:name="android.intent.action.MAIN" />
+122-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:103:17-69
+122-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:103:25-66
+123
+124                <category android:name="android.intent.category.LAUNCHER" />
+124-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:105:17-77
+124-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:105:27-74
+125            </intent-filter>
+126        </activity>
+127        <activity
+127-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:109:9-110:34
+128            android:name="com.kbzbank.payment.sdk.callback.CallbackResultActivity"
+128-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:109:19-89
+129            android:exported="true" />
+129-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:110:9-32
+130        <activity
+130-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:112:9-114:56
+131            android:name="com.fivebb.selfcare.activities.LoginActivity"
+131-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:113:17-57
+132            android:screenOrientation="portrait" />
+132-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:114:17-53
+133        <activity
+133-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:115:9-117:56
+134            android:name="com.fivebb.selfcare.activities.HomeActivity"
+134-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:116:17-56
+135            android:screenOrientation="portrait" />
+135-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:117:17-53
+136        <activity
+136-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:118:9-120:52
+137            android:name="com.fivebb.selfcare.activities.business.BSHomeActivity"
+137-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:119:13-63
+138            android:screenOrientation="portrait" />
+138-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:120:13-49
+139        <activity
+139-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:121:9-123:56
+140            android:name="com.fivebb.selfcare.activities.PlanChangeActivity"
+140-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:122:17-62
+141            android:screenOrientation="portrait" />
+141-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:123:17-53
+142        <activity
+142-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:124:9-126:56
+143            android:name="com.fivebb.selfcare.activities.prepaid.PXPlanChangeActivity"
+143-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:125:17-72
+144            android:screenOrientation="portrait" />
+144-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:126:17-53
+145        <activity
+145-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:127:9-129:56
+146            android:name="com.fivebb.selfcare.activities.ActivityLogsActivity"
+146-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:128:17-64
+147            android:screenOrientation="portrait" />
+147-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:129:17-53
+148        <activity
+148-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:130:9-137:20
+149            android:name="com.fivebb.selfcare.activities.RelocationActivity"
+149-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:131:17-62
+150            android:exported="true"
+150-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:133:17-40
+151            android:screenOrientation="portrait" >
+151-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:132:17-53
+152            <intent-filter>
+152-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:134:13-136:29
+153                <action android:name="android.intent.action.SEND" />
+153-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:135:17-69
+153-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:135:25-66
+154            </intent-filter>
+155        </activity>
+156        <activity
+156-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:138:9-140:56
+157            android:name="com.fivebb.selfcare.activities.CheckVerificationActivity"
+157-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:139:17-69
+158            android:screenOrientation="portrait" />
+158-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:140:17-53
+159        <activity
+159-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:141:9-143:56
+160            android:name="com.fivebb.selfcare.activities.NotificationActivity"
+160-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:142:17-64
+161            android:screenOrientation="portrait" />
+161-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:143:17-53
+162        <activity
+162-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:144:9-146:56
+163            android:name="com.fivebb.selfcare.activities.InfoNotiDetailActivity"
+163-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:145:17-66
+164            android:screenOrientation="portrait" />
+164-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:146:17-53
+165        <activity
+165-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:147:9-149:56
+166            android:name="com.fivebb.selfcare.activities.TransNotiDetailActivity"
+166-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:148:17-67
+167            android:screenOrientation="portrait" />
+167-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:149:17-53
+168        <activity
+168-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:150:9-152:56
+169            android:name="com.fivebb.selfcare.activities.PromoNotiDetailActivity"
+169-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:151:17-67
+170            android:screenOrientation="portrait" />
+170-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:152:17-53
+171        <activity
+171-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:153:9-155:56
+172            android:name="com.fivebb.selfcare.activities.CreateTicketActivity"
+172-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:154:17-64
+173            android:screenOrientation="portrait" />
+173-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:155:17-53
+174        <activity
+174-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:156:9-158:56
+175            android:name="com.fivebb.selfcare.activities.ProfileActivity"
+175-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:157:17-59
+176            android:screenOrientation="portrait" />
+176-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:158:17-53
+177        <activity
+177-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:159:9-161:56
+178            android:name="com.fivebb.selfcare.activities.business.BSProfileActivity"
+178-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:160:17-70
+179            android:screenOrientation="portrait" />
+179-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:161:17-53
+180        <activity
+180-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:162:9-164:56
+181            android:name="com.fivebb.selfcare.activities.LTEProfileActivity"
+181-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:163:17-62
+182            android:screenOrientation="portrait" />
+182-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:164:17-53
+183        <activity
+183-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:165:9-178:20
+184            android:name="com.fivebb.selfcare.activities.ChooseAdvMonthActivity"
+184-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:166:17-66
+185            android:exported="true"
+185-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:168:13-36
+186            android:screenOrientation="portrait" >
+186-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:167:13-49
+187            <intent-filter android:autoVerify="true" >
+187-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:13-84:29
+187-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:28-53
+188                <action android:name="android.intent.action.VIEW" />
+188-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+188-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
+189
+190                <category android:name="android.intent.category.DEFAULT" />
+190-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+190-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
+191                <category android:name="android.intent.category.BROWSABLE" />
+191-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+191-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
+192
+193                <data
+193-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
+194                    android:host="mlink/screen=dynamicconfirm?requestedid="
+194-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
+195                    android:scheme="ayapay" /> <!-- ayapay://mLink/screen=DynamicConfirm?requestedId=64cb456d953889338231db49" -->
+195-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
+196            </intent-filter>
+197        </activity>
+198        <activity
+198-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:180:9-193:20
+199            android:name="com.fivebb.selfcare.activities.ChooseBankActivity"
+199-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:181:17-62
+200            android:exported="true"
+200-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:183:13-36
+201            android:screenOrientation="portrait" >
+201-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:182:13-49
+202            <intent-filter android:autoVerify="true" >
+202-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:13-84:29
+202-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:28-53
+203                <action android:name="android.intent.action.VIEW" />
+203-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+203-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
+204
+205                <category android:name="android.intent.category.DEFAULT" />
+205-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+205-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
+206                <category android:name="android.intent.category.BROWSABLE" />
+206-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+206-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
+207
+208                <data
+208-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
+209                    android:host="mlink/screen=dynamicconfirm?requestedid="
+209-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
+210                    android:scheme="ayapay" /> <!-- ayapay://mLink/screen=DynamicConfirm?requestedId=64cb456d953889338231db49" -->
+210-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
+211            </intent-filter>
+212        </activity>
+213        <activity
+213-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:194:9-196:56
+214            android:name="com.fivebb.selfcare.activities.AddNewEmailAty"
+214-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:195:17-58
+215            android:screenOrientation="portrait" />
+215-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:196:17-53
+216        <activity
+216-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:197:9-199:56
+217            android:name="com.fivebb.selfcare.activities.AccountDetailActivity"
+217-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:198:17-65
+218            android:screenOrientation="portrait" />
+218-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:199:17-53
+219        <activity
+219-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:200:9-213:20
+220            android:name="com.fivebb.selfcare.activities.InvoicePaymentActivity"
+220-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:201:17-66
+221            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+221-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:202:13-122
+222            android:exported="true" >
+222-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:203:13-36
+223            <intent-filter android:autoVerify="true" >
+223-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:13-84:29
+223-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:76:28-53
+224                <action android:name="android.intent.action.VIEW" />
+224-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+224-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
+225
+226                <category android:name="android.intent.category.DEFAULT" />
+226-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+226-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
+227                <category android:name="android.intent.category.BROWSABLE" />
+227-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+227-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
+228
+229                <data
+229-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
+230                    android:host="mlink/screen=dynamicconfirm?requestedid="
+230-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
+231                    android:scheme="ayapay" /> <!-- ayapay://mLink/screen=DynamicConfirm?requestedId=64cb456d953889338231db49" -->
+231-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
+232            </intent-filter>
+233        </activity>
+234        <activity
+234-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:214:9-216:56
+235            android:name="com.fivebb.selfcare.activities.ChangePasswordActivity"
+235-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:215:17-66
+236            android:screenOrientation="portrait" />
+236-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:216:17-53
+237        <activity
+237-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:217:9-219:56
+238            android:name="com.fivebb.selfcare.activities.PaymentHistoryActivity"
+238-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:218:17-66
+239            android:screenOrientation="portrait" />
+239-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:219:17-53
+240        <activity
+240-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:220:9-222:56
+241            android:name="com.fivebb.selfcare.activities.recharge.RechargedHistoryActivity"
+241-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:221:17-77
+242            android:screenOrientation="portrait" />
+242-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:222:17-53
+243        <activity
+243-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:223:9-227:56
+244            android:name="com.fivebb.selfcare.activities.HelpActivity"
+244-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:224:17-56
+245            android:configChanges="orientation"
+245-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:225:17-52
+246            android:hardwareAccelerated="true"
+246-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:226:17-51
+247            android:screenOrientation="portrait" />
+247-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:227:17-53
+248        <activity
+248-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:228:9-230:57
+249            android:name="com.fivebb.selfcare.activities.VideoFullScreenActivity"
+249-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:229:17-67
+250            android:screenOrientation="landscape" />
+250-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:230:17-54
+251        <activity
+251-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:231:9-233:56
+252            android:name="com.fivebb.selfcare.activities.SecretQuestionActivity"
+252-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:232:17-66
+253            android:screenOrientation="portrait" />
+253-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:233:17-53
+254        <activity
+254-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:235:9-237:56
+255            android:name="com.fivebb.selfcare.activities.VerifyEmailAty"
+255-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:236:17-58
+256            android:screenOrientation="portrait" />
+256-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:237:17-53
+257
+258        <meta-data
+258-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:238:9-240:41
+259            android:name="firebase_crashlytics_collection_enabled"
+259-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:239:17-71
+260            android:value="false" />
+260-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:240:17-38
+261        <!--
+262            <meta-data
+263                android:name="io.fabric.ApiKey"
+264                android:value="ffdd68d264d8ac2a87fbd88d215d46bacf7f46a3" />
+265        -->
+266        <meta-data
+266-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:244:9-246:75
+267            android:name="com.google.android.geo.API_KEY"
+267-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:245:17-62
+268            android:value="AIzaSyAl7fsmjsnq2s5YNJGQDWcDPVUnstzL8RY" />
+268-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:246:17-72
+269
+270        <provider
+270-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:23:9-26:40
+271            android:name="com.readystatesoftware.chuck.internal.data.ChuckContentProvider"
+271-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:24:13-91
+272            android:authorities="com.fivebb.selfcare.chuck.provider"
+272-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:25:13-66
+273            android:exported="false" />
+273-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:26:13-37
+274
+275        <activity
+275-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:28:9-33:50
+276            android:name="com.readystatesoftware.chuck.internal.ui.MainActivity"
+276-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:29:13-81
+277            android:label="@string/chuck_name"
+277-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:30:13-47
+278            android:launchMode="singleTask"
+278-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:31:13-44
+279            android:taskAffinity="com.readystatesoftware.chuck.task"
+279-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:32:13-69
+280            android:theme="@style/Chuck.Theme" />
+280-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:33:13-47
+281        <activity
+281-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:34:9-37:50
+282            android:name="com.readystatesoftware.chuck.internal.ui.TransactionActivity"
+282-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:35:13-88
+283            android:parentActivityName="com.readystatesoftware.chuck.internal.ui.MainActivity"
+283-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:36:13-95
+284            android:theme="@style/Chuck.Theme" />
+284-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:37:13-47
+285
+286        <service
+286-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:39:9-41:40
+287            android:name="com.readystatesoftware.chuck.internal.support.ClearTransactionsService"
+287-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:40:13-98
+288            android:exported="false" />
+288-->[com.readystatesoftware.chuck:library:1.1.0] C:\Users\Dell\.gradle\caches\transforms-3\b6d47e975836fcffac62d2591080f597\transformed\jetified-library-1.1.0\AndroidManifest.xml:41:13-37
+289
+290        <activity
+290-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\4b8f86d465ef36260e893ff7b136a0d4\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:30:9-33:66
+291            android:name="com.facebook.FacebookActivity"
+291-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\4b8f86d465ef36260e893ff7b136a0d4\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:31:13-57
+292            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+292-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\4b8f86d465ef36260e893ff7b136a0d4\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:32:13-96
+293            android:theme="@style/com_facebook_activity_theme" />
+293-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\4b8f86d465ef36260e893ff7b136a0d4\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:33:13-63
+294        <activity android:name="com.facebook.CustomTabMainActivity" />
+294-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\4b8f86d465ef36260e893ff7b136a0d4\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:9-71
+294-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\4b8f86d465ef36260e893ff7b136a0d4\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:34:19-68
+295        <activity
+295-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\4b8f86d465ef36260e893ff7b136a0d4\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:35:9-49:20
+296            android:name="com.facebook.CustomTabActivity"
+296-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\4b8f86d465ef36260e893ff7b136a0d4\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:36:13-58
+297            android:exported="true" >
+297-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\4b8f86d465ef36260e893ff7b136a0d4\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:37:13-36
+298            <intent-filter>
+298-->[com.facebook.android:facebook-common:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\4b8f86d465ef36260e893ff7b136a0d4\transformed\jetified-facebook-common-5.15.3\AndroidManifest.xml:39:13-48:29
+299                <action android:name="android.intent.action.VIEW" />
+299-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+299-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
+300
+301                <category android:name="android.intent.category.DEFAULT" />
+301-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+301-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
+302                <category android:name="android.intent.category.BROWSABLE" />
+302-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+302-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
+303
+304                <data
+304-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
+305                    android:host="cct.com.fivebb.selfcare"
+305-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
+306                    android:scheme="fbconnect" />
+306-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
+307            </intent-filter>
+308        </activity>
+309        <activity
+309-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+310            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+310-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+311            android:excludeFromRecents="true"
+311-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+312            android:exported="true"
+312-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+313            android:launchMode="singleTask"
+313-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+314            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+314-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+315            <intent-filter>
+315-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+316                <action android:name="android.intent.action.VIEW" />
+316-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+316-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
+317
+318                <category android:name="android.intent.category.DEFAULT" />
+318-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+318-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
+319                <category android:name="android.intent.category.BROWSABLE" />
+319-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+319-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
+320
+321                <data
+321-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
+322                    android:host="firebase.auth"
+322-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
+323                    android:path="/"
+324                    android:scheme="genericidp" />
+324-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
+325            </intent-filter>
+326        </activity>
+327        <activity
+327-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+328            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+328-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+329            android:excludeFromRecents="true"
+329-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+330            android:exported="true"
+330-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+331            android:launchMode="singleTask"
+331-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+332            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+332-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+333            <intent-filter>
+333-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+334                <action android:name="android.intent.action.VIEW" />
+334-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:17-69
+334-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:77:25-66
+335
+336                <category android:name="android.intent.category.DEFAULT" />
+336-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:17-76
+336-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:79:27-73
+337                <category android:name="android.intent.category.BROWSABLE" />
+337-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:17-78
+337-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:80:27-75
+338
+339                <data
+339-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:81:17-83:47
+340                    android:host="firebase.auth"
+340-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:82:21-76
+341                    android:path="/"
+342                    android:scheme="recaptcha" />
+342-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:83:21-44
+343            </intent-filter>
+344        </activity>
+345
+346        <service
+346-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:64:9-70:19
+347            android:name="com.google.firebase.components.ComponentDiscoveryService"
+347-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:65:13-84
+348            android:directBootAware="true"
+348-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Dell\.gradle\caches\transforms-3\c92c5b78e4ed22973ea14a20a823e74c\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:34:13-43
+349            android:exported="false" >
+349-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:66:13-37
+350            <meta-data
+350-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
+351                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+351-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
+352                android:value="com.google.firebase.components.ComponentRegistrar" />
+352-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\Dell\.gradle\caches\transforms-3\336f77c4d0960ddfbf44f2d6fa29dfbf\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
+353            <meta-data
+353-->[com.google.firebase:firebase-crashlytics:18.3.5] C:\Users\Dell\.gradle\caches\transforms-3\1d9cc8258bcd59a1bc448f551e7bfb99\transformed\jetified-firebase-crashlytics-18.3.5\AndroidManifest.xml:17:13-19:85
+354                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+354-->[com.google.firebase:firebase-crashlytics:18.3.5] C:\Users\Dell\.gradle\caches\transforms-3\1d9cc8258bcd59a1bc448f551e7bfb99\transformed\jetified-firebase-crashlytics-18.3.5\AndroidManifest.xml:18:17-115
+355                android:value="com.google.firebase.components.ComponentRegistrar" />
+355-->[com.google.firebase:firebase-crashlytics:18.3.5] C:\Users\Dell\.gradle\caches\transforms-3\1d9cc8258bcd59a1bc448f551e7bfb99\transformed\jetified-firebase-crashlytics-18.3.5\AndroidManifest.xml:19:17-82
+356            <meta-data
+356-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+357                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+357-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+358                android:value="com.google.firebase.components.ComponentRegistrar" />
+358-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+359            <meta-data
+359-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\aa296f136b59a4e68c583807a6ab1b72\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:31:13-33:85
+360                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+360-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\aa296f136b59a4e68c583807a6ab1b72\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:32:17-139
+361                android:value="com.google.firebase.components.ComponentRegistrar" />
+361-->[com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\aa296f136b59a4e68c583807a6ab1b72\transformed\jetified-play-services-measurement-api-21.2.0\AndroidManifest.xml:33:17-82
+362            <meta-data
+362-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Dell\.gradle\caches\transforms-3\25e5edc21f5ce5ca61f348b0bdb3dbf1\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+363                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+363-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Dell\.gradle\caches\transforms-3\25e5edc21f5ce5ca61f348b0bdb3dbf1\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+364                android:value="com.google.firebase.components.ComponentRegistrar" />
+364-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\Dell\.gradle\caches\transforms-3\25e5edc21f5ce5ca61f348b0bdb3dbf1\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+365            <meta-data
+365-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Dell\.gradle\caches\transforms-3\7a4fe6a203b058dab2a507eaa8464e90\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+366                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+366-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Dell\.gradle\caches\transforms-3\7a4fe6a203b058dab2a507eaa8464e90\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+367                android:value="com.google.firebase.components.ComponentRegistrar" />
+367-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\Dell\.gradle\caches\transforms-3\7a4fe6a203b058dab2a507eaa8464e90\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+368        </service>
+369
+370        <receiver
+370-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+371            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+371-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+372            android:exported="true"
+372-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+373            android:permission="com.google.android.c2dm.permission.SEND" >
+373-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+374            <intent-filter>
+374-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:35:13-37:29
+375                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+375-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:36:17-81
+375-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:36:25-78
+376            </intent-filter>
+377        </receiver>
+378        <!--
+379             FirebaseMessagingService performs security checks at runtime,
+380             but set to not exported to explicitly avoid allowing another app to call it.
+381        -->
+382        <service
+382-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+383            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+383-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+384            android:directBootAware="true"
+384-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+385            android:exported="false" >
+385-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\Dell\.gradle\caches\transforms-3\1a983c25f3d4141d35c8a82a08f7aea3\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+386            <intent-filter android:priority="-500" >
+386-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:29:13-31:29
+387                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+387-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:30:17-78
+387-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:30:25-75
+388            </intent-filter>
+389        </service>
+390
+391        <provider
+391-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Dell\.gradle\caches\transforms-3\c92c5b78e4ed22973ea14a20a823e74c\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:25:9-30:39
+392            android:name="com.google.firebase.provider.FirebaseInitProvider"
+392-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Dell\.gradle\caches\transforms-3\c92c5b78e4ed22973ea14a20a823e74c\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:26:13-77
+393            android:authorities="com.fivebb.selfcare.firebaseinitprovider"
+393-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Dell\.gradle\caches\transforms-3\c92c5b78e4ed22973ea14a20a823e74c\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:27:13-72
+394            android:directBootAware="true"
+394-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Dell\.gradle\caches\transforms-3\c92c5b78e4ed22973ea14a20a823e74c\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:28:13-43
+395            android:exported="false"
+395-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Dell\.gradle\caches\transforms-3\c92c5b78e4ed22973ea14a20a823e74c\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:29:13-37
+396            android:initOrder="100" />
+396-->[com.google.firebase:firebase-common:20.3.1] C:\Users\Dell\.gradle\caches\transforms-3\c92c5b78e4ed22973ea14a20a823e74c\transformed\jetified-firebase-common-20.3.1\AndroidManifest.xml:30:13-36
+397
+398        <service
+398-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dell\.gradle\caches\transforms-3\60202ee07be9dcd316a973c673f524de\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+399            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+399-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dell\.gradle\caches\transforms-3\60202ee07be9dcd316a973c673f524de\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+400            android:exported="false" >
+400-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dell\.gradle\caches\transforms-3\60202ee07be9dcd316a973c673f524de\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+401            <meta-data
+401-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dell\.gradle\caches\transforms-3\60202ee07be9dcd316a973c673f524de\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+402                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+402-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dell\.gradle\caches\transforms-3\60202ee07be9dcd316a973c673f524de\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+403                android:value="cct" />
+403-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\Dell\.gradle\caches\transforms-3\60202ee07be9dcd316a973c673f524de\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+404        </service>
+405        <service
+405-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dell\.gradle\caches\transforms-3\d4569a315253d3410445c9813dcc78a6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+406            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+406-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dell\.gradle\caches\transforms-3\d4569a315253d3410445c9813dcc78a6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+407            android:exported="false"
+407-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dell\.gradle\caches\transforms-3\d4569a315253d3410445c9813dcc78a6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+408            android:permission="android.permission.BIND_JOB_SERVICE" >
+408-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dell\.gradle\caches\transforms-3\d4569a315253d3410445c9813dcc78a6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+409        </service>
+410
+411        <receiver
+411-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dell\.gradle\caches\transforms-3\d4569a315253d3410445c9813dcc78a6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+412            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+412-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dell\.gradle\caches\transforms-3\d4569a315253d3410445c9813dcc78a6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+413            android:exported="false" />
+413-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\Dell\.gradle\caches\transforms-3\d4569a315253d3410445c9813dcc78a6\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+414
+415        <service
+415-->[androidx.room:room-runtime:2.2.5] C:\Users\Dell\.gradle\caches\transforms-3\f3153066c91d81e291caf51916bc4a6c\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+416            android:name="androidx.room.MultiInstanceInvalidationService"
+416-->[androidx.room:room-runtime:2.2.5] C:\Users\Dell\.gradle\caches\transforms-3\f3153066c91d81e291caf51916bc4a6c\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+417            android:directBootAware="true"
+417-->[androidx.room:room-runtime:2.2.5] C:\Users\Dell\.gradle\caches\transforms-3\f3153066c91d81e291caf51916bc4a6c\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+418            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+418-->[androidx.room:room-runtime:2.2.5] C:\Users\Dell\.gradle\caches\transforms-3\f3153066c91d81e291caf51916bc4a6c\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+419        <uses-library
+419-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\60367966a0cdabb087c883c1cc1842c9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+420            android:name="org.apache.http.legacy"
+420-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\60367966a0cdabb087c883c1cc1842c9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+421            android:required="false" />
+421-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\60367966a0cdabb087c883c1cc1842c9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+422
+423        <provider
+423-->[com.facebook.android:facebook-marketing:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\b1cb54cf5d870f695c08d1a01676c090\transformed\jetified-facebook-marketing-5.15.3\AndroidManifest.xml:29:9-32:40
+424            android:name="com.facebook.marketing.internal.MarketingInitProvider"
+424-->[com.facebook.android:facebook-marketing:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\b1cb54cf5d870f695c08d1a01676c090\transformed\jetified-facebook-marketing-5.15.3\AndroidManifest.xml:30:13-81
+425            android:authorities="com.fivebb.selfcare.MarketingInitProvider"
+425-->[com.facebook.android:facebook-marketing:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\b1cb54cf5d870f695c08d1a01676c090\transformed\jetified-facebook-marketing-5.15.3\AndroidManifest.xml:31:13-73
+426            android:exported="false" />
+426-->[com.facebook.android:facebook-marketing:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\b1cb54cf5d870f695c08d1a01676c090\transformed\jetified-facebook-marketing-5.15.3\AndroidManifest.xml:32:13-37
+427        <!--
+428         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+429         with the application context. This config is merged in with the host app's manifest,
+430         but there can only be one provider with the same authority activated at any given
+431         point; so if the end user has two or more different apps that use Facebook SDK, only the
+432         first one will be able to use the provider. To work around this problem, we use the
+433         following placeholder in the authority to identify each host application as if it was
+434         a completely different provider.
+435        -->
+436        <provider
+436-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\10eb014881b70793cf50c5a51b521005\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:39:9-42:40
+437            android:name="com.facebook.internal.FacebookInitProvider"
+437-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\10eb014881b70793cf50c5a51b521005\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:40:13-70
+438            android:authorities="com.fivebb.selfcare.FacebookInitProvider"
+438-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\10eb014881b70793cf50c5a51b521005\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:41:13-72
+439            android:exported="false" />
+439-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\10eb014881b70793cf50c5a51b521005\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:42:13-37
+440
+441        <receiver
+441-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\10eb014881b70793cf50c5a51b521005\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:44:9-50:20
+442            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+442-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\10eb014881b70793cf50c5a51b521005\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:45:13-86
+443            android:exported="false" >
+443-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\10eb014881b70793cf50c5a51b521005\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:46:13-37
+444            <intent-filter>
+444-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\10eb014881b70793cf50c5a51b521005\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:47:13-49:29
+445                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+445-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\10eb014881b70793cf50c5a51b521005\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:17-95
+445-->[com.facebook.android:facebook-core:5.15.3] C:\Users\Dell\.gradle\caches\transforms-3\10eb014881b70793cf50c5a51b521005\transformed\jetified-facebook-core-5.15.3\AndroidManifest.xml:48:25-92
+446            </intent-filter>
+447        </receiver>
+448
+449        <activity
+449-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\93a8f7852583c3989d33c35e202dee29\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+450            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+450-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\93a8f7852583c3989d33c35e202dee29\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+451            android:exported="false"
+451-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\93a8f7852583c3989d33c35e202dee29\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+452            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+452-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\93a8f7852583c3989d33c35e202dee29\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+453
+454        <receiver
+454-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:29:9-33:20
+455            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+455-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:30:13-85
+456            android:enabled="true"
+456-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:31:13-35
+457            android:exported="false" >
+457-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:32:13-37
+458        </receiver>
+459
+460        <service
+460-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:35:9-38:40
+461            android:name="com.google.android.gms.measurement.AppMeasurementService"
+461-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:36:13-84
+462            android:enabled="true"
+462-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:37:13-35
+463            android:exported="false" />
+463-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:38:13-37
+464        <service
+464-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:39:9-43:72
+465            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+465-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:40:13-87
+466            android:enabled="true"
+466-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:41:13-35
+467            android:exported="false"
+467-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:42:13-37
+468            android:permission="android.permission.BIND_JOB_SERVICE" />
+468-->[com.google.android.gms:play-services-measurement:21.2.0] C:\Users\Dell\.gradle\caches\transforms-3\c0cd87c282349d5b4202a9c54ee3ebf1\transformed\jetified-play-services-measurement-21.2.0\AndroidManifest.xml:43:13-69
+469
+470        <meta-data
+470-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\20d4700d25d80ce298b5271365e3ab69\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+471            android:name="com.google.android.gms.version"
+471-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\20d4700d25d80ce298b5271365e3ab69\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+472            android:value="@integer/google_play_services_version" />
+472-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\20d4700d25d80ce298b5271365e3ab69\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+473
+474        <provider
+474-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dell\.gradle\caches\transforms-3\67737e8b110372dbc5da9b269f851892\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+475            android:name="androidx.startup.InitializationProvider"
+475-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dell\.gradle\caches\transforms-3\67737e8b110372dbc5da9b269f851892\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+476            android:authorities="com.fivebb.selfcare.androidx-startup"
+476-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dell\.gradle\caches\transforms-3\67737e8b110372dbc5da9b269f851892\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+477            android:exported="false" >
+477-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dell\.gradle\caches\transforms-3\67737e8b110372dbc5da9b269f851892\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+478            <meta-data
+478-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dell\.gradle\caches\transforms-3\67737e8b110372dbc5da9b269f851892\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+479                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+479-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dell\.gradle\caches\transforms-3\67737e8b110372dbc5da9b269f851892\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+480                android:value="androidx.startup" />
+480-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Dell\.gradle\caches\transforms-3\67737e8b110372dbc5da9b269f851892\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+481            <meta-data
+481-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dell\.gradle\caches\transforms-3\aa64a32d85f71cf2e43598e27e46791e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+482                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+482-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dell\.gradle\caches\transforms-3\aa64a32d85f71cf2e43598e27e46791e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+483                android:value="androidx.startup" />
+483-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Dell\.gradle\caches\transforms-3\aa64a32d85f71cf2e43598e27e46791e\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+484        </provider>
+485    </application>
+486
+487</manifest>

@@ -34,15 +34,15 @@ object StaticDataModel {
             )
         )
 
-        /*bankList.add(
-            BankVO(2,
+        bankList.add(
+            BankVO(3,
                 "https://bankinfovideo.s3.ap-southeast-1.amazonaws.com/MSP.mp4",
                 R.drawable.citizens_pay,
                 R.string.lbl_open_mcf,
                 CITIZEN_PACKAGE_NAME)
-        )*/
+        )
         bankList.add(
-            BankVO(3,
+            BankVO(4,
                 "https://bankinfovideo.s3-ap-southeast-1.amazonaws.com/WaveMoney.mp4",
                 R.drawable.ic_wpay ,
                 R.string.lbl_open_wavemoney,
@@ -52,7 +52,7 @@ object StaticDataModel {
         )
         bankList.add(
             BankVO(
-                4,
+                5,
                 "https://s3-ap-southeast-1.amazonaws.com/coveragemapfiles/KBZ.mp4",
                 R.drawable.kbz,
                 R.string.lbl_open_kbz_mobile_banking,
@@ -62,7 +62,7 @@ object StaticDataModel {
         )
         bankList.add(
             BankVO(
-                5,
+                6,
                 "https://s3-ap-southeast-1.amazonaws.com/coveragemapfiles/AYA.mp4",
                 R.drawable.aya,
                 R.string.lbl_open_aya_mobile_banking,
@@ -73,7 +73,7 @@ object StaticDataModel {
 
         bankList.add(
             BankVO(
-                6,
+                7,
                 "https://s3-ap-southeast-1.amazonaws.com/coveragemapfiles/CB.mp4",
                 R.drawable.cb_pay,
                 R.string.lbl_open_cb_mobile_banking,
@@ -84,7 +84,7 @@ object StaticDataModel {
 
         bankList.add(
             BankVO(
-                7,
+                8,
                 "https://bankinfovideo.s3.ap-southeast-1.amazonaws.com/OnePay.mp4",
                 R.drawable.onepay,
                 R.string.lbl_open_onepay,
@@ -94,7 +94,7 @@ object StaticDataModel {
         )
 
         bankList.add(
-            BankVO(8,
+            BankVO(9,
             "https://bankinfovideo.s3.ap-southeast-1.amazonaws.com/MSP.mp4",
             R.drawable.msp,
             R.string.lbl_open_msp,

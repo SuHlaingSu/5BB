@@ -182,6 +182,7 @@ class InvoicePaymentPresenterImpl : BasePresenter<InvoicePaymentView, UserModel>
             })
     }
 
+    @SuppressLint("CheckResult")
     override fun citizenPaymentRetrieve(request: CitizenPayRequest) {
         val encryptData = generateEncDataForMCFRetrieve(request)
 
@@ -189,6 +190,7 @@ class InvoicePaymentPresenterImpl : BasePresenter<InvoicePaymentView, UserModel>
             success = {
                 mHideProgressLoadingDialogLiveData.postValue(true)
                 mView.citizenPaymentRetrieveStatus(it)
+
             },
             failure = {
                 mHideProgressLoadingDialogLiveData.postValue(true)

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                      
+                                                            
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/itemBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp" android:tag="layout/view_holder_notification_small_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto">
+            <CheckBox
+                    android:visibility="gone"
+                    android:id="@+id/checkbox"
+                    app:layout_constraintTop_toTopOf="@+id/card"
+                    app:layout_constraintBottom_toBottomOf="@+id/card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="MissingConstraints" />
+            <androidx.cardview.widget.CardView
+                    android:id="@+id/card"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/checkbox"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:background="@color/colorAccent"
+                    app:cardUseCompatPadding="true"
+                    app:cardCornerRadius="@dimen/margin_small">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/container"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <ImageView
+                            android:id="@+id/ivLogo"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_marginStart="@dimen/margin_small"
+                            android:layout_marginTop="@dimen/margin_small"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintBottom_toBottomOf="@id/tvTime"
+                            android:src="@drawable/logo" />
+
+                    <mm.technomation.mmtext.MMTextView
+                            android:id="@+id/tvNotificationTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/margin_medium"
+                            android:layout_marginTop="5dp"
+                            android:layout_toEndOf="@id/ivLogo"
+                            android:text="Dear 5BB User"
+                            android:textColor="@color/primary_text"
+                            android:textSize="@dimen/text_regular_2x"
+                            app:layout_constraintStart_toEndOf="@id/ivLogo"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                    <mm.technomation.mmtext.MMTextView
+                            android:id="@+id/tvNotificationDescription"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_medium"
+                            android:layout_marginEnd="@dimen/margin_small"
+                            android:autoLink="web"
+                            android:singleLine="true"
+                            android:ellipsize="end"
+                            android:ems="18"
+                            android:linksClickable="true"
+                            android:text="@string/dummy_activity_log_content"
+                            android:textColor="@color/primary_text"
+                            android:textSize="@dimen/text_regular"
+                            app:layout_constraintStart_toStartOf="@id/tvNotificationTitle"
+                            app:layout_constraintTop_toBottomOf="@id/tvNotificationTitle" />
+
+                    <mm.technomation.mmtext.MMTextView
+                            android:id="@+id/tvTime"
+                            android:textColor="@color/secondary_text"
+                            tools:text="27th july 2007"
+                            android:layout_marginTop="@dimen/margin_medium"
+                            android:layout_marginBottom="@dimen/margin_medium"
+                            android:layout_marginEnd="@dimen/margin_medium"
+                            android:textSize="@dimen/text_small"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/tvNotificationDescription"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    <mm.technomation.mmtext.MMTextView
+                            android:id="@+id/tvShowMore"
+                            style="@style/PrimaryTextButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tvNotificationDescription"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginStart="@dimen/margin_medium"
+                            android:layout_marginTop="@dimen/margin_medium"
+                            android:layout_marginEnd="@dimen/margin_medium_2"
+                            android:layout_marginBottom="@dimen/margin_medium_2"
+                            android:padding="@dimen/margin_medium"
+                            android:visibility="gone"
+                            android:text="@string/lbl_show_more"
+                            tools:ignore="MissingConstraints" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+            <View
+                    android:id="@+id/vDivider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:visibility="gone"
+                    android:layout_below="@id/tvShowMore"
+                    android:background="@color/divider"
+                    tools:ignore="MissingConstraints,NotSibling" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+         

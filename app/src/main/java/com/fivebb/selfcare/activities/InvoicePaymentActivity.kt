@@ -182,8 +182,9 @@ class InvoicePaymentActivity : ApplicationBaseActivity(), InvoicePaymentView {
     }
 
     override fun onPause() {
-        super.onPause()
+       super.onPause()
         releasePlayer()
+        disposables?.clear()
     }
 
     override fun onDestroy() {
@@ -403,7 +404,7 @@ class InvoicePaymentActivity : ApplicationBaseActivity(), InvoicePaymentView {
                 mBillNo+timeStamp
             }
 
-            //citizen
+            //kbz
             when {
                 data.packageName == KBZ_PAY_PACKAGE_NAME || data.code == KBZ_PAY ->
                     mPresenter.onTapPayWithKBZPay(
@@ -714,11 +715,12 @@ class InvoicePaymentActivity : ApplicationBaseActivity(), InvoicePaymentView {
     @SuppressLint("CheckResult")
     override fun callPayRetrieveStatus(request: CitizenPayRequest)
     {
-          Flowable.interval(10, TimeUnit.SECONDS)
+          Flowable.interval(20, 20,TimeUnit.SECONDS)
+            .take(5)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(){
-                Log.d("Interval recall", "10 sec")
+                Log.d("Interval recall", "20 sec")
                 mPresenter.citizenPaymentRetrieve(request)
             }
     }
@@ -826,38 +828,76 @@ class InvoicePaymentActivity : ApplicationBaseActivity(), InvoicePaymentView {
 
     @SuppressLint("CheckResult")
     override fun citizenPaymentRetrieveStatus(response: CitizenRetrieveResponse) {
-        Log.i("Status", "citizenPaymentRetrieveStatus: " + response.contextStatus)
-        val expiredTime  = response.expiryTime
-        val systemCurrentTime = System.currentTimeMillis()
-        when(response.contextStatus){
-            "APPROVED" -> Flowable.timer(3, TimeUnit.SECONDS)
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe() {
-                    finish()
-                    onDestroy()
+        Log.i("Status", "citizenPaymentRetrieveStatus: " + response.tranHis)
+        /* val expiredTime  = response.expiryTime
+        val systemCurrentTime = System.currentTimeMillis()*/
+        val transStatus = response.tranHis
+        if (transStatus!!.isNotEmpty()) {
+            // Accessing the tranStatus property of the first object in the array
+            val firstTranStatus = transStatus[0].tranStatus
+            // Now you can use firstTranStatus as needed
+            when (firstTranStatus) {
+                "Success" -> Flowable.timer(3, TimeUnit.SECONDS)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe() {
+                        val newIntent =  HomeActivity.newIntent(
+                            this,
+                            SharedPreferenceUtils.getServiceType(applicationContext)
+                        )
+                        newIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+                        startActivity(newIntent)
+                        disposables?.clear()
+                        finish()
 
-                }
-            "CANCELLED" -> Flowable.timer(3, TimeUnit.SECONDS)
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe() {
-                    finish()
-                    onDestroy()
-                }
-            else->{
-                if(expiredTime < systemCurrentTime)
-                {
-                    Flowable.timer(3, TimeUnit.SECONDS)
-                        .subscribeOn(Schedulers.io())
-                        .observeOn(AndroidSchedulers.mainThread())
-                        .subscribe(){
-                           finish()
-                            onDestroy()
-                        }
-                }
+                    }
             }
+            disposables?.clear()
+            println(firstTranStatus)
+        } else {
+            println("transStatus array is null or empty")
         }
     }
+
+/* when(transStatus[0].tranStatus){
+    "Success" -> Flowable.timer(3, TimeUnit.SECONDS)
+        .subscribeOn(Schedulers.io())
+        .observeOn(AndroidSchedulers.mainThread())
+        .subscribe() {
+            finish()
+            onDestroy()
+
+        }
+   /* "CANCELLED" -> Flowable.timer(3, TimeUnit.SECONDS)
+        .subscribeOn(Schedulers.io())
+     .observeOn(AndroidSchedulers.mainThread())
+        .subscribe() {
+            finish()
+            onDestroy()
+        }*/
+    /* else->{
+        if(expiredTime < systemCurrentTime)
+        {
+            Flowable.timer(3, TimeUnit.SECONDS)
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(){
+                   finish()
+                    onDestroy()
+                }
+        }
+    }
+}*/
+// }
+/*else {
+Flowable.timer(3, TimeUnit.SECONDS)
+    .subscribeOn(Schedulers.io())
+    .observeOn(AndroidSchedulers.mainThread())
+    .subscribe() {
+        finish()
+        onDestroy()
+    }
+}*/
+} */
 
 }

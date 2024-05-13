@@ -202,46 +202,56 @@ class PXChooseBankActivity : ApplicationBaseActivity() ,RechargeTopUpView,BankLi
 
     @SuppressLint("CheckResult")
     override fun citizenPaymentRetrieveStatus(response: CitizenRetrieveResponse) {
-        Log.i("Status", "citizenPaymentRetrieveStatus: " + response.contextStatus)
-        val expiredTime  = response.expiryTime
-        val systemCurrentTime = System.currentTimeMillis()
-        when(response.contextStatus){
-            "APPROVED" -> Flowable.timer(3, TimeUnit.SECONDS)
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe() {
-                    SharedPreferenceUtils.deleteActionType(this)
-                    SharedPreferenceUtils.deleteBankForPayment(this)
-                    SharedPreferenceUtils.deleteAdvID(this)
-                    SharedPreferenceUtils.deletePlanID(this)
-                    SharedPreferenceUtils.deleteOrderID(this)
-                    SharedPreferenceUtils.deleteAdvPlan(this)
-                    onDestroy()
-                }
+        Log.i("Status", "citizenPaymentRetrieveStatus: " + response.tranHis)
+        /*val expiredTime  = response.expiryTime
+        val systemCurrentTime = System.currentTimeMillis()*/
+        val transStatus = response.tranHis
+        if (transStatus != null) {
+            when(transStatus[0].tranStatus){
+                "Success" -> Flowable.timer(3, TimeUnit.SECONDS)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe() {
+                        SharedPreferenceUtils.deleteActionType(this)
+                        SharedPreferenceUtils.deleteBankForPayment(this)
+                        SharedPreferenceUtils.deleteAdvID(this)
+                        SharedPreferenceUtils.deletePlanID(this)
+                        SharedPreferenceUtils.deleteOrderID(this)
+                        SharedPreferenceUtils.deleteAdvPlan(this)
+                        onDestroy()
+                    }
 
-            "CANCELLED" -> Flowable.timer(3, TimeUnit.SECONDS)
+                /*"CANCELLED" -> Flowable.timer(3, TimeUnit.SECONDS)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe() {
+                        SharedPreferenceUtils.deleteActionType(this)
+                        SharedPreferenceUtils.deleteBankForPayment(this)
+                        SharedPreferenceUtils.deleteAdvID(this)
+                        SharedPreferenceUtils.deletePlanID(this)
+                        SharedPreferenceUtils.deleteOrderID(this)
+                        SharedPreferenceUtils.deleteAdvPlan(this)
+                        onDestroy()
+                    }
+                else->{
+                    if(expiredTime < systemCurrentTime)
+                    {
+                        Flowable.timer(3, TimeUnit.SECONDS)
+                            .subscribeOn(Schedulers.io())
+                            .observeOn(AndroidSchedulers.mainThread())
+                            .subscribe(){
+                                onDestroy()
+                            }
+                    }
+                }*/
+            }
+        }else{
+            Flowable.timer(3, TimeUnit.SECONDS)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe() {
-                    SharedPreferenceUtils.deleteActionType(this)
-                    SharedPreferenceUtils.deleteBankForPayment(this)
-                    SharedPreferenceUtils.deleteAdvID(this)
-                    SharedPreferenceUtils.deletePlanID(this)
-                    SharedPreferenceUtils.deleteOrderID(this)
-                    SharedPreferenceUtils.deleteAdvPlan(this)
                     onDestroy()
                 }
-            else->{
-                if(expiredTime < systemCurrentTime)
-                {
-                    Flowable.timer(3, TimeUnit.SECONDS)
-                        .subscribeOn(Schedulers.io())
-                        .observeOn(AndroidSchedulers.mainThread())
-                        .subscribe(){
-                            onDestroy()
-                        }
-                }
-            }
         }
     }
 

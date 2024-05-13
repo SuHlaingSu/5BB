@@ -435,52 +435,72 @@ class ChooseBankActivity : ApplicationBaseActivity() ,AdvTopUpView,BankListView{
 
     @SuppressLint("CheckResult")
     override fun citizenPaymentRetrieveStatus(response: CitizenRetrieveResponse) {
-        Log.i("Status", "citizenPaymentRetrieveStatus: " + response.contextStatus)
-        val expiredTime  = response.expiryTime
-        val systemCurrentTime = System.currentTimeMillis()
-        when(response.contextStatus){
-            "APPROVED" -> Flowable.timer(3, TimeUnit.SECONDS)
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe() {
-                    mPresenter.takePlanAction()
-                    SharedPreferenceUtils.deleteActionType(this)
-                    SharedPreferenceUtils.deleteBankForPayment(this)
-                    SharedPreferenceUtils.deleteAdvID(this)
-                    SharedPreferenceUtils.deletePlanID(this)
-                    SharedPreferenceUtils.deleteOrderID(this)
-                    SharedPreferenceUtils.deleteAdvPlan(this)
-                    onDestroy()
-                }
+        Log.i("Status", "citizenPaymentRetrieveStatus: " + response.tranHis)
+       /* val expiredTime  = response.expiryTime
+        val systemCurrentTime = System.currentTimeMillis()*/
+        val transStatus = response.tranHis
+        if (transStatus !!.isNotEmpty()) {
+            when(transStatus[0].tranStatus){
+                "Success" -> Flowable.timer(3, TimeUnit.SECONDS)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe() {
+                        mPresenter.takePlanAction()
 
-            "CANCELLED" -> Flowable.timer(3, TimeUnit.SECONDS)
-                .subscribeOn(Schedulers.io())
-                .observeOn(AndroidSchedulers.mainThread())
-                .subscribe() {
-                    val actionType = "Cancel"
-                    SharedPreferenceUtils.saveActionType(this, actionType)
-                    mPresenter.takePlanAction()
-                    SharedPreferenceUtils.deleteActionType(this)
-                    SharedPreferenceUtils.deleteBankForPayment(this)
-                    SharedPreferenceUtils.deleteAdvID(this)
-                    SharedPreferenceUtils.deletePlanID(this)
-                    SharedPreferenceUtils.deleteOrderID(this)
-                    SharedPreferenceUtils.deleteAdvPlan(this)
-                    onDestroy()
-                }
-            else->{
-                if(expiredTime < systemCurrentTime)
-                {
-                    Flowable.timer(3, TimeUnit.SECONDS)
-                        .subscribeOn(Schedulers.io())
-                        .observeOn(AndroidSchedulers.mainThread())
-                        .subscribe(){
-                           onDestroy()
-                        }
-                }
+                        val newIntent =  HomeActivity.newIntent(
+                            this,
+                            SharedPreferenceUtils.getServiceType(applicationContext)
+                        )
+                        newIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+                        startActivity(newIntent)
+                        disposables?.clear()
+                        finish()
+
+                      /*  SharedPreferenceUtils.deleteActionType(this)
+                        SharedPreferenceUtils.deleteBankForPayment(this)
+                        SharedPreferenceUtils.deleteAdvID(this)
+                        SharedPreferenceUtils.deletePlanID(this)
+                        SharedPreferenceUtils.deleteOrderID(this)
+                        SharedPreferenceUtils.deleteAdvPlan(this)
+                        finish()*/
+                    }
+
+               /* "CANCELLED" -> Flowable.timer(3, TimeUnit.SECONDS)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe() {
+                        val actionType = "Cancel"
+                        SharedPreferenceUtils.saveActionType(this, actionType)
+                        mPresenter.takePlanAction()
+                        SharedPreferenceUtils.deleteActionType(this)
+                        SharedPreferenceUtils.deleteBankForPayment(this)
+                        SharedPreferenceUtils.deleteAdvID(this)
+                        SharedPreferenceUtils.deletePlanID(this)
+                        SharedPreferenceUtils.deleteOrderID(this)
+                        SharedPreferenceUtils.deleteAdvPlan(this)
+                        onDestroy()
+                    }
+                else->{
+                    if(expiredTime < systemCurrentTime)
+                    {
+                        Flowable.timer(3, TimeUnit.SECONDS)
+                            .subscribeOn(Schedulers.io())
+                            .observeOn(AndroidSchedulers.mainThread())
+                            .subscribe(){
+                               onDestroy()
+                            }
+                    }
+                }*/
             }
-        }
 
+        }else{
+            Flowable.timer(3, TimeUnit.SECONDS)
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe() {
+                    disposables?.dispose()
+                }
+        }
     }
 
     override fun onDestroy() {
@@ -490,7 +510,8 @@ class ChooseBankActivity : ApplicationBaseActivity() ,AdvTopUpView,BankListView{
 
     @SuppressLint("CheckResult")
     override fun callPayRetrieveStatus(status: CitizenPayRequest) {
-         Flowable.interval(10, TimeUnit.SECONDS)
+         Flowable.interval(10,20, TimeUnit.SECONDS)
+             .take(5)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe(){

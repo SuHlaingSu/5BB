@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fivebb.selfcare.viewpods.LatestRechargedViewPod
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/lblLatestRecharged"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_latest_recharged"
+            style="@style/CategoryTitle"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:layout_toStartOf="@id/btnSeeAll"
+            android:layout_marginEnd="@dimen/margin_medium_2"/>
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/btnSeeAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_see_all"
+            android:background="@drawable/bg_primary_border"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentEnd="true"
+            android:focusable="true"
+            android:clickable="true"
+            android:foreground="@drawable/ripple_accent"
+            android:layout_marginEnd="@dimen/margin_medium_2"
+            android:layout_alignTop="@id/lblLatestRecharged"/>
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lblLatestRecharged"
+            android:layout_margin="@dimen/margin_medium_2"
+            app:cardCornerRadius="@dimen/margin_small">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/lblRechargedType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbl_recharge_type"
+                    android:layout_marginStart="@dimen/margin_medium_2"
+                    android:layout_marginTop="@dimen/margin_medium_2"
+                    style="@style/AttributeName"/>
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/tvRechargedType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dummy_recharged_type"
+                    android:layout_marginTop="@dimen/margin_medium_2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@id/lblRechargedType"
+                    android:gravity="end"
+                    android:layout_marginStart="@dimen/margin_medium_2"
+                    android:layout_marginEnd="@dimen/margin_medium_2"
+                    style="@style/AttributeValue"/>
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/lblRechargedDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recharge_duration"
+                    android:layout_marginStart="@dimen/margin_medium_2"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_below="@id/tvRechargedType"
+                    style="@style/AttributeName"/>
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/tvRechargedDuration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dummy_recharged_duration"
+                    android:layout_below="@id/tvRechargedType"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@id/lblRechargedDuration"
+                    android:gravity="end"
+                    android:layout_marginStart="@dimen/margin_medium_2"
+                    android:layout_marginEnd="@dimen/margin_medium_2"
+                    style="@style/AttributeValue"/>
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/lblRechargedDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recharged_date"
+                    android:layout_marginStart="@dimen/margin_medium_2"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_below="@id/lblRechargedDuration"
+                    style="@style/AttributeName"/>
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/tvRechargedDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dummy_recharged_date"
+                    android:layout_below="@id/tvRechargedDuration"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@id/lblRechargedDuration"
+                    android:gravity="end"
+                    android:layout_marginStart="@dimen/margin_medium_2"
+                    android:layout_marginEnd="@dimen/margin_medium_2"
+                    style="@style/AttributeValue"/>
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/lblDueDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recharged_due_date"
+                    android:layout_marginStart="@dimen/margin_medium_2"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_marginBottom="@dimen/margin_medium_2"
+                    android:layout_below="@id/lblRechargedDate"
+                    style="@style/AttributeName"/>
+
+            <mm.technomation.mmtext.MMTextView
+                    android:id="@+id/tvDueDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dummy_recharged_date"
+                    android:layout_below="@id/tvRechargedDate"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@id/lblRechargedDuration"
+                    android:gravity="end"
+                    android:layout_marginStart="@dimen/margin_medium_2"
+                    android:layout_marginEnd="@dimen/margin_medium_2"
+                    style="@style/AttributeValue"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</com.fivebb.selfcare.viewpods.LatestRechargedViewPod>
