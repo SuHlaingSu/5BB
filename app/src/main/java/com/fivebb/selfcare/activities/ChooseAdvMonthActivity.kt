@@ -75,8 +75,8 @@ class ChooseAdvMonthActivity : ApplicationBaseActivity(),AdvTopUpView ,AdvPayMon
             val browserIntent =
                 Intent(
                     Intent.ACTION_VIEW,
-                    //Uri.parse("https://www.5bb.com.mm/showinformation/AdvPayTermsConditions?CustAccNo=" + SharedPreferenceUtils.getAccountId(this))
-                    Uri.parse("https://uatgtg.5bb.com.mm/showinformation/AdvPayTermsConditions?CustAccNo=" + SharedPreferenceUtils.getAccountId(this))
+                    Uri.parse("https://www.5bb.com.mm/showinformation/AdvPayTermsConditions?CustAccNo=" + SharedPreferenceUtils.getAccountId(this))
+                    //Uri.parse("https://uatgtg.5bb.com.mm/showinformation/AdvPayTermsConditions?CustAccNo=" + SharedPreferenceUtils.getAccountId(this))
                 )
             startActivity(browserIntent)
         }

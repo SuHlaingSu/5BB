@@ -4,7 +4,7 @@ ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-
 INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-249:12
 INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-249:12
 INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:2:1-249:12
-MERGED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:2:1-21:12
+MERGED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:2:1-21:12
 MERGED from [androidx.databinding:databinding-adapters:7.3.1] C:\Users\Dell\.gradle\caches\transforms-3\a4b5e075f14a2730754e7cd2870dc60f\transformed\databinding-adapters-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:databinding-ktx:7.3.1] C:\Users\Dell\.gradle\caches\transforms-3\abefaf1c4b59913148c33e67dd95d124\transformed\jetified-databinding-ktx-7.3.1\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.databinding:databinding-runtime:7.3.1] C:\Users\Dell\.gradle\caches\transforms-3\e5bdcacc81fa640f0dd3c4a591fd4b0e\transformed\databinding-runtime-7.3.1\AndroidManifest.xml:2:1-9:12
@@ -692,8 +692,8 @@ uses-sdk
 INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
 INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
-MERGED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:7:5-9:41
-MERGED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.databinding:databinding-adapters:7.3.1] C:\Users\Dell\.gradle\caches\transforms-3\a4b5e075f14a2730754e7cd2870dc60f\transformed\databinding-adapters-7.3.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:databinding-adapters:7.3.1] C:\Users\Dell\.gradle\caches\transforms-3\a4b5e075f14a2730754e7cd2870dc60f\transformed\databinding-adapters-7.3.1\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.databinding:databinding-ktx:7.3.1] C:\Users\Dell\.gradle\caches\transforms-3\abefaf1c4b59913148c33e67dd95d124\transformed\jetified-databinding-ktx-7.3.1\AndroidManifest.xml:5:5-7:41
@@ -941,21 +941,21 @@ INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
 		ADDED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
 		INJECTED from D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml
 uses-permission#com.kbzbank.kpaycustomer.permission.inapp_payment
-ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:11:5-89
+ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:11:5-89
 	android:name
-		ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:11:22-86
+		ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:11:22-86
 queries
-ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:13:5-19:15
+ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:13:5-19:15
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\60367966a0cdabb087c883c1cc1842c9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\60367966a0cdabb087c883c1cc1842c9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
 package#com.kbzbank.kpaycustomer
-ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:16:9-60
+ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:16:9-60
 	android:name
-		ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:16:18-57
+		ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:16:18-57
 package#com.kbzbank.kpaycustomer.uat
-ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:18:9-64
+ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:18:9-64
 	android:name
-		ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:18:18-61
+		ADDED from [kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:18:18-61
 uses-permission#android.permission.CALL_PHONE
 ADDED from [:shared] D:\SH\5BB\5BB_P2_06_04_2023\5BB\shared\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-69
 	android:name

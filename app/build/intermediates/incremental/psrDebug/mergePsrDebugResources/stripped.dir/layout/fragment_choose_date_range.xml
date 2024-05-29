@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_select_date_range"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/ivClose"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:layout_marginEnd="@dimen/margin_medium_2"
+            style="@style/CategoryTitle"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_close_black_24dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:layout_marginEnd="@dimen/margin_medium_2"/>
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/lblFromDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_from"
+            app:layout_constraintTop_toBottomOf="@id/ivClose"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            android:layout_marginStart="@dimen/margin_medium_2"
+            android:layout_marginEnd="@dimen/margin_medium_2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintEnd_toStartOf="@+id/lblToDate"
+            android:textSize="@dimen/text_regular"
+            android:textColor="@color/primary_text"/>
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/btnFromDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_date_sample"
+            app:layout_constraintTop_toBottomOf="@+id/lblFromDate"
+            app:layout_constraintStart_toStartOf="@+id/lblFromDate"
+            app:layout_constraintEnd_toEndOf="@id/lblFromDate"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:padding="@dimen/margin_medium"
+            android:background="@drawable/bg_primary_border"
+            style="@style/PrimaryTextButton"/>
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/lblToDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_to"
+            app:layout_constraintTop_toBottomOf="@id/ivClose"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/margin_medium_2"
+            android:layout_marginTop="@dimen/margin_medium_2"
+            app:layout_constraintStart_toEndOf="@+id/lblFromDate"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/text_regular"/>
+
+    <mm.technomation.mmtext.MMTextView
+            android:id="@+id/btnToDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_date_sample"
+            app:layout_constraintTop_toBottomOf="@+id/lblToDate"
+            app:layout_constraintStart_toStartOf="@+id/lblToDate"
+            app:layout_constraintEnd_toEndOf="@id/lblToDate"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:padding="@dimen/margin_medium"
+            android:gravity="center"
+            android:background="@drawable/bg_border_divider"
+            style="@style/PrimaryTextButton"
+            android:textColor="@color/divider"/>
+
+    <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/btnToDate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/margin_medium"/>
+
+    <mm.technomation.mmtext.MMButtonView
+            android:id="@+id/btnOk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_ok"
+            app:layout_constraintTop_toBottomOf="@+id/calendarView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            style="@style/ButtonPrimary"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
