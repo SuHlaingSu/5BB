@@ -265,9 +265,10 @@ class PXPaymentPresenterImpls: BasePresenter<RechargeTopUpView, UserModel>(),
         return EncryptDataRequest(Cryptography_Android.Encrypt(data, BuildConfig.ENCRYPTION_KEY))
     }
 
-    override fun onPayWithCitizen(request: CitizenPayRequest) {
+    @RequiresApi(Build.VERSION_CODES.N)
+    override fun onPayWithCitizen(request: CitizenPayRequest, context: Context) {
         mShowProgressLoadingDialogLiveData.postValue(true)
-        val encryptData = generateEncDataForCitizen(request)
+        val encryptData = generateEncDataForCitizen(request,context)
 
         mModel.sendCitizenPay(encryptData,
             success = {
@@ -358,17 +359,18 @@ class PXPaymentPresenterImpls: BasePresenter<RechargeTopUpView, UserModel>(),
     }
 
     //Citizen
-    private fun generateEncDataForCitizen(request: CitizenPayRequest): EncryptDataRequest {
-
+    @RequiresApi(Build.VERSION_CODES.N)
+    private fun generateEncDataForCitizen(request: CitizenPayRequest, context: Context): EncryptDataRequest {
+        nextPlanResultDate(context)
         val accountCode = "AccountCode=${BuildConfig.ACCOUNT_CODE}|"
         val customerAccountNo = "CustAccNo=${request.custAccNo}|"
         val name = "Name=${request.name}|"
         val billInvoiceNo = "BillInvoiceNo=${request.billInvoiceNo}|"
         val orderID = "OrderID=${request.orderID}|"
         val totalAmount = "TotalAmount=${request.totalAmount}|"
-        val tradeType = "TradeType=APP|Title=Recharge Payment|Currency=MMK|PaymentAlias=Recharge|"
-        val billMonth = "BillMonth=N/A|"//${request.billMonth}|"
-        val paymentType = "PaymentType=Android_RechargePay"
+        val tradeType = "TradeType=APP|Title=Prepaid Payment|Currency=MMK|PaymentAlias=Prepaid/Plan Renewal|"
+        val billMonth = "BillMonth=$resultDate $currentDT|"
+        val paymentType = "PaymentType=Android_PrepaidPay"
         var data =
             accountCode + customerAccountNo + name + billInvoiceNo + orderID + totalAmount + tradeType + billMonth + paymentType
 

@@ -20,7 +20,7 @@ interface PxPaymentPresenter : BankActionDelegate,PaymentMethodActionDelegate {
     //AYA Pay
     fun onTapPayWithAYAPay(request:AYAPayRequest,context: Context)
     //Citizen
-    fun onPayWithCitizen(request: CitizenPayRequest)
+    fun onPayWithCitizen(request: CitizenPayRequest,context: Context)
     fun citizenPaymentRetrieve(request: CitizenPayRequest)
     //WavePay
     fun onTapWavePayRequest(request: WavePayRequest,context: Context)

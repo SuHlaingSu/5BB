@@ -20,6 +20,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
 import com.fivebb.selfcare.R
 import com.fivebb.selfcare.activities.ApplicationBaseActivity
+import com.fivebb.selfcare.activities.HomeActivity
 import com.fivebb.selfcare.adapters.BankAdapter
 import com.fivebb.selfcare.mvp.presenters.impls.PXPaymentPresenterImpls
 import com.fivebb.selfcare.mvp.views.BankListView
@@ -47,7 +48,7 @@ import kotlinx.android.synthetic.main.recharge_choose_bank.txtAmount
 import java.util.*
 import java.util.concurrent.TimeUnit
 
-class PXPaymentBankActivity :ApplicationBaseActivity(),RechargeTopUpView,BankListView {
+class  PXPaymentBankActivity :ApplicationBaseActivity(),RechargeTopUpView,BankListView {
     private lateinit var mBankAdapter: BankAdapter
     private lateinit var mPresenter: PXPaymentPresenterImpls
     private var  pxPlanVO: PXPlanVO?=null
@@ -173,7 +174,7 @@ class PXPaymentBankActivity :ApplicationBaseActivity(),RechargeTopUpView,BankLis
                             billNo,
                             orderID,
                             totalAmt.toDouble()
-                        )
+                        ),this
                     )
                 data.packageName == WAVE_MONEY_PACKAGE_NAME || data.code == WAVE_PAY->
                     mPresenter.onTapWavePayRequest(
@@ -315,16 +316,68 @@ class PXPaymentBankActivity :ApplicationBaseActivity(),RechargeTopUpView,BankLis
         }
     }
 
+    @SuppressLint("SetJavaScriptEnabled")
     override fun mcfPayPaymentLink(data: CitizenPayResponse) {
-        TODO("Not yet implemented")
+        webViewPayRecharge.visibility = View.VISIBLE
+        webViewPayRecharge.settings.javaScriptEnabled = true
+        webViewPayRecharge.settings.loadWithOverviewMode = true
+        webViewPayRecharge.settings.useWideViewPort = true
+        webViewPayRecharge.settings.domStorageEnabled = true
+        webViewPayRecharge.settings.builtInZoomControls = true
+        webViewPayRecharge.settings.displayZoomControls = false
+        webViewPayRecharge.settings.javaScriptCanOpenWindowsAutomatically = true
+        webViewPayRecharge.webViewClient = object : WebViewClient() {
+            @Deprecated("Deprecated in Java")
+            override fun shouldOverrideUrlLoading(view: WebView?, url: String?): Boolean {
+                if (url != null) {
+                    view?.loadUrl(url)
+                }
+                return true
+            }
+        }
+        webViewPayRecharge.loadUrl(data.paymentGatewayUrl)
     }
 
+    @SuppressLint("CheckResult")
     override fun citizenPaymentRetrieveStatus(response: CitizenRetrieveResponse) {
-        TODO("Not yet implemented")
+        Log.i("Status", "citizenPaymentRetrieveStatus: " + response.tranHis)
+        val transStatus = response.tranHis
+        if (transStatus!!.isNotEmpty()) {
+            when (transStatus[0].tranStatus) {
+                "Success" -> Flowable.timer(3, TimeUnit.SECONDS)
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe() {
+                        val newIntent = HomeActivity.newIntent(
+                            this,
+                            SharedPreferenceUtils.getServiceType(applicationContext)
+                        )
+                        newIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+                        startActivity(newIntent)
+                        finish()
+                        disposables?.dispose()
+                    }
+            }
+        }else{
+            Flowable.timer(3, TimeUnit.SECONDS)
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe() {
+                    disposables?.dispose()
+                }
+        }
     }
 
+    @SuppressLint("CheckResult")
     override fun callPayRetrieveStatus(status: CitizenPayRequest) {
-        TODO("Not yet implemented")
+        Flowable.interval(10,20 ,TimeUnit.SECONDS)
+            .take(5)
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe(){
+                Log.d("Interval recall", "10 sec")
+                mPresenter.citizenPaymentRetrieve(status)
+            }
     }
 
     @SuppressLint("SetJavaScriptEnabled")
@@ -334,8 +387,8 @@ class PXPaymentBankActivity :ApplicationBaseActivity(),RechargeTopUpView,BankLis
         webViewPayRecharge.settings.loadWithOverviewMode = true
         webViewPayRecharge.settings.useWideViewPort = true
         webViewPayRecharge.settings.domStorageEnabled = true
-        webViewPayRecharge.settings.builtInZoomControls = true;
-        webViewPayRecharge.settings.displayZoomControls = false;
+        webViewPayRecharge.settings.builtInZoomControls = true
+        webViewPayRecharge.settings.displayZoomControls = false
         webViewPayRecharge.settings.javaScriptCanOpenWindowsAutomatically = true
         webViewPayRecharge.webViewClient = object : WebViewClient() {
             @Deprecated("Deprecated in Java")
@@ -351,7 +404,7 @@ class PXPaymentBankActivity :ApplicationBaseActivity(),RechargeTopUpView,BankLis
 
     @SuppressLint("CheckResult")
     override fun requestQueryOrderWPay(data: WavePayRequest) {
-        Flowable.interval(20,70,java.util.concurrent.TimeUnit.SECONDS)
+        Flowable.interval(20,70,TimeUnit.SECONDS)
             .take(6)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
@@ -364,7 +417,7 @@ class PXPaymentBankActivity :ApplicationBaseActivity(),RechargeTopUpView,BankLis
     override fun queryOrderWPay(data: WaveQueryOrderResponse) {
         when(data.status){
             "PAYMENT_CONFIRMED"->{
-                Flowable.timer(3,java.util.concurrent.TimeUnit.SECONDS)
+                Flowable.timer(3,TimeUnit.SECONDS)
                     .subscribeOn(Schedulers.io())
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe(){

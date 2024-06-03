@@ -36,6 +36,14 @@ object PrepaidStaticDataModel {
                 WAVE_MONEY_PACKAGE_NAME,
                 WAVE_PAY)
         )
+        bankList.add(
+            BankVO(4,
+                "https://bankinfovideo.s3-ap-southeast-1.amazonaws.com/WaveMoney.mp4",
+                R.drawable.citizens_pay,
+                R.string.lbl_open_mcf,
+                CITIZEN_PACKAGE_NAME,
+                CITIZEN_PAY)
+        )
         return bankList
     }
 
