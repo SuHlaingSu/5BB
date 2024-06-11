@@ -51,6 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/LyMain"
+                android:layout_marginBottom="@dimen/margin_medium"
                 android:background="@color/white_full">
             <LinearLayout
                     android:layout_width="match_parent"
@@ -75,8 +76,11 @@
                 app:layout_constraintTop_toBottomOf="@id/scrollView"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"
+
                 android:orientation="vertical">
+<!--
+            app:layout_constraintBottom_toBottomOf="parent"
+-->
 
             <TextView
                 android:id="@+id/lblNote"

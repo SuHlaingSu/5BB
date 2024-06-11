@@ -50,9 +50,9 @@ class CheckVerificationActivity : BaseActivity(),CheckVerificationView {
             }
         }
         //dev
-        webView.loadUrl("https://uatgtg.5bb.com.mm/Forms/Lvl2Form?CustAccNo=" + SharedPreferenceUtils.getAccountId(this))
+        //webView.loadUrl("https://uatgtg.5bb.com.mm/Forms/Lvl2Form?CustAccNo=" + SharedPreferenceUtils.getAccountId(this))
         //prod
-       //webView.loadUrl("https://www.5bb.com.mm/Forms/Lvl2Form?CustAccNo=" + SharedPreferenceUtils.getAccountId(this))
+       webView.loadUrl("https://www.5bb.com.mm/Forms/Lvl2Form?CustAccNo=" + SharedPreferenceUtils.getAccountId(this))
 
         mPresenter.onCallCheckVerification()
     }

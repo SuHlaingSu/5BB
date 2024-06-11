@@ -161,6 +161,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-3\\a4f00cbb823ccf53701b94dbba24abbe\\transformed\\jetified-kbzsdk_1.1.0\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,181,269",
+                        "endLines": "2,3,17",
+                        "endColumns": "125,87,12",
+                        "endOffsets": "176,264,843"
+                    },
+                    "to": {
+                        "startLines": "881,883,4057",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "50287,50458,257254",
+                        "endLines": "881,883,4070",
+                        "endColumns": "125,87,12",
+                        "endOffsets": "50408,50541,257757"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-3\\1a983c25f3d4141d35c8a82a08f7aea3\\transformed\\jetified-firebase-messaging-23.1.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -609,25 +628,6 @@
                         "endLines": "1395,1399,1403,1408,1417,2864,2873,2882,2895,2924,3019,3197,3202,3208,3219,3282,3502",
                         "endColumns": "12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12",
                         "endOffsets": "86278,86428,86605,86837,87322,180549,181046,181538,182087,183696,188127,200996,201230,201533,202206,205908,220704"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-3\\6cd3d2fb940b1b005fa89a969dce8b2b\\transformed\\jetified-kbzsdk_1.1.0\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,181,269",
-                        "endLines": "2,3,17",
-                        "endColumns": "125,87,12",
-                        "endOffsets": "176,264,843"
-                    },
-                    "to": {
-                        "startLines": "881,883,4057",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "50287,50458,257254",
-                        "endLines": "881,883,4070",
-                        "endColumns": "125,87,12",
-                        "endOffsets": "50408,50541,257757"
                     }
                 },
                 {

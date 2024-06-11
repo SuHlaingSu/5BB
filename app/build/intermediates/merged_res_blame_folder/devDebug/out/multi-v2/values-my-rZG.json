@@ -4,7 +4,7 @@
             "outputFile": "com.fivebb.selfcare.app-mergeDevDebugResources-47:/values-my-rZG/values-my-rZG.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-3\\6cd3d2fb940b1b005fa89a969dce8b2b\\transformed\\jetified-kbzsdk_1.1.0\\res\\values-my-rZG\\values-my-rZG.xml",
+                    "source": "C:\\Users\\Dell\\.gradle\\caches\\transforms-3\\a4f00cbb823ccf53701b94dbba24abbe\\transformed\\jetified-kbzsdk_1.1.0\\res\\values-my-rZG\\values-my-rZG.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

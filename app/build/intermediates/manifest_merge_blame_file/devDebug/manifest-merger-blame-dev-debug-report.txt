@@ -35,20 +35,20 @@
 18-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:13:5-78
 18-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\app\src\main\AndroidManifest.xml:13:22-76
 19    <uses-permission android:name="com.kbzbank.kpaycustomer.permission.inapp_payment" />
-19-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:11:5-89
-19-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:11:22-86
+19-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:11:5-89
+19-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:11:22-86
 20
 21    <queries>
-21-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:13:5-19:15
+21-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:13:5-19:15
 22
 23        <!-- 生产包 -->
 24        <package android:name="com.kbzbank.kpaycustomer" />
-24-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:16:9-60
-24-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:16:18-57
+24-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:16:9-60
+24-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:16:18-57
 25        <!-- UAT包 -->
 26        <package android:name="com.kbzbank.kpaycustomer.uat" />
-26-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:18:9-64
-26-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\6cd3d2fb940b1b005fa89a969dce8b2b\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:18:18-61
+26-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:18:9-64
+26-->[kbzsdk_1.1.0.aar] C:\Users\Dell\.gradle\caches\transforms-3\a4f00cbb823ccf53701b94dbba24abbe\transformed\jetified-kbzsdk_1.1.0\AndroidManifest.xml:18:18-61
 27        <!-- Needs to be explicitly declared on Android R+ -->
 28        <package android:name="com.google.android.apps.maps" />
 28-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\Dell\.gradle\caches\transforms-3\60367966a0cdabb087c883c1cc1842c9\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64

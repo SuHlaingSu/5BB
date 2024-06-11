@@ -55,8 +55,8 @@ class RechargeActivity : ApplicationBaseActivity(),RechargeDelegate,RechargeView
             val browserIntent =
                 Intent(
                     Intent.ACTION_VIEW,
-                    //Uri.parse("https://www.5bb.com.mm/ShowInformation/TermsAndConditions_LTEQuota")
-                    Uri.parse("https://uatgtg.5bb.com.mm/ShowInformation/TermsAndConditions_LTEQuota")
+                    Uri.parse("https://www.5bb.com.mm/ShowInformation/TermsAndConditions_LTEQuota")
+                    //Uri.parse("https://uatgtg.5bb.com.mm/ShowInformation/TermsAndConditions_LTEQuota")
                 )
             startActivity(browserIntent)
         }

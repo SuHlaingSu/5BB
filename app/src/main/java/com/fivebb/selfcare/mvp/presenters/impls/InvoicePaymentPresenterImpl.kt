@@ -185,6 +185,8 @@ class InvoicePaymentPresenterImpl : BasePresenter<InvoicePaymentView, UserModel>
     @SuppressLint("CheckResult")
     override fun citizenPaymentRetrieve(request: CitizenPayRequest) {
         val encryptData = generateEncDataForMCFRetrieve(request)
+        Log.i("TAG", "citizenPaymentRetrieve: $encryptData")
+        Log.i("TAG", "citizenPayRetrieveRequest: $request")
 
         mModel.sendCitizenRetrieve(encryptData,
             success = {
