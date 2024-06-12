@@ -9,7 +9,7 @@ public final class BuildConfig {
   public static final String BUILD_TYPE = "debug";
   public static final String FLAVOR = "psr";
   public static final int VERSION_CODE = 101;
-  public static final String VERSION_NAME = "1.9.1";
+  public static final String VERSION_NAME = "1.10.0";
   // Field from product flavor: psr
   public static final String ACCOUNT_CODE = "GTG001!@#";
   // Field from product flavor: psr

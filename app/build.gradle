@@ -45,7 +45,7 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdk 33
         versionCode appVersionCode
-        versionName "1.9.1"
+        versionName "1.10.0"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
