@@ -1,2 +1,2 @@
 #- File Locator -
-listingFile=../../../outputs/apk/psr/debug/output-metadata.json
+listingFile=../../apk/psr/debug/output-metadata.json

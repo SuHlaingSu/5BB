@@ -314,11 +314,11 @@ object SharedConstants {
 
     fun getBasicAuthToken(): String {
         //dev
-       /*val userName = "8ca8e92d109067532a551e8af981d020"
-       val password = "CpxoEGTXQ/RVGYeuizbY7LfwpN+WH74txbj/8KEHIIJjRZQ85wGRqA=="*/
+       val userName = "8ca8e92d109067532a551e8af981d020"
+       val password = "CpxoEGTXQ/RVGYeuizbY7LfwpN+WH74txbj/8KEHIIJjRZQ85wGRqA=="
         // prod
-        val userName = "b059312e0441a2ceba8adf85437107ec"
-        val password = "gkm4Fl0hbsj7LWUtcBRs/nie+j7Sin56E+B3cbrcCW9jRZQ85wGRqA=="
+        /*val userName = "b059312e0441a2ceba8adf85437107ec"
+        val password = "gkm4Fl0hbsj7LWUtcBRs/nie+j7Sin56E+B3cbrcCW9jRZQ85wGRqA=="*/
         val credentials = "$userName:$password"
         return "Basic " + Base64.encodeToString(credentials.toByteArray(), Base64.NO_WRAP)
     }
