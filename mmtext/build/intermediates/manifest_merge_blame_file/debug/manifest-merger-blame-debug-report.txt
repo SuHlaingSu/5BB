@@ -5,7 +5,7 @@
 5    <uses-sdk
 6        android:minSdkVersion="7"
 6-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\mmtext\src\main\AndroidManifest.xml
-7        android:targetSdkVersion="30" />
+7        android:targetSdkVersion="34" />
 7-->D:\SH\5BB\5BB_P2_06_04_2023\5BB\mmtext\src\main\AndroidManifest.xml
 8
 9    <application

@@ -106,7 +106,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7b67bf8ff4efbcc1ba74a37dd1958c21/transformed/jetified-annotations-4.11.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8aaac5dc71c9300328fae2fbced73394/transformed/jetified-javapoet-1.9.0.jar</arg>
                 <arg>$MODULE_DIR$/../../../mmtext/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-33/android.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-34/android.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
@@ -182,7 +182,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../shared/src/androidTest/java" isTestSource="true" />
     </content>
     <content url="file://$MODULE_DIR$/../../../shared/src/androidTestDebug" />
-    <orderEntry type="jdk" jdkName="Android API 33, extension level 3 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 34, extension level 7 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="5BB.shared.main" scope="TEST" />
     <orderEntry type="module-library" scope="TEST">

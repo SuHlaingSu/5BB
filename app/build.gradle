@@ -18,8 +18,8 @@ advancedVersioning {
 
     nameOptions {
         versionMajor 1
-        versionMinor 10
-        versionPatch 0
+        versionMinor 9
+        versionPatch 1
 
     }
     codeOptions {
@@ -43,9 +43,9 @@ android {
     defaultConfig {
         applicationId "${package_name}" //Added By SH
         minSdkVersion rootProject.ext.minSdkVersion
-        targetSdk 33
+        targetSdk 34
         versionCode appVersionCode
-        versionName "1.10.0"
+        versionName "1.9.1"
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

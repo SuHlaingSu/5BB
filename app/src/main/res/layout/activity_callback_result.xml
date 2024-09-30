@@ -27,7 +27,7 @@
             android:textColor="@color/black_full"
             android:text="သင်၏ KBZPay ဖြင့် ငွေပေးချေမှု အောင်မြင်ပါသည်။"
             android:textSize="16sp"
-            android:visibility="gone"
+            android:visibility="visible"
 
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:text="Go to Home"
             style="@style/ButtonPrimary"
-            android:visibility="gone"
+            android:visibility="visible"
 
             android:paddingStart="@dimen/margin_medium_2"
             android:paddingEnd="@dimen/margin_medium_2"

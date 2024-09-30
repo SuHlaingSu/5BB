@@ -187,6 +187,8 @@ class PXPaymentPresenterImpls: BasePresenter<RechargeTopUpView, UserModel>(),
 
         data += "|checkSum=${data.md5Hash()}"
 
+        Log.d("Enc Data :",data.toString())
+
         return EncryptDataRequest(Cryptography_Android.Encrypt(data, BuildConfig.ENCRYPTION_KEY))
     }
 

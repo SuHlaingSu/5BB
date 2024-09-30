@@ -1,6 +1,6 @@
 ext {
     minSdkVersion = 22//Android 5.1 (Lollipop)
-    compileSdkVersion = 33 //Android 12 (snow cone)
+    compileSdkVersion = 34 //Android 12 (snow cone)
     //buildToolVersion = "30.0.0"//"28.0.3"
 
     //Android

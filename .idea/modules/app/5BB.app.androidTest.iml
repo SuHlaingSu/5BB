@@ -200,7 +200,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/569d3f57242c6efc986944b0b3566c8b/transformed/jetified-core-3.3.3.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/038d3a36714795121118f50ca17f6fc0/transformed/jetified-bolts-applinks-1.4.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d9477b983b387c55dd1755e76d4bf159/transformed/jetified-bolts-tasks-1.4.0.jar</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-33/android.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-34/android.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
@@ -261,7 +261,7 @@
     <content url="file://$MODULE_DIR$/../../../app/src/androidTestDebug" />
     <content url="file://$MODULE_DIR$/../../../app/src/androidTestDev" />
     <content url="file://$MODULE_DIR$/../../../app/src/androidTestDevDebug" />
-    <orderEntry type="jdk" jdkName="Android API 33, extension level 3 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 34, extension level 7 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="5BB.app.main" scope="TEST" />
     <orderEntry type="module-library" scope="TEST">

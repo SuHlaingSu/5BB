@@ -188,7 +188,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/569d3f57242c6efc986944b0b3566c8b/transformed/jetified-core-3.3.3.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/06d0ebbdd761321554d8f889f96ca5fd/transformed/jetified-viewtooltip-1.2.0-api.jar</arg>
                 <arg>$MODULE_DIR$/../../../mmtext/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
-                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-33/android.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-34/android.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
@@ -244,7 +244,7 @@
     <content url="file://$MODULE_DIR$/../../../app/src/testDebug" />
     <content url="file://$MODULE_DIR$/../../../app/src/testDev" />
     <content url="file://$MODULE_DIR$/../../../app/src/testDevDebug" />
-    <orderEntry type="jdk" jdkName="Android API 33, extension level 3 Platform" jdkType="Android SDK" />
+    <orderEntry type="jdk" jdkName="Android API 34, extension level 7 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="5BB.app.main" scope="TEST" />
     <orderEntry type="module-library" scope="TEST">
